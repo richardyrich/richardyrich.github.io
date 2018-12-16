@@ -1,0 +1,257 @@
+/* Define Background and Font */
+html {
+  color: #333;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: #fff;
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 300; }
+
+/* Paragraphes */
+body {
+  font-weight: 200;
+  letter-spacing: 0.01em;
+  word-spacing: 0.05em;
+  font-size: 1rem;
+  line-height: 1.5em; }
+
+/* Bold text */
+strong {
+  font-weight: 600;
+  color: #1E8BE8; }
+
+/*
+===========================
+My own customization
+===========================
+*/
+strong {
+  color: #1E8BE8; }
+
+hr {
+  margin: 3rem 0;
+  height: 0.5rem;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0; }
+
+a {
+  text-decoration: none;
+  color: #1E8BE8; }
+
+blockquote {
+  position: relative;
+  border-left: solid 0.2rem #1E8BE8;
+  padding: 0.0555555556rem 0 0.0555555556rem 1rem;
+  background-color: #f7f7f7;
+  margin: 1rem 2rem 1rem 1rem; }
+
+em {
+  font-style: italic; }
+
+/*
+===========================
+Title formatting
+===========================
+*/
+h1, h2 {
+  line-height: 3.5rem; }
+
+h1 {
+  color: #1E8BE8;
+  font-size: 3.5rem;
+  font-weight: 200;
+  margin: 3rem 0 5rem 0; }
+
+h2 {
+  font-size: 1.6rem;
+  margin: 3rem 0 0 0; }
+
+h3 {
+  display: inline-block;
+  background-color: #5d5d5d;
+  color: #fcfcfc;
+  font-size: 1.1rem;
+  padding: 0.2rem 1rem 0.2rem 0.5555555556rem;
+  margin-top: 4rem;
+  border-left: solid #1E8BE8; }
+
+h4 {
+  font-size: 1.1rem;
+  color: #1E8BE8;
+  font-weight: 300;
+  margin-top: 2rem; }
+
+/*Top margin*/
+p, .small, blockquote {
+  margin-top: 0.5rem; }
+
+/*Botton margin*/
+h3, p, .small, blockquote {
+  margin-bottom: 0.5rem; }
+
+p, .small {
+  font-size: 1rem;
+  color: #2a2a2a; }
+
+.small {
+  font-size: 0.95rem;
+  word-spacing: 0.01em;
+  color: #aaaaaa; }
+
+/*
+===========================
+Non-markdown elements
+===========================
+*/
+.middle-text {
+  text-align: center; }
+
+.black-text {
+  color: #2a2a2a; }
+
+/*
+=========================
+sponsive menu
+=========================
+*/
+.topnav {
+  overflow: hidden; }
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #1E8BE8;
+  text-align: center;
+  padding: 0.4rem 0.1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 1.4rem; }
+
+.topnav a:hover {
+  background-color: #1E8BE8;
+  color: #fcfcfc; }
+
+.topnav .icon {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {
+    display: none; }
+
+  .topnav a.icon {
+    float: right;
+    display: block; } }
+@media screen and (max-width: 768px) {
+  .topnav.responsive {
+    position: relative; }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left; } }
+/*
+===========================
+For fun: highlight color
+===========================
+*/
+::selection {
+  background: #c0def9; }
+
+::-moz-selection {
+  background: #c0def9; }
+
+/*
+===========================
+Post list special formatting
+===========================
+*/
+.date-mono {
+  font-family: "Lucida Console", Monaco, monospace; }
+
+.table-of-contents {
+  min-height: 10rem;
+  background-color: #efefef; }
+  .table-of-contents h3 {
+    margin-top: 0; }
+  .table-of-contents ul {
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    display: table; }
+    .table-of-contents ul li {
+      display: table-cell;
+      text-align: center;
+      font-size: 1.2rem;
+      padding: 0.5rem 0; }
+
+/*
+===========================
+webpage frame customization
+===========================
+*/
+body, html {
+  height: 100%;
+  width: 80%; }
+  @media only screen and (min-width: 768px) {
+    body, html {
+      width: 670px; } }
+  @media only screen and (min-width: 992px) {
+    body, html {
+      width: 800px; } }
+
+html {
+  display: table;
+  margin: 2rem auto; }
+
+body {
+  display: table-cell;
+  vertical-align: top; }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; }
+  @media only screen and (min-width: 768px) {
+    img {
+      max-width: 90%; } }
+  @media only screen and (min-width: 992px) {
+    img {
+      max-width: 80%; } }
+
+/*
+==============================
+English title
+==============================
+*/
+.english_title {
+  color: #5d5d5d;
+  margin-top: -6rem;
+  font-size: 1.5rem; }
+
+/*
+==============================
+Footnotes
+==============================
+*/
+.footnotes {
+  letter-spacing: 0.003em;
+  word-spacing: 0.005em;
+  color: #5d5d5d; }
+
+/*
+==============================
+Footer
+==============================
+*/
+footer {
+  margin-top: 10rem;
+  border-top: 0.05rem solid #dddddd;
+  padding-top: 2rem; }
+
+/*# sourceMappingURL=main.css.map */

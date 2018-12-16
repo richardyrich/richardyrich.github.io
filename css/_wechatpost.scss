@@ -1,0 +1,131 @@
+@import 'variables';
+
+/* Define Background and Font */
+html {
+    color: #333;
+    //text-rendering: optimizelegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background: #fff;
+    font-family: $basic-font-family;
+    font-weight: 300;
+}
+
+/* Paragraphes */
+body {
+    font-weight: 200;
+    letter-spacing: $letter-spacing;
+    word-spacing: $word-spacing;
+    font-size: $p-font-size;
+    line-height: 1.5em;
+}
+
+
+
+/* Bold text */
+strong {
+  font-weight: 600;
+  color: $theme-color;
+}
+
+
+/*
+===========================
+My own customization
+===========================
+*/
+
+strong {
+    color: $theme-color;
+}
+hr {
+    margin: $standard-margin*3 0; 
+    height: $standard-margin/2;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: $theme-color;
+}
+blockquote {
+    position: relative;
+    border-left: $border-style $theme-color;
+    padding: $standard-margin/18 0 $standard-margin/18 $standard-margin;
+    background-color: darken( $background-color, 2% );
+    margin: $standard-margin $standard-margin*2 $standard-margin $standard-margin;
+}
+em {
+    font-style: italic;
+}
+
+
+/*
+===========================
+Title formatting
+===========================
+*/
+
+h1, h2 {
+    line-height: $p-font-size*3.5;
+}
+h1 {
+    color: $theme-color;
+    font-size: $p-font-size*3.5;
+    font-weight: 200;
+    margin: $standard-margin*3 0 $standard-margin*5 0;
+}
+h2 {
+    font-size: $p-font-size*1.6;
+    margin: $standard-margin*3 0 0 0;
+}
+h3 {
+    display: inline-block;
+    background-color: lighten($font-color, 20%);
+    color: $background-color;
+    font-size: $p-font-size*1.1;
+    padding: $standard-margin/5 $standard-margin $standard-margin/5 $standard-margin/1.8;
+    margin-top: $standard-margin*4;
+    border-left: solid $theme-color;
+}
+h4 {
+    font-size: $p-font-size*1.1;
+    color: $theme-color;
+    font-weight: 300;
+    margin-top: $standard-margin*2;
+}
+/*Top margin*/
+p, blockquote {
+    margin-top: $standard-margin/2;
+}
+/*Botton margin*/
+h3, p, blockquote {
+    margin-bottom: $standard-margin/2;
+}
+p {
+    font-size: $p-font-size;
+    color: $font-color;
+}
+.small {
+    @extend p;
+    font-size: $p-font-size*0.95;
+    word-spacing: 0.01em;
+    color: lighten($font-color, 50%);
+}
+
+/*
+===========================
+Non-markdown elements
+===========================
+*/
+
+// Descriptive centered text
+
+.middle-text {
+    text-align: center;
+}
+
+// front page heading black
+.black-text {
+    color: $font-color;
+}
