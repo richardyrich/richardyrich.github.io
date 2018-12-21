@@ -7,7 +7,7 @@ categories: Translation
 
 <p class="small">时间：1979年8月6日</p>
 <p class="small">来源：New York Times</p>
-<p class="small">原文标题：Buy American. I Am. </p>
+<p class="small">原文标题：You pay a very high price in the stock market for a cheery consensus </p>
 
 ### 正文
 
