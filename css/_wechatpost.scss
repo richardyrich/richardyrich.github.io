@@ -24,7 +24,6 @@ body {
 
 /* Bold text */
 strong {
-  font-weight: 600;
   color: $theme-color;
 }
 
@@ -81,17 +80,15 @@ h2 {
 }
 h3 {
     display: inline-block;
-    background-color: lighten($font-color, 20%);
-    color: $background-color;
-    font-size: $p-font-size*1.1;
-    padding: $standard-margin/5 $standard-margin $standard-margin/5 $standard-margin/1.8;
+    font-size: $p-font-size*1.3;
+    color: invert($theme-color);
+    padding: 0;
     margin-top: $standard-margin*4;
-    border-left: solid $theme-color;
 }
 h4 {
     font-size: $p-font-size*1.1;
     color: $theme-color;
-    font-weight: 300;
+    font-weight: 600;
     margin-top: $standard-margin*2;
 }
 /*Top margin*/

@@ -70,26 +70,6 @@ Post list special formatting
 .date-mono {
     font-family: "Lucida Console", Monaco, monospace;
 }
-// Table of contents styling
-.table-of-contents {
-    min-height: $standard-margin*10;
-    background-color: darken($background-color, 5%);
-    h3 {
-        margin-top: 0;
-    }
-    ul {
-        margin: 0;
-        list-style-type: none;
-        width: 100%;
-        display: table;
-        li {
-            display: table-cell;
-            text-align: center;
-            font-size: $p-font-size*1.2;
-            padding: $standard-margin/2 0;
-        }
-    }
-}
 
 /*
 ===========================
