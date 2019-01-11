@@ -5,8 +5,7 @@ html {
   -ms-text-size-adjust: 100%;
   background: #fff;
   font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-weight: 300;
-}
+  font-weight: 300; }
 
 /* Paragraphes */
 body {
@@ -14,46 +13,32 @@ body {
   letter-spacing: 0.01em;
   word-spacing: 0.05em;
   font-size: 1rem;
-  line-height: 1.5em;
-}
-
-/* Bold text */
-strong {
-  color: #1E8BE8;
-}
+  line-height: 1.5em; }
 
 /*
 ===========================
 My own customization
 ===========================
 */
-strong {
-  color: #1E8BE8;
-}
-
 hr {
   margin: 3rem 0;
   height: 0.5rem;
   background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-  border: 0;
-}
+  border: 0; }
 
 a {
   text-decoration: none;
-  color: #1E8BE8;
-}
+  color: #1E8BE8; }
 
 blockquote {
   position: relative;
   border-left: solid 0.2rem #1E8BE8;
   padding: 0.0555555556rem 0 0.0555555556rem 1rem;
   background-color: #f7f7f7;
-  margin: 1rem 2rem 1rem 1rem;
-}
+  margin: 1rem 2rem 1rem 1rem; }
 
 em {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /*
 ===========================
@@ -61,56 +46,47 @@ Title formatting
 ===========================
 */
 h1, h2 {
-  line-height: 3.5rem;
-}
+  line-height: 3.5rem; }
 
 h1 {
   color: #1E8BE8;
   font-size: 3.5rem;
   font-weight: 200;
-  margin: 3rem 0 5rem 0;
-}
+  margin: 3rem 0 5rem 0; }
 
 h2 {
   font-size: 1.6rem;
-  margin: 3rem 0 0 0;
-}
+  margin: 3rem 0 0 0; }
 
 h3 {
   display: inline-block;
   font-size: 1.3rem;
   color: #e17417;
   padding: 0;
-  margin-top: 4rem;
-}
+  margin-top: 4rem; }
 
 h4 {
   font-size: 1.1rem;
   color: #1E8BE8;
   font-weight: 600;
-  margin-top: 2rem;
-}
+  margin-top: 2rem; }
 
 /*Top margin*/
 p, .small, blockquote {
-  margin-top: 0.5rem;
-}
+  margin-top: 0.5rem; }
 
 /*Botton margin*/
 h3, p, .small, blockquote {
-  margin-bottom: 0.5rem;
-}
+  margin-bottom: 0.5rem; }
 
 p, .small {
   font-size: 1rem;
-  color: #2a2a2a;
-}
+  color: #2a2a2a; }
 
 .small {
   font-size: 0.95rem;
   word-spacing: 0.01em;
-  color: #aaaaaa;
-}
+  color: #aaaaaa; }
 
 /*
 ===========================
@@ -118,12 +94,10 @@ Non-markdown elements
 ===========================
 */
 .middle-text {
-  text-align: center;
-}
+  text-align: center; }
 
 .black-text {
-  color: #2a2a2a;
-}
+  color: #2a2a2a; }
 
 /*
 =========================
@@ -131,8 +105,7 @@ sponsive menu
 =========================
 */
 .topnav {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .topnav a {
   float: left;
@@ -142,57 +115,45 @@ sponsive menu
   padding: 0.4rem 0.1rem;
   margin-right: 1rem;
   text-decoration: none;
-  font-size: 1.4rem;
-}
+  font-size: 1.4rem; }
 
 .topnav a:hover {
   background-color: #1E8BE8;
-  color: #fcfcfc;
-}
+  color: #fcfcfc; }
 
 .topnav .icon {
-  display: none;
-}
+  display: none; }
 
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
-    display: none;
-  }
+    display: none; }
 
   .topnav a.icon {
     float: right;
-    display: block;
-  }
-}
+    display: block; } }
 @media screen and (max-width: 768px) {
   .topnav.responsive {
-    position: relative;
-  }
+    position: relative; }
 
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
-    top: 0;
-  }
+    top: 0; }
 
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
-  }
-}
+    text-align: left; } }
 /*
 ===========================
 For fun: highlight color
 ===========================
 */
 ::selection {
-  background: #c0def9;
-}
+  background: #c0def9; }
 
 ::-moz-selection {
-  background: #c0def9;
-}
+  background: #c0def9; }
 
 /*
 ===========================
@@ -200,8 +161,7 @@ Post list special formatting
 ===========================
 */
 .date-mono {
-  font-family: "Lucida Console", Monaco, monospace;
-}
+  font-family: "Lucida Console", Monaco, monospace; }
 
 /*
 ===========================
@@ -210,45 +170,33 @@ webpage frame customization
 */
 body, html {
   height: 100%;
-  width: 80%;
-}
-@media only screen and (min-width: 768px) {
-  body, html {
-    width: 670px;
-  }
-}
-@media only screen and (min-width: 992px) {
-  body, html {
-    width: 800px;
-  }
-}
+  width: 80%; }
+  @media only screen and (min-width: 768px) {
+    body, html {
+      width: 670px; } }
+  @media only screen and (min-width: 992px) {
+    body, html {
+      width: 800px; } }
 
 html {
   display: table;
-  margin: 2rem auto;
-}
+  margin: 2rem auto; }
 
 body {
   display: table-cell;
-  vertical-align: top;
-}
+  vertical-align: top; }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
-}
-@media only screen and (min-width: 768px) {
-  img {
-    max-width: 90%;
-  }
-}
-@media only screen and (min-width: 992px) {
-  img {
-    max-width: 80%;
-  }
-}
+  max-width: 100%; }
+  @media only screen and (min-width: 768px) {
+    img {
+      max-width: 90%; } }
+  @media only screen and (min-width: 992px) {
+    img {
+      max-width: 80%; } }
 
 /*
 ==============================
@@ -258,8 +206,7 @@ English title
 .english_title {
   color: #5d5d5d;
   margin-top: -6rem;
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 
 /*
 ==============================
@@ -269,8 +216,7 @@ Footnotes
 .footnotes {
   letter-spacing: 0.003em;
   word-spacing: 0.005em;
-  color: #5d5d5d;
-}
+  color: #5d5d5d; }
 
 /*
 ==============================
@@ -280,7 +226,6 @@ Footer
 footer {
   margin-top: 10rem;
   border-top: 0.05rem solid #dddddd;
-  padding-top: 2rem;
-}
+  padding-top: 2rem; }
 
 /*# sourceMappingURL=main.css.map */

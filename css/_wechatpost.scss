@@ -20,23 +20,12 @@ body {
     line-height: 1.5em;
 }
 
-
-
-/* Bold text */
-strong {
-  color: $theme-color;
-}
-
-
 /*
 ===========================
 My own customization
 ===========================
 */
 
-strong {
-    color: $theme-color;
-}
 hr {
     margin: $standard-margin*3 0; 
     height: $standard-margin/2;
