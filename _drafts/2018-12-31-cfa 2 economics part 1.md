@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CFA Level 2 经济 Part 1
-categories: CFA 
+categories: CFA2级笔记
 ---
 ## 目录
 1. 汇率（exchange rate）

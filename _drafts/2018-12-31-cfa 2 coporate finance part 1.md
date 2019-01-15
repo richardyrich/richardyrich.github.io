@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CFA Level 2 公司金融 Part 1
-categories: CFA 
+categories: CFA2级笔记
 ---
 
 ## 目录

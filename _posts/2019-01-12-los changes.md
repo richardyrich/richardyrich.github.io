@@ -2,7 +2,7 @@
 layout: post
 title: "2019年考纲变化可能的考点评论+总结"
 date: 2018-12-13
-categories: "CFA2级笔记"
+categories: CFA2级笔记
 ---
 
 ### 关于道德Ethics

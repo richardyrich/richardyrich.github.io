@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CFA Level 2 会计 Part 5
-categories: CFA 
+categories: CFA2级笔记
 ---
 
 ## 目录

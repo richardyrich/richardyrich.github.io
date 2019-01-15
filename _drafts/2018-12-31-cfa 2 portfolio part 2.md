@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CFA Level 2 投资组合 Part 2
-categories: CFA 
+categories: CFA2级笔记
 ---
 
 ## 目录

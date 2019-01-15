@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CFA Level 2 衍生 Part 1
-categories: CFA 
+categories: CFA2级笔记
 ---
 
 ## 目录
