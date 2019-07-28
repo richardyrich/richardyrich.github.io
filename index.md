@@ -79,8 +79,8 @@ LMI咨询顾问，项目管理专业人士资格认证
 
 ### 联系方式
 微信：
-[](http://imglf4.nosdn0.126.net/img/MExvNTBSZTIrbWg2NklXYjBsdzlGUFNPV3d6akd5MG9rUkpHTTJyTVJNWUI3eFFXRkhNM2d3PT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
-电话：18924590992
+[](http://imglf4.nosdn0.126.net/img/MExvNTBSZTIrbWg2NklXYjBsdzlGUFNPV3d6akd5MG9rUkpHTTJyTVJNWUI3eFFXRkhNM2d3PT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)  
+电话：18924590992  
 知乎：xiaowang
 
 
