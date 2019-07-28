@@ -14,11 +14,11 @@ title: 理查德
 
 </div>
 
-### 来不及/看不懂/懒得读详情，想直接和我们聊？详情没能回答您的问题？
+## 来不及/看不懂/懒得读详情，想直接和我们聊？详情没能回答您的问题？
 您可以随时咨询我们，可咨询旺旺/电话/微信（您可以查看下方的“联系我们”）
 
 
-### 课程特点
+## 课程特点
 **更短的时间**  
 节省70%的原版书学习时间和50%复习时间。大约有一半的学习时间是可以被省去的，因为CFA全部的知识很多，但是考察的内容实际上相对有限  
 **更有效的学习方法**  
@@ -45,7 +45,7 @@ title: 理查德
 有什么额外的问题，或者您想直接和我们聊，可以随时咨询我们~ 
 
 
-### 关于我们
+## 关于我们
 
 **黄赠亮**  
 24年管理经验，曾管理职员数量40+ 
@@ -73,11 +73,11 @@ JKL资本管理公司首席执行官，哥伦比亚大学金融博士
 LMI咨询顾问，项目管理专业人士资格认证  
 戴纳·桑德斯女士有着14年的管理咨询经验，服务的客户包括私营企业以及政府机构。她的专长包括股东关系，客户关系，公司经营，策略规划，风险管理以及项目管理。她对我们带来经营上的建议以及策划。
 
-### 课程目录
+## 课程目录
 ![](http://imglf3.nosdn0.126.net/img/MExvNTBSZTIrbWpVMUFnZzAwTXFLdE9IN3c4c1IzT0FGZy81aE1EVWlOTDJVdENDanFWSVpnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 
 
-### 联系方式
+## 联系方式
 微信：
 ![](http://imglf4.nosdn0.126.net/img/MExvNTBSZTIrbWg2NklXYjBsdzlGUFNPV3d6akd5MG9rUkpHTTJyTVJNWUI3eFFXRkhNM2d3PT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)  
 电话：18924590992  
