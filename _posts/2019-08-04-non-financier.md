@@ -27,7 +27,7 @@ CFA协会曾经在2014年做过一次公开的调查，我们可以看到的是�
 
 
 
-[1]原文可以看https://www.wallstreetmojo.com/cfa-salary-compensation/
+[1]原文可以看https://www.wallstreetmojo.com/cfa-salary-compensation/  
 [2]
 a. 保本型理财大多是使用债券，而债券在利率高的环境里是比股票是有优势的
 b. 如果动笔算一算，两年赚10%（1.1*1.1=1.21），比第一年赚70%，第二年亏的30%（1.7*0.7=1.19）赚的多，所以如果真的看准了一只股票，慢慢涨也是不亏的
