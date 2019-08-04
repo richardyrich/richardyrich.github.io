@@ -27,6 +27,7 @@ CFA 一级有应该怎么准备，这可能是我们被遇到过问的最多的�
 
 
 
-[1] 另外两个问题是CFA考试的含金量怎么样，以及CV考试对于非专业人士是否有用
+[1] 另外两个问题是CFA考试的含金量怎么样，以及CV考试对于非专业人士是否有用  
+
 [2] CFA exam no-shows rise to 22% despite efforts to cut number https://www.fnlondon.com/articles/cfa-exam-no-shows-rise-despite-efforts-to-cut-numbers-20190718
 
