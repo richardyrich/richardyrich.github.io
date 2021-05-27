@@ -1,13 +1,11 @@
 ---
 layout: default
 title: 李查德
+title_en: Richard
 ---
 
 
     
     
-<div class="middle-text">
-
-<h1 class="black-text">李查德</h1>
-
-</div>
+# {{ page.title }}
+<h1 class="english_title">{{ page.title_en }}</h1>
