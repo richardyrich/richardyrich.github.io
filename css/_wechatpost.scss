@@ -70,7 +70,7 @@ h2 {
 h3 {
     display: inline-block;
     font-size: $p-font-size*1.3;
-    color: invert($theme-color);
+    color: $theme-color;
     padding: 0;
     margin-top: $standard-margin*4;
 }
