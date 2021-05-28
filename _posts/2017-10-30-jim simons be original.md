@@ -2,7 +2,7 @@
 layout: post
 title: 吉姆西蒙斯：尝试做一点属于你的事情
 date: 2017-10-30
-categories: Translation
+categories: 翻译
 ---
 
 <br>

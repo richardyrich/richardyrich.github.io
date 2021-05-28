@@ -1,0 +1,154 @@
+I"�<h2 id="目录">目录</h2>
+
+<ol>
+  <li>掉期期权合约（swaption）</li>
+  <li>信用违约掉期（credit default swap）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1-掉期期权合约swaption">1. 掉期期权合约（swaption）</h2>
+
+<p><br /><br /></p>
+
+<p>掉期期权合约（swaption）</p>
+
+<ul>
+  <li>本质是期权</li>
+  <li>固定利率也是提前约定的</li>
+</ul>
+
+<p>掉期期权合约的价值变化</p>
+
+<ul>
+  <li>支付方掉期期权（payer swaption），执行后，期权持有者变为固定利率支付方，当利率上升时，期权的价值上升</li>
+  <li>接受方掉期期权（receiver swaption），执行后，期权持有者变为浮动利率支付方，当利率下降时，期权的价值下降</li>
+</ul>
+
+<p>掉期期权合约的作用</p>
+
+<ul>
+  <li>提前结束已有的掉期合约
+    <ul>
+      <li>因为想要的，与现有合约想法的掉期合约不易寻找</li>
+    </ul>
+  </li>
+</ul>
+
+<p>掉期合约的违约风险</p>
+
+<ul>
+  <li>利率掉期合约：随时间，刚开始小，期间变大，快结束时再变小</li>
+  <li>货币掉期合约：越逼近结束时，风险越大，在快结束时稍微下降</li>
+  <li>使用钆差（netting）可以降低违约风险</li>
+</ul>
+
+<p>掉期利率利差（swap spread）</p>
+
+<ul>
+  <li>= 掉期利率 - 相同期限的新发行（on-the-run）国债的到期收益率</li>
+</ul>
+
+<blockquote>
+  <p>在固定收益部分也提及到掉期利率利差，批发银行间的拆放利率，用于计量离岸市场大型金融机构的平均信用风险</p>
+</blockquote>
+
+<p><br /><br /></p>
+
+<h2 id="信用违约掉期credit-default-swap">信用违约掉期（credit default swap）</h2>
+
+<p><br /><br /></p>
+
+<p>信用违约掉期</p>
+
+<ul>
+  <li>可以理解为保险</li>
+  <li>标的资产物叫做参考债务（reference obligation）
+    <ul>
+      <li>参考债务可以是债券（bond）或者贷款（loan）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>信用违约掉期的保险费用（premium）</p>
+
+<ul>
+  <li>保险费用（premium），支付的是一个百分比，所以也成为利差（spread）</li>
+  <li>虽然信用违约掉期是场外交易的，但是被高度标准化了，监管机构叫做国际掉期交易协会（international swaps and derivatives association (ISDA)）
+    <ul>
+      <li>由于实际上，每个机构的信用风险都不同，所以存在保费缴纳过度或者缴纳不足的情况，于是需要进行多还少补</li>
+    </ul>
+  </li>
+</ul>
+
+<p>单一信用违约掉期（single-name credit default swap）vs 一揽子信用违约掉期（index credit default swap）</p>
+
+<ul>
+  <li>一揽子信用违约掉期保护的是一系列债券的违约风险</li>
+</ul>
+
+<p>触发信用违约掉期的条件</p>
+
+<ul>
+  <li>破产（bankruptcy）</li>
+  <li>未履行付款义务（failure to pay）</li>
+  <li>重组（restructuring）</li>
+</ul>
+
+<p>信用违约掉期的赔偿/交割（settlement）</p>
+
+<ul>
+  <li>可以分为现金交割（cash settlement）或者实物交割（physical settlement）</li>
+  <li>偿付率（payout ratio）
+    <ul>
+      <li>1 - 恢复率（recovery rate）</li>
+    </ul>
+  </li>
+  <li>偿付金额（payout amount）
+    <ul>
+      <li>偿付率（payout ratio）× 名义本金（notional principal）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>信用违约掉期的保险费用（premium）的特点</p>
+
+<ul>
+  <li>和违约概率正相关</li>
+  <li>和违约损失率（loss given default）（= 偿付率相等）正相关</li>
+</ul>
+
+<p>信用利差曲线（credit spread curve）</p>
+
+<ul>
+  <li>横坐标时间，纵坐标信用利差</li>
+</ul>
+
+<p>裸信贷违约掉期（naked credit default swap）</p>
+
+<ul>
+  <li>即使和标的资产物没有有任何相关债权债务关系（have no exposure to the reference entity），也可以购入信贷违约掉期</li>
+</ul>
+
+<p>长短仓交易策略（long/short trade）</p>
+
+<ul>
+  <li>做多一个参考实体（reference entity）（公司，或者机构等），同时做多另一个参考实体（reference entity）</li>
+  <li>可以是使用单一信用违约掉期或者一揽子信用违约掉期</li>
+</ul>
+
+<p>曲线交易策略（curve trade）</p>
+
+<ul>
+  <li>可以分为陡峭化交易策略（steepening trade）或者平缓化交易策略（flatening trade）</li>
+  <li>发生在同一个参考实体（reference entity），不同的期限</li>
+</ul>
+
+<p>基差交易策略（basis trade）</p>
+
+<ul>
+  <li>信用违约掉期和债券之间的交易</li>
+  <li>理论上信用违约掉期的保金（=利差）应该等于债券的信用利差，否则存在套利机制</li>
+  <li>无风险证券（default-free securities）+ 做空信用违约掉期 可以合成担保债务凭证（synthetic collateralized debt obligation (CDO)）</li>
+</ul>
+:ET

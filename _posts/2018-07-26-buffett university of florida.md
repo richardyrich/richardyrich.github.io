@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特，1998年佛罗里达大学演讲
 date: 2018-07-26
-categories: Translation
+categories: 翻译
 ---
 
 <p class="small">时间：1998年10月15日</p>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "投资策略"
+title: "我的投资策略（写于2018年12月）"
 date: 2018-12-13
-categories: Original
+categories: 投资
 ---
 
 <h3>偏向长线</h3>

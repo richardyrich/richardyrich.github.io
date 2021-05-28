@@ -2,7 +2,7 @@
 layout: post
 title: 比尔阿克曼：我刚毕业就成立了自己的基金
 date: 2017-10-23
-categories: Translation
+categories: 翻译
 ---
 
 <br>

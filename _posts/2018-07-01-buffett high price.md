@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：待到皆大欢喜时，时不我与
 date: 2018-07-01
-categories: Translation
+categories: 翻译
 ---
 
 <p class="small">时间：1979年8月6日</p>

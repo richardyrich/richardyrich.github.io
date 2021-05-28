@@ -2,7 +2,7 @@
 layout: post
 title: 商业模式的优善丑，巴菲特2007年给股东的信
 date: 2017-12-05
-categories: Translation
+categories: 翻译
 ---
 
 <p class="small">来源：伯克希尔哈撒韦2007年写给股东的一封信</p>

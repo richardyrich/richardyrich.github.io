@@ -2,7 +2,7 @@
 layout: post
 title: 巴菲特：格雷汉姆多德流派的投资者们（不正经的翻译）
 date: 2018-07-01
-categories: Translation
+categories: 翻译
 ---
 
 <p class="small">时间：1984年5月17日</p>

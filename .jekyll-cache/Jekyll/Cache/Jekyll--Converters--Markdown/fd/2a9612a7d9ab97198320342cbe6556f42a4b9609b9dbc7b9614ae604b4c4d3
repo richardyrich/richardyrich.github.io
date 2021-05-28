@@ -1,0 +1,337 @@
+I"�-<h2 id="目录">目录</h2>
+
+<ol>
+  <li>无套利估值（arbitrage-free valuation）</li>
+  <li>二差利率树（binomial interest rate tree）</li>
+  <li>顺向估值（pathwise valuation）</li>
+  <li>蒙特卡洛模拟（monte carlo method）</li>
+  <li>嵌入式期权（embedded option）</li>
+  <li>可赎回债券和可卖回债券的分析和估值</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="无套利估值arbitrage-free-valuation">无套利估值（arbitrage-free valuation）</h2>
+
+<p>一价定律（law of one price）</p>
+
+<ul>
+  <li>完全同质的商品应该有相同的价格</li>
+</ul>
+
+<p>两种套利机会（arbitrage opportunity）</p>
+
+<ul>
+  <li>价值增加（value additivity）
+    <ul>
+      <li>整体的价值和个体的价值之和存在差异（the value of whole differs from the sum of the value of parts）</li>
+      <li>剥离（stripping）：将国债的息票拆分成独立的现金流，作为零息债券进行交易</li>
+      <li>重组（reconstitution）：和剥离反过来</li>
+    </ul>
+  </li>
+  <li>占优（dominance）：在未来存在无风险收益的金融资产的现值应该为正</li>
+</ul>
+
+<h2 id="2-二差利率树binomial-interest-rate-tree">2. 二差利率树（binomial interest rate tree）</h2>
+
+<p><br /><br /></p>
+
+<p>使用二差树（binomial tree）计算债券价格</p>
+
+<ul>
+  <li>逆向归纳估值法（backward induction valuation method）
+    <ul>
+      <li>对于存在N期复利计算期的债券，该债券的现值是通过计算在第N期时可能的价值，再逐步逆推折现计算第0期的价值</li>
+    </ul>
+  </li>
+  <li>无权债券的无套利估值（arbitrage-free valuation for option-free bond）
+    <ul>
+      <li>使用基准即期利率（benchmark spot rates）定价</li>
+      <li>使用二差利率树（binomial interest rate tree）定价</li>
+    </ul>
+  </li>
+  <li>使用基准即期利率和使用二差利率树两种方法得到的定价应该都是相同的
+    <ul>
+      <li>因为二差利率树是无套利机会的</li>
+    </ul>
+  </li>
+  <li>二差利率树适合含权债券（bonds with embedded options）的定价</li>
+</ul>
+
+<p>未来利率变动的估计需要符合以下三个条件</p>
+
+<ul>
+  <li>模型中利率的随机过程（random process of interest rate）符合对数正态分布（lognormal random walk）
+    <ul>
+      <li>利率越高时波动性越大，而且假设利率不为负</li>
+    </ul>
+  </li>
+  <li>波动率的设定
+    <ul>
+      <li>历史利率波动率（historical interest rate volatility）：使用历史数据</li>
+      <li>隐含利率波动率（implied interest rate volatility）：观察那些以利率作为标的资产（underlying asset）衍生品（derivative）的变动，逆推利率的波动性</li>
+    </ul>
+  </li>
+  <li>利率的均值是由当前的基准收益率曲线（current benchmark yield curve）计算而得</li>
+</ul>
+
+<p>在二差利率树中</p>
+
+<ul>
+  <li>同一时期的相邻分支的差别总是2个标准差，计算方法是 e<sup>2σ</sup> 的倍数</li>
+  <li>每个时期最中间的分支（或者说平均值）（middle forward rate）总是和远期利率大致相等</li>
+  <li>在正式使用前，需要找出一组定价正确的证券作为基准（benchmark security），进行微调</li>
+</ul>
+
+<h2 id="3-顺向估值pathwise-valuation">3. 顺向估值（pathwise valuation）</h2>
+
+<ul>
+  <li>对于有n期的二差利率树，一共有2<sup>n-1</sup>种利率演变路径，每条路径的概率都是相等的</li>
+  <li>计算这些路径的现值的平均值</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="4-蒙特卡洛模拟monte-carlo-method">4. 蒙特卡洛模拟（monte carlo method）</h2>
+
+<ul>
+  <li>蒙特卡洛模拟可以视作极为复杂的顺向估值（pathwise valuation）</li>
+  <li>蒙特卡洛模拟常用于计算现金流会因为路径的变化而改变的（cash flows are path dependent）证券
+    <ul>
+      <li>比如含权债券</li>
+    </ul>
+
+    <p><br /><br /></p>
+  </li>
+</ul>
+
+<h2 id="5-嵌入式期权embedded-option">5. 嵌入式期权（embedded option）</h2>
+
+<p><strong>基础型期权</strong></p>
+
+<ol>
+  <li>可赎回债券（callable bond）</li>
+  <li>可卖回债券（putable bond）</li>
+  <li>可展期债券（extendible bond）</li>
+  <li>可转换债券（convertible bond）</li>
+</ol>
+
+<p><strong>复杂型期权</strong></p>
+
+<ol>
+  <li>财产看跌期权 / 继承人期权（estate put / survivor’s option）</li>
+  <li>提前偿债赎回基金（sinking fund arrangement）</li>
+</ol>
+
+<p><strong>可赎回债券（callable bond）</strong></p>
+
+<ul>
+  <li>可赎回债券 = 直接债券（straight bond）- 看涨期权（call option）</li>
+  <li>发行人使用的期权，使用的时机为
+    <ul>
+      <li>在市场利率（market interest rates）下降时</li>
+      <li>发行人的信用等级（credit quality）上调时</li>
+    </ul>
+  </li>
+  <li>投资人的义务（obligation）
+    <ul>
+      <li>更高的再投资风险（reinvestment risk）</li>
+      <li>更高的潜在收益，更低的发行价格</li>
+    </ul>
+  </li>
+</ul>
+
+<p>可赎回债券的特点</p>
+
+<ul>
+  <li>锁定期（lockout period）
+    <ul>
+      <li>在锁定期内，债券的发行人不能行权</li>
+    </ul>
+  </li>
+  <li>欧式期权（european-style）制定一个日期行权</li>
+  <li>美式期权（american-style）有效日期内行权</li>
+  <li>百慕大式期权（bermuda-style）有效日期内多个特定日期行权</li>
+  <li>不可调换债券（non-refundable）
+    <ul>
+      <li>不允许使用存在更低的融资成本的融资赎回债券（用更低利率的债券借贷，然后赎回现有的债券）</li>
+    </ul>
+  </li>
+  <li>赎回补偿（make-whole call）
+    <ul>
+      <li>赎回的价格必须足够高，以能够补偿投资者因为债券被赎回带来的损失</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>可卖回债券（putable bond）</strong></p>
+
+<ul>
+  <li>可卖回债券 = 直接债券（straight bond）+ 看跌期权（put option）</li>
+  <li>持有者使用的期权，使用时机为利率水平上升后</li>
+  <li>发行人的义务（obligation）
+    <ul>
+      <li>更高的发行价格，更低的收益率</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>可展期债券（extendible bond）</strong></p>
+
+<ul>
+  <li>债券的持有者在债券到期时有权要求延长债券的期限，虽然债券的其他特性会改变，比如息票（coupon）会改变</li>
+</ul>
+
+<p><strong>可转换债券（convertable bond）</strong></p>
+
+<ul>
+  <li>可转换债券 = 无权债券（option-free bond）+ 权益看涨期权（embedded equity call option）</li>
+  <li>债权的持有者拥有将债券转化成一定比例的普通股</li>
+  <li>对于债券持有者的优势
+    <ul>
+      <li>下行保护（downside protection） &amp; 权益上行潜力（equity upside potential）</li>
+    </ul>
+  </li>
+  <li>对于发行者的优势
+    <ul>
+      <li>减少利息支出</li>
+      <li>转换后，债务被消除</li>
+    </ul>
+  </li>
+  <li>对现有股东的劣势
+    <ul>
+      <li>股份稀释</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>财产看跌期权 / 继承人期权（estate put / survivor’s option）</strong></p>
+
+<ul>
+  <li>当原有债券持有者逝世，继承人可以行使期权，以票面价值（par value）卖回</li>
+</ul>
+
+<p><strong>提前偿债赎回基金（sinking fund arrangement）</strong></p>
+
+<ul>
+  <li>与可赎回债券（callable bond）不同，提前偿债赎回是强制的执行的</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="6-可赎回债券和可卖回债券的分析和估值">6. 可赎回债券和可卖回债券的分析和估值</h2>
+
+<p><br /><br /></p>
+
+<ul>
+  <li>基本原理</li>
+  <li>在利率零波动的（zero volatility）情况下无风险含权债券的估值</li>
+  <li>利率波动的对于无风险含权债券无风险含权债券的估值影响（impact of interest rate volatility）</li>
+  <li>使用二差利率树（binomial interest rate tree）对存在利率波动的无风险含权债券进行估值</li>
+  <li>对于含权风险债券（risky bonds）的估值</li>
+  <li>含权债券的利率风险（interest rate risk）</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="a基本原理">a）基本原理</h3>
+
+<p>看涨期权（call option）对于发行人的价值</p>
+
+<ul>
+  <li>= 直接债券（straight bond）的价值 - 可赎回债券（callable bond）的价值</li>
+</ul>
+
+<p>看跌期权（put option）的价值</p>
+
+<ul>
+  <li>= 可卖回债券（putable bond）的价值 - 直接债券（straight bond）的价值</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="b在利率零波动的zero-volatility情况下无风险含权债券的估值">b）在利率零波动的（zero volatility）情况下无风险含权债券的估值</h3>
+
+<p>可赎回债券（callable bond）</p>
+
+<ul>
+  <li>赎回法则（call rule）：任何时间内，可赎回债券的价值都不会超过赎回价格</li>
+</ul>
+
+<p>可卖回债券（putable bond）</p>
+
+<ul>
+  <li>卖回法则（call rule）：任何时间内，可卖回债券的价值都不会低于卖回价格</li>
+</ul>
+
+<h3 id="c利率波动的对于无风险含权债券无风险含权债券的估值影响impact-of-interest-rate-volatility">c）利率波动的对于无风险含权债券无风险含权债券的估值影响（impact of interest rate volatility）</h3>
+
+<ul>
+  <li>利率波动增大，期权的价值增大，因此
+    <ul>
+      <li>可赎回债券（callable bond）的价值下降</li>
+      <li>可卖回债券（putable bond）的价值上升</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>可赎回债券</strong></p>
+
+<p>收益率曲线的水平变动（changes in the level）</p>
+
+<ul>
+  <li>随着利率的下降，可赎回债券的价值上升的幅度没有直接债券的幅度大，限制了投资者获得上行收益的潜能</li>
+</ul>
+
+<p>收益率曲线的形状变动（changes in the shape）（非水平移动）</p>
+
+<ul>
+  <li>当收益率曲线从向上倾斜（upward sloping）到水平（flat）再到向下倾斜，看涨期权的价值上升
+    <ul>
+      <li>在这种条件下，计算二差利率树时更容易遇到期权被执行的状态</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>可卖回债券</strong></p>
+
+<p>收益率曲线的水平变动</p>
+
+<ul>
+  <li>随着利率的上升，可赎回债券的价值下降的幅度没有直接债券的幅度大，限制了投资者获得下行损失的潜能</li>
+</ul>
+
+<p>收益率曲线的形状变动（非水平移动）</p>
+
+<ul>
+  <li>当收益率曲线从向上倾斜（upward sloping）到水平（flat）再到向下倾斜，看跌期权的价值下降
+    <ul>
+      <li>在这种条件下，投资者使用看跌期权的机会变少</li>
+    </ul>
+
+    <p><br /><br /></p>
+  </li>
+</ul>
+
+<h3 id="d使用二差利率树binomial-interest-rate-tree对存在利率波动的无风险含权债券进行估值">d）使用二差利率树（binomial interest rate tree）对存在利率波动的无风险含权债券进行估值</h3>
+
+<blockquote>
+  <p>Q4: Relative to its price at 15% interst rate volatility, the price of Bond X at a lower interest rate volatility will be:
+A. lower. B. the same. C. higher.</p>
+</blockquote>
+
+<blockquote>
+  <p>Q5: Q4: Relative to its price at 15% interst rate volatility, the price of Bond Z at a lower interest rate volatility will be:
+A. lower. B. the same. C. higher.</p>
+</blockquote>
+
+<blockquote>
+  <h3 id="answer">Answer</h3>
+</blockquote>
+
+<blockquote>
+  <p>Q1: B Q2: C Q3: B Q4: C Q5: A</p>
+</blockquote>
+
+<p>（下一部分续）</p>
+:ET

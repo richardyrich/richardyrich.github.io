@@ -1,0 +1,788 @@
+I"�z<h2 id="目录">目录</h2>
+<ol>
+  <li>估值方法 2：经济收益（economic profit）</li>
+  <li>估值方法 3：剩余收益（residual income）</li>
+  <li>估值方法 4：索取权价值（claims valuation）</li>
+  <li>资本结构（capital structure）</li>
+  <li>资本结构理论（capital structure theory）</li>
+  <li>资本结构的成本（cost）</li>
+  <li>静态权衡理论（static trade-off theory）</li>
+  <li>债券评级（debt ratings）</li>
+  <li>评估资本结构（evaluating capital structure）</li>
+  <li>股利政策理论（theories of dividend policy）</li>
+  <li>影响股利政策的因素（factors affecting dividend policy）</li>
+  <li>股利政策（payout policies）的类型</li>
+  <li>股利政策：股票回购vs现金股利</li>
+  <li>股利的安全性/持续性（dividend safety）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1-估值方法-2经济收益economic-profit">1. 估值方法 2：经济收益（economic profit）</h2>
+<blockquote>
+  <p>这里的收益是从公司的角度考虑，收益相等于是股东和债券人共同的收益</p>
+</blockquote>
+
+<p><strong>经济增加值 / 经济收益（economic value added / economic profit）</strong></p>
+
+<ul>
+  <li>= 税后营业收益（net operating profit after tax (NOPAT)）-  加权平均资本成本额（dollar WACC）</li>
+  <li>= 息税前利润（EBIT） × （ 1 - 税率） - 加权平均资本成本（WACC） × 资本额（capital）</li>
+  <li>资本额 = 权益投资 + 债务投资</li>
+</ul>
+
+<blockquote>
+  <p>利润 - 融资成本（机会成本）</p>
+</blockquote>
+
+<p><strong>市场增加值（market value added）：</strong></p>
+
+<ul>
+  <li>将每一期的经济增加值 / 经济收益折现并进行加总，相当于计算净现值（NPV），折现率为WACC</li>
+  <li>市场增加值（market value added）= 净现值（NPV）= Σ economic profit<sub>t</sub> / (1 + WACC)<sup>t</sup></li>
+  <li>公司价值（V<sub>firm</sub>） = 市场增加值（market value added） + 投资额（investment）</li>
+</ul>
+
+<h2 id="2-估值方法-3剩余收益residual-income">2. 估值方法 3：剩余收益（residual income）</h2>
+<blockquote>
+  <p>这里的收益是从股东的角度考虑</p>
+</blockquote>
+
+<p>剩余收益（residual income） = 股东净收益（net income<sub>t</sub>） - 股东要求权益收益率（r<sub>e</sub>）× 股东投入初始金额（B<sub>t-1</sub>）</p>
+
+<blockquote>
+  <p>股东所得利润 - 股东机会成本</p>
+</blockquote>
+
+<ul>
+  <li>净现值（NPV） = Σ residual income<sub>t</sub> / ( 1 + r<sub>e</sub> )<sup>t</sup></li>
+  <li>权益价值（V<sub>E</sub>） = NPV + BV<sub>E</sub></li>
+</ul>
+
+<h2 id="3-估值方法-4索取权价值claims-valuation">3. 估值方法 4：索取权价值（claims valuation）</h2>
+
+<p>索取权价值法（claims valuation approach）基于 股权人和债权人的的索取权的价值之和等于公司价值 这一事实计算公司价值</p>
+
+<ul>
+  <li>债权人（debt holder）的现金流：
+    <ul>
+      <li>债券融资成本（cost of debt）的折现</li>
+    </ul>
+  </li>
+  <li>股权人（equity holder）现金流：
+    <ul>
+      <li>权益融资成本（cost of equity）的折现</li>
+    </ul>
+  </li>
+  <li>公司价值：
+    <ul>
+      <li>债券现金流的现值 + 权益现金流的现值</li>
+    </ul>
+  </li>
+</ul>
+
+<p>索取权价值计算的是公司的价值，而不计算NPV</p>
+
+<p><br /><br /></p>
+
+<h2 id="4-资本结构capital-structure">4. 资本结构（capital structure）</h2>
+
+<p>公司的资本结构目标（objective），一般来说是指债务股本比（debt to equity ratio），是达到一个合理水平</p>
+
+<ul>
+  <li>达到最大化公司价值（firm value），最小化融资成本，即WACC</li>
+  <li>公司价值最大化，也就会达到股东价值的最大化，最终最大化股价</li>
+  <li>并不代表最大化EPS或者ROE
+    <ul>
+      <li>因为公司价值还包含了未来产生回报的能力，EPS和ROE注重的是当前的情况</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="5-资本结构理论capital-structure-theory">5. 资本结构理论（capital structure theory）</h2>
+
+<ol>
+  <li>米勒 一 莫迪利安尼理论 1（无税）（Modigliani-Miller proposition I (no taxes)</li>
+  <li>米勒 一 莫迪利安尼理论 2（无税）（Modigliani-Miller proposition II (no taxes)）</li>
+  <li>米勒 一 莫迪利安尼理论 1（有税）（Modigliani-Miller proposition I (with taxes)）</li>
+  <li>米勒 一 莫迪利安尼理论 2（有税）（Modigliani-Miller proposition II (with taxes)）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h4 id="a米勒-一-莫迪利安尼理论-1无税modigliani-miller-proposition-i-no-taxes资本结构无关论capital-structure-irrelevance-proposition">a）米勒 一 莫迪利安尼理论 1（无税）（Modigliani-Miller proposition I (no taxes)）：资本结构无关论（capital structure irrelevance proposition）</h4>
+
+<ul>
+  <li><strong>公司的价值不会受公司的资本结构的影响</strong></li>
+  <li>前提假设：
+    <ul>
+      <li>投资有相同的现金流回报预期（agree on the expected cash flow）</li>
+      <li>完美资本市场（perfect capital market），信息完全公开，交易无成本</li>
+      <li>所有投资者可以以无风险利率借贷（borrow/lend at the risk-free rate）</li>
+      <li>没有代理人成本（no agency costs），也就没有了代理人问题</li>
+      <li>所有投资决策都是独立的（decisions are independent）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>在米勒 一 莫迪利安尼理论I中</p>
+
+<ul>
+  <li>公司不会因为改变杠杆率（leverage）而产生价值</li>
+  <li>所以不存在最优资本结构
+    <ul>
+      <li>存在杆杆的公司价值 = 不存在杠杆的公司价值</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="b米勒-一-莫迪利安尼理论-2无税modigliani-miller-proposition-ii-no-taxes股东要求收益率和债务股本比存在线性关系the-cost-of-equity-is-a-linear-function-of-de">b）米勒 一 莫迪利安尼理论 2（无税）（Modigliani-Miller proposition II (no taxes)）：股东要求收益率和债务股本比存在线性关系（the cost of equity is a linear function of D/E）</h4>
+
+<ul>
+  <li>从股权人的角度来看，公司的杠杆率越高，股东需要承担的风险越高</li>
+  <li>股东的要求收益率 r<sub>E</sub> = r<sub>0</sub> + ( r<sub>0</sub> - r<sub>D</sub> ) × ( D / E )</li>
+  <li>假设：
+    <ul>
+      <li>完美市场（perfect market），债权人对于资产和收入的索取权（claim）比股权人优先级高</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="c米勒-一-莫迪利安尼理论-1有税modigliani-miller-proposition-i-with-taxes杠杆最大化的时候价值最大value-is-maximized-at-100-debt">c）米勒 一 莫迪利安尼理论 1（有税）（Modigliani-Miller proposition I (with taxes)）：杠杆最大化的时候价值最大（value is maximized at 100% debt）</h4>
+
+<ul>
+  <li>因为借贷会产生税盾（tax shield）给公司带来利益，所以最佳融资配置是100%借贷</li>
+  <li>V<sub>Leverage</sub> = V<sub>Unleverage</sub> + t × d</li>
+</ul>
+
+<h4 id="d米勒-一-莫迪利安尼理论-2有税modigliani-miller-proposition-ii-with-taxes完全依赖借贷融资时wacc最小wacc-is-minimized-at-100-debt">d）米勒 一 莫迪利安尼理论 2（有税）（Modigliani-Miller proposition II (with taxes)）：完全依赖借贷融资时WACC最小（WACC is minimized at 100% debt）</h4>
+
+<ul>
+  <li>r<sub>E</sub> = r<sub>0</sub> + ( r<sub>0</sub> - r<sub>D</sub> ) × ( D / E ) × ( 1 - t )</li>
+</ul>
+
+<h4 id="e小结">e）小结</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>-</th>
+      <th>Without taxes</th>
+      <th>With taxes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>r<sub>e</sub></td>
+      <td>变化快</td>
+      <td>变化慢</td>
+    </tr>
+    <tr>
+      <td>公司价值</td>
+      <td>不变</td>
+      <td>全债最优</td>
+    </tr>
+    <tr>
+      <td>WACC</td>
+      <td>不变</td>
+      <td>全债最优</td>
+    </tr>
+    <tr>
+      <td>理论 1</td>
+      <td>V<sub>L</sub>=V<sub>U</sub></td>
+      <td>V<sub>L</sub>=V<sub>U</sub>+t×D</td>
+    </tr>
+    <tr>
+      <td>理论 2</td>
+      <td>r<sub>e</sub>=r<sub>0</sub>+(r<sub>0</sub>-r<sub>D</sub> )×(D/E)</td>
+      <td>r<sub>E</sub> = r<sub>0</sub>+(r<sub>0</sub>-r<sub>D</sub>)×(D/E)×(1-t)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>*米勒 一 莫迪利安尼理论不考虑财务困境成本和破产风险（financial distress/bankruptcy）</p>
+
+<p><br /><br /></p>
+
+<h2 id="6-资本结构的成本cost">6. 资本结构的成本（cost）</h2>
+
+<p><br /><br /></p>
+
+<h4 id="a财务困境成本financial-distress-cost">a）财务困境成本（financial distress cost）</h4>
+<p>在公司的利润降低时，将产生的金融负担</p>
+
+<ul>
+  <li>财务困境的期望成本（expected costs of financial distress）分为两个部分
+    <ul>
+      <li>在真正遇到财务困境和破产时产生的花费（cost of financial distress and bankruptcy）</li>
+      <li>遇到财务困境的概率（probability of financial distress）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>在真正遇到财务困境和破产时产生的花费</p>
+
+<ul>
+  <li>直接花费（direct cost）
+    <ul>
+      <li>与破产相关的现金花费</li>
+    </ul>
+  </li>
+  <li>间接花费（indirect cost）
+    <ul>
+      <li>损失的投资机遇（foregone investment opportunities），损失的顾客，债权人，供应商，已经员工的信心（losing trust of customers, creditors, suppliers, and employees）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>遇到财务困境的概率（probability of financial distress）</p>
+
+<ul>
+  <li>该概率随杠杆的程度增加而增加（probability increases as the degree of leverage increase）</li>
+  <li>管理层和公司治理结构质量（quality of management and corporate governance structure）</li>
+</ul>
+
+<h4 id="b代理人权益成本agency-cost-of-equity">b）代理人权益成本（agency cost of equity）</h4>
+<p>由于公司管理层（company’s managers）和所有者（owners）之间的利益冲突（conflict of interest）产生的花费</p>
+
+<ul>
+  <li>管理者的股份（stake）越少，花费越高</li>
+</ul>
+
+<p><strong>净代理人权益成本（net agency cost of equity）由以下三个方面决定：</strong></p>
+
+<ol>
+  <li>监管成本（monitoring costs）
+    <ul>
+      <li>为了监管（supervising）管理层的业绩表现带来的成本</li>
+    </ul>
+  </li>
+  <li>联结成本（bonding costs）
+    <ul>
+      <li>为了激励管理层是在为股东利益而工作而带来的成本</li>
+    </ul>
+  </li>
+  <li>残余损失（residual losses）
+    <ul>
+      <li>因为监管和联结机制（mechanism）并不完美导致的损失</li>
+    </ul>
+  </li>
+</ol>
+
+<p>代理人成本问题，带来的结论：</p>
+
+<ul>
+  <li>公司治理越优良，代理人成本越低</li>
+  <li>杠杆率越高，代理人成本越低</li>
+</ul>
+
+<h4 id="c信息不对称成本cost-of-asymmetic-infomation">c）信息不对称成本（cost of asymmetic infomation）</h4>
+<p>由于公司管理者比投资者拥有更多的信息</p>
+
+<ul>
+  <li>因为信息的不对称，股权人和债券人要求的收益率会更高</li>
+</ul>
+
+<p>例子：</p>
+
+<ul>
+  <li>潜在不良行为信号（negative signal）：股权融资
+    <ul>
+      <li>管理层一般在股价高估的时候增发股票，在股价低估时倾向于不增发</li>
+    </ul>
+  </li>
+  <li>潜在良好行为信号（positive signal）：债券融资
+    <ul>
+      <li>管理层对于公司未来产生收入的能力有信心</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>优先融资顺序理论（pecking order theory）</strong></p>
+
+<p>管理层倾向于以最小化信息潜在信息披露（disclose less information）的方式融资</p>
+
+<p>融资顺序：</p>
+
+<ol>
+  <li>内部产生的权益（internally generated equity），例如：保留盈余（retained earnings）</li>
+  <li>债券（debt）</li>
+  <li>外部权益（external equity），例如：股票增发（newly issued shares）</li>
+</ol>
+
+<p>由优先融资顺序理论，得出结论，资本结构是多个单次融资决策的副产品（capital structure is a by-product of the individual financing decisions）</p>
+
+<p><br /><br /></p>
+
+<h2 id="7-静态权衡理论static-trade-off-theory">7. 静态权衡理论（static trade-off theory）</h2>
+
+<p><br /><br /></p>
+
+<p>在债务融资带来的经济收益和可能的财务困境压力做权衡</p>
+
+<p>V<sub>L</sub> = V<sub>U</sub> + (t × d) - PV (cost of financial distress)</p>
+
+<p>静态权衡理论（static trade-off theory）的关键点（key points）：</p>
+
+<ul>
+  <li>税盾（tax shield）会给公司产生价值（add value）</li>
+  <li>财务困境成本（cost of financial distress）会使公司损失价值</li>
+  <li>当税盾产生的增值和财务困境成本导致的减值达到平衡时（balanced），公司达到最小化融资成本下的最大化价值（max value with lowest cost of capital）</li>
+</ul>
+
+<p><strong>目标资本结构（target capital structure）</strong></p>
+
+<ul>
+  <li>长期来看，公司将使用的资本结构</li>
+  <li>公司管理管理者想要最大化公司价值
+    <ul>
+      <li>目标资本结构（target capital structure） = 最优资本结构（optimal capital structure）</li>
+    </ul>
+  </li>
+  <li>短期内，可能会在目标资本结构上下波动（fluctuate around the target），原因有两个：
+    <ul>
+      <li>市场机遇（market opportunities）：管理层借用市场出现的偶然机遇，例如证券的定价错误，做出有利于公司的融资决策</li>
+      <li>市场价值波动（market value fluctuation）：市场波动导致公司的股票价值和债券价值变化</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="8-债券评级debt-ratings">8. 债券评级（debt ratings）</h2>
+
+<p>公司管理层在进行借贷融资过程中需要考虑公司的债务评级问题</p>
+
+<ul>
+  <li>当杠杆率上升时（leverage rises），评级机构倾向于下调公司债券评级（rating），以反映公司上升的信用风险（higher credit risk）</li>
+  <li>更低的评级（rating）意味着更高的融资成本（cost of capital）</li>
+</ul>
+
+<p>因为债券评级影响了融资成本，管理层常常将债券评级维持在特定的债务评级水平之上</p>
+
+<p><br /><br /></p>
+
+<h2 id="9-评估资本结构evaluating-capital-structure">9. 评估资本结构（evaluating capital structure）</h2>
+
+<p><br /><br /></p>
+
+<p>分析师在评估公司的资本结构（evaluating capital structure）需要考虑一下三点：</p>
+
+<ul>
+  <li>长期以来公司的资本结构变化（change）</li>
+  <li>具有类似经营风险的竞争者（competitors with similar business risk）的资本结构</li>
+  <li>公司特有的因素（company-specific factors）</li>
+</ul>
+
+<p><strong>国际市场的公司的资本结构特点</strong></p>
+
+<p>国际上杠杆率的不同（international differences in leverage）</p>
+
+<ul>
+  <li>总债务（total debt）：日本，意大利，法国的公司相比美国和英国有更高比例的总债务</li>
+  <li>债务期限（debt maturity）：北美的公司相比日本的公司债务的期限更长</li>
+  <li>新兴市场（emerging market）：相比处在新兴市场（emerging market）的公司，发达国家的公司的总债务比例更高，期限更长</li>
+</ul>
+
+<p><strong>国际市场的资本结构差别的三个原因：</strong></p>
+
+<ol>
+  <li>制度和法律因素（institutional and legal factors）</li>
+  <li>金融市场和银行系统因素（financial market and banking system factors）</li>
+  <li>宏观经济因素（macroeconomic factors）</li>
+</ol>
+
+<p>1. 制度和法律因素（institutional and legal factors）</p>
+
+<ul>
+  <li>法律系统有效性（strength of legal system）
+    <ul>
+      <li>在法律系统较弱的国家里的公司，有着更高的代理人成本，因此有更高的杠杆率和更短的债券期限</li>
+    </ul>
+  </li>
+  <li>信息不对称（information asymmetry）
+    <ul>
+      <li>高度信息不对称导致管理层倾向于使用更多的借债</li>
+    </ul>
+  </li>
+  <li>税收
+    <ul>
+      <li>税盾鼓励借债</li>
+      <li>股息税率低的时候，公司倾向于股权融资，因为投资者需要的收益率下降</li>
+    </ul>
+  </li>
+</ul>
+
+<p>2. 金融市场和银行系统因素（financial market and banking system factors）</p>
+
+<ul>
+  <li>市场流动性（liquidity of capital markets）
+    <ul>
+      <li>如果资本市场有更高的流动性（liquid）和更大规模（larger），在其中的公司的债务期限更长</li>
+    </ul>
+  </li>
+  <li>银行系统的依赖（reliance on banking system）
+    <ul>
+      <li>对银行系统的依赖更高国家，公司的平均杠杆水平越高</li>
+    </ul>
+  </li>
+  <li>机构投资者的存在（presence of institutional investor）
+    <ul>
+      <li>机构投资者可能有相对应的债券期限偏好（preferred maturity ranges）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>3. 宏观经济因素（macroeconomic factors）</p>
+
+<ul>
+  <li>通货膨胀
+    <ul>
+      <li>高通胀率使得固定收益减值，所以公司更少地进行债券融资，而且债务期限更短</li>
+    </ul>
+  </li>
+  <li>GDP增长率
+    <ul>
+      <li>高GDP增长率的国家，它的公司的债务期限更长</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="10-股利政策理论theories-of-dividend-policy">10. 股利政策理论（theories of dividend policy）</h2>
+
+<p><br /><br /></p>
+
+<p><strong>股利政策理论（theories of dividend policy）</strong></p>
+
+<ol>
+  <li>股利无关理论（dividend is irrelevant to company value）</li>
+  <li>“在手之鸟”理论（bird in hand argument）</li>
+  <li>税收厌恶（tax aversion）理论</li>
+  <li>追随者效应（clientele effect）理论</li>
+  <li>股利信号（signaling）理论</li>
+  <li>代理人问题（agency issues）理论</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h4 id="1-股利无关论dividend-is-irrelevant-to-company-value">1. 股利无关论（dividend is irrelevant to company value）</h4>
+
+<ul>
+  <li>投资者可以自制股利（homemade dividend）
+    <ul>
+      <li>通过抛售相应价值的股票获得现金</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="2-在手之鸟理论bird-in-hand-argument">2. “在手之鸟”理论（bird in hand argument）</h4>
+
+<ul>
+  <li>投资者偏好现金股利（cash dividend），因为存在确定性</li>
+  <li>发放股利的公司有更低的权益融资成本（lower cost of equity），因此公司价值更高</li>
+</ul>
+
+<h4 id="3-税收厌恶tax-aversion理论">3. 税收厌恶（tax aversion）理论</h4>
+
+<ul>
+  <li>投资者偏好税收低（incur lower tax）的方式
+    <ul>
+      <li>如果股利的税率比资本利得（capital gain）的税率，投资者会偏好更低的股利支付率（dividend payout ratio）</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="4-追随者效应clientele-effect理论">4. 追随者效应（clientele effect）理论</h4>
+
+<p>不同的投资者有不同的股利政策偏好（desired dividend policy），因为：</p>
+
+<ul>
+  <li>所得税考虑（tax consideration）
+    <ul>
+      <li>处于高税级（high tax bracket）的投资者倾向更低的股利</li>
+    </ul>
+  </li>
+  <li>机构投资者（institutional investors）倾向
+    <ul>
+      <li>一些机构投资者只会选择股利达到某个特定值的公司</li>
+    </ul>
+  </li>
+  <li>个人投资者（individual investor）倾向
+    <ul>
+      <li>一些个人投资者倾向于购买有股利的股票</li>
+    </ul>
+  </li>
+  <li>追随者效应（clientele effect）理论和股利无关论（irrelevance）不矛盾
+    <ul>
+      <li>改变股利政策只会改变客户类型</li>
+    </ul>
+  </li>
+</ul>
+
+<p>因为税收的存在，投资者会依照股利额进行相关的股票交易策略（tax effects the trading strategies in regard with dividend）</p>
+
+<ul>
+  <li><strong>为保证对股东公平：</strong>在股利派发前的抛售带来的收益（sell just before ex-dividend） = 在股利派发后的抛售带来的收益（sell just after ex-dividend）
+    <ul>
+      <li>（股利派发前）卖出价格 - 资本利得税 = （股利派发后）卖出价格 - 资本利得税 - 税后股利收入</li>
+      <li>P<sub>B</sub> - ( P<sub>B</sub> - P<sub>0</sub> ) × T<sub>CG</sub> = P<sub>A</sub> - ( P<sub>A</sub> - P<sub>0</sub> ) × T<sub>CG</sub> + D × ( 1 - T<sub>D</sub> )</li>
+    </ul>
+  </li>
+  <li><strong>股利派发前后产生的资本利得的税后收益 = 税后股利</strong>：股利派发前后价差 = 税后股利收入 / （1 - 税率）
+    <ul>
+      <li>△P = P<sub>B</sub> - P<sub>A</sub> = D  × ( 1 - T<sub>D</sub> ) / ( 1 - T<sub>CG</sub> )</li>
+      <li><strong>变体：</strong>△P × ( 1 - T<sub>CG</sub> ) = D × ( 1 - T<sub>D</sub> )</li>
+    </ul>
+  </li>
+  <li><strong>结论：</strong> 如果
+    <ul>
+      <li>资本利得税 = 股利税，股价下降幅度 = 股利</li>
+      <li>资本利得税 &lt; 股利税，股价下降幅度 &lt; 股利</li>
+      <li>资本利得税 &gt; 股利税，股价下降幅度 &gt; 股利</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="5-股利信号signaling理论">5. 股利信号（signaling）理论</h4>
+
+<p>第一次派发股利（a dividend initiation）</p>
+
+<ul>
+  <li>积极信号（positive signal）：公司对于发展前景表示乐观，对于未来收益预期乐观</li>
+  <li>负面信号（negative signal）：公司没有找到新的投资机会</li>
+</ul>
+
+<p>超出预期的股利变动（unexpected dividend changes）</p>
+
+<ul>
+  <li>（积极信号）超预期的增加（unexpected increase）：公司未来发展前景良好</li>
+  <li>（负面信号）超预期的减少或者取消（unexpected increase or omission）：公司未来发展前景不佳</li>
+</ul>
+
+<h4 id="6-代理人问题agency-issues理论">6. 代理人问题（agency issues）理论</h4>
+
+<p>公司管理层和股权人之间</p>
+
+<ul>
+  <li>管理层可能会过度投资（overinvest）造成不必要的浪费</li>
+  <li>解决办法：增加股利支付率（dividend payout ratio）能缓解这一问题</li>
+</ul>
+
+<p>股权人和债权人之间</p>
+
+<ul>
+  <li>在公司偿付债务能力减弱的时候，公司的可能会派发大量股利，减少作为抵押的资产总额（asset base）</li>
+  <li>解决方案：通过在债务合约（debt indenture）中的条款（provision），例如：
+    <ul>
+      <li>限制股利支付（restrictions on dividend payment）</li>
+      <li>要求维持一定水平的资产债务比率（maintenance of certain balance sheet ratios）</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="11-影响股利政策的因素factors-affecting-dividend-policy">11. 影响股利政策的因素（factors affecting dividend policy）</h2>
+
+<p><br /><br /></p>
+
+<p>影响股利政策的因素</p>
+
+<ul>
+  <li>投资机会（investment opportunity）
+    <ul>
+      <li>更多的投资机会，派发的现金股利更少</li>
+    </ul>
+  </li>
+  <li>未来盈利的波动性的预期（expected volatility of future earnings）
+    <ul>
+      <li>如果未来盈利的波动性大，公司对于改变股利政策将更加谨慎</li>
+    </ul>
+  </li>
+  <li><strong>所得税考虑（tax consideration）</strong>
+    <ul>
+      <li>有额外现金储备并且想要保持金融稳定型的公司可能会使用股票回购而不是股利派发</li>
+    </ul>
+  </li>
+  <li>证券发行成本（floatation cost）
+    <ul>
+      <li>证券发行成本越高，股利越低</li>
+    </ul>
+  </li>
+  <li>合约及法律限制（contractual and legal restriction）
+    <ul>
+      <li>资本减值法则（impairment of capital rule）：股利派发（dividend paid） &lt; （retained earning）</li>
+      <li>有时候，债务契约（debt covenants）规定，在支付股利之前，需要达成一定程度的流动比率（liquidity ratio）和利息覆盖率（coverage ratio）</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>所得税考虑（tax consideration）</strong></p>
+
+<ol>
+  <li>双重征税制（double-taxation）</li>
+  <li>分离征税制（split-tax rate system）</li>
+  <li>转移征税制（tax-imputation system）</li>
+</ol>
+
+<p><strong>双重征税制（double-taxation）</strong></p>
+
+<ul>
+  <li>在公司层面上，无论是否派发股利，都需要交纳企业相应的所得税</li>
+  <li>在股东层面上，股利会被征收股东相应的所得税</li>
+</ul>
+
+<p><strong>分离征税制（split-tax rate system）</strong></p>
+
+<ul>
+  <li>在公司层面上，净收入作为股利派发的部分，相比于作为保留盈余的部分，被征收的税率更低</li>
+  <li>在股东层面上，股利所得作为通常收入项目（ordinary income）征收所得税</li>
+</ul>
+
+<p><strong>转移征税制（tax-imputation system）</strong></p>
+
+<ul>
+  <li>在公司层面上，净收入进行一定程度上的征税</li>
+  <li>在股东层面上
+    <ul>
+      <li>如果股东的税率比公司税率高，则缴纳相当于差额的所得税（pay the difference）</li>
+      <li>如果股东的税率比公司税率低，则获得相等于差额的抵免额（tax credit），可用于减免其他方式的收入的所得税</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="12股利政策payout-policies的类型">12.股利政策（payout policies）的类型</h2>
+
+<p><br /><br /></p>
+
+<p>股利政策（payout policies）的类型</p>
+
+<ol>
+  <li>稳定股利政策（stable dividend policy）</li>
+  <li>固定股利支付率（不常见）（constant dividend payout ratio policy）</li>
+  <li>剩余股利政策（residual dividend policy）</li>
+</ol>
+
+<p><strong>1. 稳定股利政策（stable dividend policy）</strong></p>
+
+<ul>
+  <li>公司依照未来长期的收益预测，制定出的特定的股利增长率，所以能达到稳定增加的股利派发</li>
+  <li>目标支付率调整模型（target payout adjustment model）
+    <ul>
+      <li>目标股利支付率（expected dividend）= 过往的股利支付率（previous dividend）+ 预计EPS增长率（expected increase in EPS）× 目标股利支付率（target payout ratio）× 调整因素（adjustment factor）</li>
+      <li>调整因素（adjustment factor）= 1 / 股利政策生效前剩余的年份数（number of years over which the adjustment in dividends will take place）</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>2. 固定股利支付率（不常见）（constant dividend payout ratio policy）</strong></p>
+
+<ul>
+  <li>公司每年将派发特定百分比（a specific percentage）的收益作为它的股利</li>
+  <li>股利的额度因此和收益额有直接关系（vary directly with earning）</li>
+</ul>
+
+<p><strong>3. 剩余股利政策（residual dividend policy）</strong></p>
+
+<ul>
+  <li>股利的额度是基于用于融资资本预算的权益部分的收益剩余（dividends are based on earnings less funds the firm retains  to finance the equity portion of its capital budget）
+    <ul>
+      <li>股利（dividend）= 收益（earning）- 资本预算（capital budget）×（权益（equity）/资产（asset））</li>
+      <li>没有股利派发的情况：如果权益投资（equity investment）&gt; 收益（earning）</li>
+    </ul>
+  </li>
+  <li>该模型基于公司的：
+    <ul>
+      <li>投资机会日程（investment opportunity schedule）</li>
+      <li>目标资本结构（target capital structure）</li>
+      <li>可用的外来资本以及融资成本（access to and cost of external capital）</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>此时公司的主要目标是维持相应的资本结构，只有收益超出目标才会派发股利，收益不足时不分红，而且将增发股票</p>
+</blockquote>
+
+<p>优点：</p>
+
+<ul>
+  <li>易于公司使用（easy to use）</li>
+  <li>最大化收益对于投资的分配（maximize allocation of earnings to investment）</li>
+</ul>
+
+<p>缺点：</p>
+
+<ul>
+  <li>股利会因为收入和投资机遇的变化发生波动（fluctuates with investment opportunities and earnings）</li>
+  <li>因为更高的回报预期和更低的估值造成的不确定性（uncertainty cause higher expected return and lower valuation）</li>
+</ul>
+
+<p>长期剩余股利（long-term residual dividend）</p>
+
+<ul>
+  <li>公司对于其资本预算进行更长期的计划（a longer time frame），以能够提供更加稳定的股利支付（a more steady dividend payout）</li>
+  <li>任何额外的现金流（any excess cash flows）将会以股票回购的形式支付</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="13-股利政策股票回购vs现金股利">13. 股利政策：股票回购vs现金股利</h2>
+<p>股票回购的基本原理（rationales for share repurchase）</p>
+
+<ul>
+  <li>税收利益（tax advantages）
+    <ul>
+      <li>当股利税率 &gt; 资本利得税率，股票回购存在税收利益</li>
+    </ul>
+  </li>
+  <li>为股价提供信号/支持（share price support/signaling）</li>
+  <li>提供灵活性（added flexibility）
+    <ul>
+      <li>和股利不同，股票回购不是一项长期承诺（not a long-term commitment）</li>
+      <li>管理者对于股票的回购的“市场时机”可酌情选择（have discretion over “market timing”）</li>
+    </ul>
+  </li>
+  <li>弥补由于员工的股权带来的股权稀释（offsetting dilution from employee stock option）</li>
+  <li>提高杠杆率（increase financial leverage）
+    <ul>
+      <li>股票回购提高杠杆率</li>
+      <li>通过减少权益所占的百分比，修改资本结构（modify capital structure）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>股利政策的全球趋势（global trends in payout policy）</p>
+
+<ul>
+  <li>相对于欧洲公司，美国派发股利的公司的比例更低（a lower proportion of U.S. companies pay dividends）</li>
+  <li>全球范围内，支付现金股利的公司的比例呈现下降趋势（the proportion of companies paying cash dividends has trended downwards）</li>
+  <li>相反，进行股票回购的公司的比例呈现上升趋势（the percentage of companies making stock repurchases has been trending upwards）</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="14-股利的安全性持续性dividend-safety">14. 股利的安全性/持续性（dividend safety）</h2>
+
+<p>股利的安全性/持续性（dividend safety）：计量股利以当前支付率持续的可能性的指标（metric used to evaluate the probability of dividends continuing at the current rate for a company）</p>
+
+<ul>
+  <li>净收入方法（net income method）
+    <ul>
+      <li>股利支付率（dividend payout ratio）= 股利 / 净收入（dividends/net income）</li>
+      <li>股利备负/覆盖率（dividend coverage ratio）= 净收入 / 股利（net income/dividends）</li>
+    </ul>
+  </li>
+  <li>自由现金流方法（free cash flow method）
+    <ul>
+      <li>权益自由现金流备负 / 覆盖率（FCFE coverage ratio）= 权益自由现金流 /（股利 + 股票回购）</li>
+    </ul>
+  </li>
+</ul>
+:ET

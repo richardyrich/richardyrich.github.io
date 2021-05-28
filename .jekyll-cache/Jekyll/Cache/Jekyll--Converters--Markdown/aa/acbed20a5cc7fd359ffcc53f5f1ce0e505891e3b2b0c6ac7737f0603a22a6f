@@ -1,0 +1,444 @@
+I"'@<h2 id="目录">目录</h2>
+<ol>
+  <li>资本预算（capital budgeting）</li>
+  <li>公司市场价值的估值方法（market value evaluation metiod）</li>
+  <li>估值方法 1：经济收入（economic income）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h3 id="1-资本预算capital-budgeting">1. 资本预算（capital budgeting）</h3>
+
+<p><br /><br /></p>
+
+<p><strong>资本预算（capital budgeting）</strong></p>
+
+<ul>
+  <li>考虑增量现金流（incremental cash flow）</li>
+  <li>不考虑沉没成本（sunk cost）</li>
+  <li>考虑外部性（externality）
+    <ul>
+      <li>负外部性（negative externality）</li>
+      <li>正外部性（positive externality）</li>
+    </ul>
+  </li>
+  <li>时间（timing）</li>
+  <li>计算取税后的数字（after tax basis）</li>
+</ul>
+
+<p><strong>资本预算的分类（categories of budgeting project）</strong></p>
+
+<ul>
+  <li>替代项目（replacement project）
+    <ul>
+      <li>为了公司的继续经营（maintain the business）而进行的替换</li>
+      <li>为了降低公司的成本（cost reduction purpose）而进行的替换</li>
+    </ul>
+  </li>
+  <li>扩张项目（expansion project）
+    <ul>
+      <li>原有项目（existing product）的扩张</li>
+      <li>新项目（new project）的扩张</li>
+    </ul>
+  </li>
+  <li>政府强制实施的项目（mandatory investment）
+    <ul>
+      <li>比如政府要求的，法律要求的</li>
+    </ul>
+  </li>
+  <li>其他</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="a扩张项目expansion-projectvs-替代项目replacement-project">a）扩张项目（expansion project）vs 替代项目（replacement project）</h3>
+
+<p><br /><br /></p>
+
+<p><strong>扩张项目（expansion project）</strong></p>
+
+<ul>
+  <li>固定资产投资（fixed capital investment）</li>
+  <li>净运营资金投资（net working capital investment）</li>
+  <li>分为三个阶段
+    <ul>
+      <li>初始支出（initial outlay）</li>
+      <li>运营阶段（operating stage）</li>
+      <li>终止阶段（terminating stage）</li>
+    </ul>
+
+    <blockquote>
+      <p>可以想象成一个债券，初始支付一个费用，并在后来不断地接收息票，最后收回本金（虽然只有一部分）</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p><strong>1. 初始支出（initial outlay）</strong></p>
+
+<ul>
+  <li>初始支出 = -（固定资产投入 + 净运营资金投资）</li>
+  <li>净运营资金投资 = △Asset <sub>non-cash current</sub> - △Liability<sub>non-debt current</sub>
+    <ul>
+      <li>一般来说不考虑现金和短期债务的影响</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>2. 运营阶段（operating stage）</strong></p>
+
+<ul>
+  <li>运营现金流（operating cash flow） = （运营收入（sales） - 成本（cost） - 折旧（depreciation））×（1 - 税率（tax rate））+ 折旧（depreciation）
+    <ul>
+      <li>上面的公式化简后
+（收入-成本）×（1-税率）+ 折旧 × 税率</li>
+      <li>因为折旧会产生税收利益，所以才会出现在公式里</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>3. 终止阶段（terminating stage）</strong></p>
+
+<ul>
+  <li>在终止时期的运营现金流（operating cash flow at terminating stage）</li>
+  <li>运营资金的收益（return of working capital）</li>
+  <li>固定资产的售出（sale of fixed asset）</li>
+  <li>终止阶段的经营现金流的计算其实就是运营的最后一期，所以和运营阶段的现金流计算是一样的</li>
+  <li>终止阶段的经营现金流 = 净运营资金投入 + 固定资产的售出价格 （Sal<sub>T</sub>）- （固定资产的售出价格（Sal<sub>T</sub>） - 固定资产的账面价值（B<sub>T</sub>））× 税率</li>
+</ul>
+
+<p><strong>替代项目（replacement project）</strong></p>
+
+<ul>
+  <li>和扩张项目一样分为三个阶段
+    <ul>
+      <li>初始支出（initial outlay）</li>
+      <li>运营阶段（operating stage）</li>
+      <li>终止阶段（terminating stage）
+        <blockquote>
+          <p>与扩张项目（expansion project）项目不同的是，初始存在一个出售旧设备的收入</p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>1. 初始支出（initial outlay）</strong></p>
+
+<ul>
+  <li>初始支出 = -（固定资产投入 + 净运营资金投资）+ [旧设备售出价格（Sal<sub>0old</sub>） - （旧设备售出价格（Sal<sub>0old</sub>）- 旧设备账面价值（B<sub>0old</sub>）× 税率（tax）]</li>
+  <li>固定资产投入（fixed capital investment）</li>
+  <li>运营资金投入（working capital investment）</li>
+  <li>旧设备的卖出（sale of old fix asset）</li>
+</ul>
+
+<p><strong>2. 运营阶段（operating stage）</strong></p>
+
+<ul>
+  <li>运营现金流（operating cash flow）= （更换后的收入（△S） - 更换后的成本（△C））×（1 - 税率）+ 更换后的折旧（△D） × 税率
+    <ul>
+      <li>假设新旧设备的使用年限是一样的</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>3. 终止阶段（terminating stage）</strong></p>
+
+<ul>
+  <li>终值净现金流（terminating net operating cash flow）  = 净运营资金投入（net working capital investment） + [ 新设备售价（Sal<sub>Tnew</sub>） - （新设备售价（Sal<sub>Tnew</sub>） - 新设备账面价值（B<sub>Tnew</sub>）× 税率 ] -  [旧设备售价（Sal<sub>Told</sub>）-（旧设备售价（Sal<sub>Told</sub>） - 旧设备售价账面价值（B<sub>Told</sub>））× 税率]</li>
+  <li>运营现金流（operating cash flow）</li>
+  <li>运营资金（working capital）</li>
+  <li>固定资产的售出（sale of fixed asset）</li>
+</ul>
+
+<h3 id="小结">小结</h3>
+
+<ul>
+  <li>扩张项目（expansion project）可以看做是初始为无的替代项目（replacement project），所以替代项目和扩张项目本质是一样的</li>
+  <li>替代项目存在出售旧有设备，所以存在多一笔现金流，减少了初始支出（reduce the initial outlay）</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="b加速折旧法modified-accelerated-cost-recovery-system-macrs">b）加速折旧法（modified accelerated cost recovery system (MACRS)）</h3>
+
+<p><br /><br /></p>
+
+<p>美国国内税收法（US internal revenue code）使用加速折旧法（modified accelerated cost recovery system (MACRS)）进行对折旧的所得税减免计算（tax deduction with depreciation）</p>
+<ul>
+  <li>应折旧额（depreciable basis） = 购入价格（purchase price） + 运输/处理和安装费用（shipping/handling and installation costs）</li>
+</ul>
+
+<h3 id="c通货膨胀inflation">c）通货膨胀（inflation）</h3>
+
+<p><br /><br /></p>
+
+<ul>
+  <li>使用正确的折现率
+    <ul>
+      <li>真实现金流（real cash flow）应使用真实折现率（real discount rate）折现</li>
+      <li>名义现金流（nominal cash flow）应使用名义折现率（nominal discount rate）折现</li>
+      <li>计算的出来的NPV相等</li>
+    </ul>
+  </li>
+  <li>如果通货膨胀率超出预期
+    <ul>
+      <li>收益会低于预期</li>
+      <li>所得税增加，因为折现税盾（depreciation tax shelter）的效果将低于预期</li>
+      <li>债权人（bondholder）获得的固定收益（fixed payment）价值降低</li>
+    </ul>
+  </li>
+  <li>通货膨胀对于公司的影响是弊大于利，因为涨价困难</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="d互斥项目之间的选择">d）互斥项目之间的选择</h3>
+
+<p><br /><br /></p>
+
+<p>CFA Level 1 中提到，两个互斥项目，选择NPV高的一项，前提条件是项目的期限是一样长
+如果不一样则使用以下两种方法进行评估：</p>
+
+<ul>
+  <li>最小公倍数（least common multiple of lives approach）
+    <ul>
+      <li>取两个项目的最小公倍数，并且将两个项目重复进行，直到达到公倍数时长（lives divide equally into the chosen time horizon）</li>
+    </ul>
+  </li>
+  <li>年金法（equivalent annual annuity (EAA) approach）
+    <ul>
+      <li>将两个项目转化成两个每年派发固定数额的年金，年金的现值（NPV）等于项目各自的现值</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="e资本限额capital-rationing">e）资本限额（capital rationing）</h3>
+
+<p><br /><br /></p>
+
+<ol>
+  <li>强制资本限额（hard capital rationing）
+    <ul>
+      <li>上限不可被提高（cannot be increased）</li>
+    </ul>
+  </li>
+  <li>弹性资本限额（soft capital rationing）
+    <ul>
+      <li>上限可以提高（allowed to increase），前提是可以合理的为股东创造价值（create shareholder value）</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="f风险分析risk-analysis">f）风险分析（risk analysis）</h3>
+
+<p><br /><br /></p>
+
+<p>风险分析（risk analysis）</p>
+
+<ol>
+  <li>独立分析（stand-alone method）</li>
+  <li>市场风险分析（market risk method）</li>
+</ol>
+
+<p><strong>独立分析（stand-alone method）</strong></p>
+
+<ul>
+  <li><strong>敏感性分析（sensitivity analysis）：</strong> 修改某一个因子</li>
+  <li><strong>情景分析（scenario analysis）：</strong> 同时改变数个因素</li>
+  <li><strong>模拟分析（simulation analysis）：</strong> 又名“蒙特卡罗模拟” ，从一定范围内按一定方法随机选择定义因素的量</li>
+</ul>
+
+<p><strong>市场风险分析（market risk method）</strong></p>
+<blockquote>
+  <p>相比独立分析（stand-alone method），市场风险分析（market risk method）是从整体进行分析</p>
+</blockquote>
+
+<p><br /><br /></p>
+
+<h3 id="g项目分析project-evaluation">g）项目分析(project evaluation)</h3>
+
+<p><br /><br /></p>
+
+<p><strong>项目折现率vs公司折现率</strong></p>
+
+<ul>
+  <li>项目折现率
+    <ul>
+      <li>常用资本资产定价模型（capital asset pricing model (CAPM)）来计算项目的最低收益率</li>
+      <li>R<sub>project</sub> = R<sub>f</sub> + β<sub>project</sub>[ E(R<sub>M</sub>) - R<sub>f</sub> ]</li>
+    </ul>
+  </li>
+  <li>公司折现率
+    <ul>
+      <li>常使用加权平均资本成本（weighted average cost of capital (WACC)）来计算</li>
+    </ul>
+  </li>
+  <li>不能简单的通过将公司的所有项目的折现率进行加权平均算出公司的总体的折现率，因为项目之间可能存在可能的相关性，增加或者降低公司的风险。在这种情况下，如果坚持使用WACC来计算项目的NPV：
+    <ul>
+      <li>project’s risk &gt; comapany’s risk → overestimate the NPV</li>
+      <li>project’s risk &lt; comapany’s risk → underestimate the NPV</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>实质选择权（real option）</strong></p>
+
+<ul>
+  <li>将现有可选项目的估值进行调整（alter the value of capital budgeting），依据的是该项目对未来项目可能产生的外部性</li>
+  <li>像金融期权（financial options）一样，实质选择权的价值和未来项目有关（contingent on future events）</li>
+</ul>
+
+<p><strong>实质选择权（real option）一共有四类</strong></p>
+
+<ul>
+  <li>时机选择权（timing option）
+    <ul>
+      <li>使得公司能够递延投资（delay investing）</li>
+    </ul>
+  </li>
+  <li>规模选择权（sizing option）
+    <ul>
+      <li>放弃选择权（abandonment option）
+  能够让公司终止项目，如果继续带来的损失大于终止</li>
+      <li>扩张选择权（expansion option）
+  让公司进行额外投资，如果项目能够带来更多收益</li>
+    </ul>
+  </li>
+  <li>弹性选择权（flexibility option）
+    <ul>
+      <li><strong>定价选择权（price-setting option）</strong>
+  可以直接因为涨价带来额外收益，而不需改变生产量</li>
+      <li><strong>生产选择权（production flexibility option）</strong>
+  可以从加班（working overtime）和增加班次（additional shift）来增加收益</li>
+    </ul>
+  </li>
+  <li>基本选择权（fundamental option）
+    <ul>
+      <li>价值取决于项目本身，类似金融期权（financial options）</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>实质选择权的四种估值方法</strong></p>
+
+<ol>
+  <li>假设选择权不存在的情况下估值项目的NPV
+ 如果项目本身的NPV已经 &gt; 0，那么加上实质选择权的价值会 &gt; 0， 所以应该进行该项目</li>
+  <li>在不考虑选择权下，计算项目的NPV，在其基础再加上实质选择权的估值
+  Overall NPV = project NPV ( based on DCF ) + option value - option cost</li>
+  <li>使用决策树（decision tree）</li>
+  <li>使用选择权定价模型（option pricing model）</li>
+</ol>
+
+<h3 id="h资本预算的常见错误common-pitfalls">h）资本预算的常见错误（common pitfalls）</h3>
+
+<p><br /><br /></p>
+
+<ol>
+  <li>没有考虑经济环境（economic response）</li>
+  <li>过度依赖模式化（evaluation templates）的分析方法</li>
+  <li>对于喜好项目（pet projects）的乐观估计</li>
+  <li>因为出于短期的每股收益，净收入，股本收益率（EPS, NI, ROE）的考虑，而导致长期项目被迫放弃</li>
+  <li>依赖内部收益率（IRR）做决定，因为IRR可能出现无解或者多个解的情况</li>
+  <li>对未来现金流的估计偏差（poor cash flow estimation）</li>
+  <li>错估经常花费（estimating overhead costs），某些花费可能由多个项目共用，所以难以判定</li>
+  <li>使用错误的风险调整后折现率（risk-adjusted discount rate）</li>
+  <li>办公室政治（politics）对于资本预算的影响</li>
+  <li>没有考虑到别的投资选项（failure to generate alternative investment ideas）</li>
+  <li>没有正确处理好沉没成本（sunk cost，不应该考虑）和机会成本（opportunity cost，应该考虑）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="2-公司市场价值的估值方法market-value-evaluation-metiod">2. 公司市场价值的估值方法（market value evaluation metiod）</h2>
+
+<ol>
+  <li>税后现金流（after-tax cash flow）</li>
+  <li>经济收益（economic profit）</li>
+  <li>剩余收益（residual income）</li>
+  <li>索取权价值（claims valuation）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="3-估值方法-1税后现金流after-tax-cash-flow">3. 估值方法 1：税后现金流（after-tax cash flow）</h2>
+
+<p><br /><br /></p>
+
+<p>经济收入（economic income）vs会计收入（accounting income）</p>
+
+<ul>
+  <li>经济收入（economic income）：
+    <ul>
+      <li>税后现金流（after-tax cash flow） + 项目的经济折旧（economic depreciation，市场价值变动）</li>
+      <li>经济收入 = 税后现金流 - 经济折旧（期初市场价值 - 期末市场价值） = CF - ( MV<sub>t-1</sub> - MV<sub>t</sub> ) = CF - △MV</li>
+      <li>经济折旧 = 期初市场价值 - 期末市场价值</li>
+    </ul>
+  </li>
+  <li>会计收入（accounting income）：
+    <ul>
+      <li>CFA会计部分的内容，在公司金融部分不考</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>如何理解经济折旧（economic depreciation）</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>-</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cash flow</td>
+      <td>-</td>
+      <td>CF<sub>1</sub></td>
+      <td>CF<sub>2</sub></td>
+    </tr>
+    <tr>
+      <td>Market value</td>
+      <td>MV<sub>0</sub></td>
+      <td>MV<sub>1</sub></td>
+      <td>MV<sub>2</sub></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MV<sub>1</sub> = CF<sub>2</sub> / ( 1 + r )<sup>1</sup>
+MV<sub>0</sub> = CF<sub>1</sub> / ( 1 + r )<sup>1</sup> +  CF<sub>2</sub> / ( 1 + r )<sup>2</sup> = ( MV<sub>1</sub> + CF<sub>1</sub>) / ( 1 + r )<sup>1</sup>
+EI<sub>1</sub> = CF<sub>1</sub>) - ( MV<sub>0</sub> - MV<sub>1</sub>)</p>
+
+<h3 id="小结经济收入vs会计收入">小结：经济收入vs会计收入</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>-</th>
+      <th>经济收入</th>
+      <th>会计收入</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>计算</td>
+      <td>现金 - 经济折旧</td>
+      <td>收入 - 支出</td>
+    </tr>
+    <tr>
+      <td>折旧</td>
+      <td>市值的降低</td>
+      <td>账面价值减少</td>
+    </tr>
+    <tr>
+      <td>融资成本</td>
+      <td>包含在折现率中</td>
+      <td>减去融资成本后得到净收入</td>
+    </tr>
+  </tbody>
+</table>
+:ET

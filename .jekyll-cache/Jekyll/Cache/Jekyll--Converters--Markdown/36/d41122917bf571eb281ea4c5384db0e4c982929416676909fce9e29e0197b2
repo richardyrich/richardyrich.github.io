@@ -1,0 +1,438 @@
+I";@<h2 id="目录">目录</h2>
+
+<ol>
+  <li>即期利率（spot rate）vs 远期利率（forward rate）</li>
+  <li>掉期利率曲线（swap rate curve）</li>
+  <li>利率的期限结构的传统理论（traditional theories of the term structure of interest rates）</li>
+  <li>现代期限结构模型（modern term structure model）</li>
+  <li>收益率曲线因子模型（yield curve factor models）</li>
+  <li>小结</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1-即期利率spot-ratevs-远期利率forward-rate">1. 即期利率（spot rate）vs 远期利率（forward rate）</h2>
+
+<p><br /><br /></p>
+
+<p><strong>零息债券即期收益率（spot rate）</strong></p>
+
+<ul>
+  <li>无风险（risk-free）单次支付的（single-unit payment）债权的到期收益率（yield to maturity）</li>
+</ul>
+
+<p>零息债券即期收益率曲线（spot curve）</p>
+
+<ul>
+  <li>将不同期限的零息收益率绘制在一张表上形成的曲线</li>
+  <li>在CFA Level 2 中又被成为收益率曲线（yield curve）</li>
+  <li>贴现因子（discount factor）
+    <ul>
+      <li>将特定期限的无息债权折现至现值的折现率</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>在CFA Level 1 中，yield curve表示的是不同期限的债权的持有期收益率（yield to maturity (YTM)）的曲线</p>
+</blockquote>
+
+<p><strong>无套利零息远期利率（arbitrage-free forward rate）</strong></p>
+
+<ul>
+  <li>未来特定时刻的零息债券即期收益率</li>
+  <li>相关的两个表示符号，f(T*,T)和F(T*,T)
+    <ul>
+      <li>f(2,3)表示两年后的三年期限的零息债券的年化利率</li>
+      <li>F(3,2)表示三年后的两年期限的零息债券的价格</li>
+      <li>F(T*,T) = 1 / ( 1 + f(T*,T) )<sup>T</sup></li>
+    </ul>
+  </li>
+</ul>
+
+<p>零息债券远期收益率模型（forward rate model）</p>
+
+<ul>
+  <li>( 1 + r(T*,T) )<sup>(T* + T)</sup> = ( 1 + r(T*) )<sup>T*</sup> ( 1 + f(T*,T) )<sup>T</sup></li>
+  <li>这是一个逆向归纳法（backward induction valuation）的一个简单的运用</li>
+</ul>
+
+<p><strong>即期利率曲线（spot curve）vs 远期利率曲线（forward curve）</strong></p>
+
+<ul>
+  <li>向上倾斜的即期利率曲线（r(T* + T) &gt; T(T*)
+    <ul>
+      <li>远期利率曲线总在即期利率曲线之上</li>
+      <li>T*值越大，远期利率越高</li>
+    </ul>
+  </li>
+  <li>向下倾斜的即期利率曲线（r(T* + T) &lt; T(T*)
+    <ul>
+      <li>正好相反</li>
+    </ul>
+  </li>
+</ul>
+
+<p>平价收益率曲线（par curve）</p>
+
+<ul>
+  <li>平价发行的（priced at par），付息国债（coupon-paying government）的到期收益率（yield to maturity）曲线</li>
+  <li>绘制零息债券即期收益率（spot rate）前，需要使用平价收益率曲线
+    <ul>
+      <li>计算过程需要用到拔靴/自助（bootstrapping），这是一个正向替代模型（forward substitution）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>到期收益率（yield to maturity）的三个前提假设：</p>
+
+<ul>
+  <li>债权持有至到期日（maturity）</li>
+  <li>所有的本金和息票都全额获得（made in full when due），不存在违约情况</li>
+  <li>持有期间所有的息票都能以原有的到期收益率再投资（reinvested at the original YTM）</li>
+</ul>
+
+<p>实际报酬率（realized return / horizon yield）</p>
+
+<ul>
+  <li>投资者实际的收益，并进行年化计算</li>
+</ul>
+
+<h3 id="结论1">结论1：</h3>
+
+<p>如果当前的远期利率（forward rate）是未来利率的准确估计，那么远期合约的价格（forward contract price）将保持不变</p>
+
+<ul>
+  <li>所以远期合约的价格变化意味着实际利率和过去的远期利率预测发生偏离</li>
+</ul>
+
+<h3 id="结论2">结论2：</h3>
+
+<p>如果即期利率都能被远期利率准确预测，那么不同期限的债权的在相同的时期内的持有期收益率（holding period return）是一样的</p>
+
+<ul>
+  <li>该结论是 <strong>到期日匹配策略（maturity matching strategy）</strong> 的理论基础</li>
+  <li>买入到期日和投资期限相匹配的债权的投资战略</li>
+</ul>
+
+<h3 id="结论3">结论3：</h3>
+
+<p>如果在未来，即期利率和历史的远期利率不一致，投资者在到期日之间交易就会造成收益或者损失</p>
+
+<ul>
+  <li>如果投资者预测未来的即期利率曲线比远期利率曲线低，可提前售出获得高出无风险利率更高的收益</li>
+</ul>
+
+<h3 id="结论4">结论4：</h3>
+
+<p>骑乘收益率曲线（riding / rolling down the yield curve）</p>
+
+<ul>
+  <li>如果投资者认为市场的远期利率曲线对未来的即期利率进行了高估，可通过交易比投资者的投资期限更长的债权获取更高的收益
+    <ul>
+      <li>该策略比到期日匹配策略（maturity matching strategy）收益高</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="结论5">结论5：</h3>
+
+<p>如果未来即期利率低于预期，应该买入远期合约</p>
+
+<h3 id="小结">小结：</h3>
+
+<ul>
+  <li>如果投资者认同远期利率对于未来即期利率的预测
+    <ul>
+      <li>债券市场不存在不确定性</li>
+      <li>使用 到期日匹配策略（maturity matching strategy）是最佳的投资方式</li>
+      <li>使用 骑乘收益率曲线（riding / rolling down the yield curve）策略 只会让交易更频繁，而且收益率并不会更高</li>
+    </ul>
+  </li>
+  <li>如果投资者认为远期利率对于未来即期利率高估
+    <ul>
+      <li>远期合约的价值将会上升，应买入</li>
+      <li>如果债权的到期时长（maturity）大于投资期限，到期时长越长，持有期收益率（holding period return）越高</li>
+      <li>使用 骑乘收益率曲线策略 将产生比 到期日匹配策略的收益</li>
+    </ul>
+  </li>
+  <li>如果投资者认为远期利率对于未来即期利率低估
+    <ul>
+      <li>和上面刚好相反</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="2-掉期利率曲线swap-rate-curve">2. 掉期利率曲线（swap rate curve）</h2>
+
+<p><br /><br /></p>
+
+<p>掉期利率（swap rate）：</p>
+
+<ul>
+  <li>固定利率支付方（fixed-rate leg）的利率</li>
+</ul>
+
+<h3 id="即期利率spot-ratevs-掉期利率swap-rate">即期利率（spot rate）vs 掉期利率（swap rate）</h3>
+
+<p>即期利率（spot rate）和掉期利率（swap rate）都可以用于基准利率（benchmark）</p>
+
+<ul>
+  <li>具体使用哪一个作为基准利率依照情况而定</li>
+  <li>批发银行（wholesale bank）常常利用掉期合约，转移风险，所以掉期利率常被用作为基准利率</li>
+  <li>零售银行（retail bank）较少使用掉期合约，即期利率常被作为基准利率</li>
+</ul>
+
+<blockquote>
+  <ul>
+    <li>批发银行的客户主要是商人银行（merchant bank）和其他的金融机构</li>
+    <li>零售银行的客户主要是个人（individual）和小型企业（small business）</li>
+  </ul>
+</blockquote>
+
+<p>使用掉期利率 / 伦敦银行同业拆放利率（london inter bank offered rate (LIBOR)）作为基准利率的优点：</p>
+
+<ul>
+  <li>可以反映信用等级较高的（A1/A+）的私营信用主体（private entities）的违约风险（default risk）变化，大多数商业银行（commercial banks）的评级处在该水平</li>
+  <li>掉期合约是因为非标准化，场外交易（over-the-counter）的产品，所以不受政府影响，所以掉期利率更好的反映了市场供给与需求的变化，便于在不同国家之间进行资金成本的比较（comparable across different countries）</li>
+  <li>掉期期限的多样性，更易于绘制掉期利率曲线</li>
+</ul>
+
+<p>利差（swap spread）</p>
+
+<ul>
+  <li>掉期利率利差（swap spread）= 掉期利率 - 相同期限的新发行（on-the-run）国债的到期收益率</li>
+  <li>利率利差（I-spread） = 某一个特定债券到期收益率 - 相同期限的掉期利率
+    <ul>
+      <li>债券的收益率反映了时间价值（time value），信用风险（credit risk），流动性风险（liquidity risk），利率利差（I-spread）只反映信用风险，流动性风险</li>
+    </ul>
+  </li>
+  <li>泰德利差（TED spread） = 伦敦银行同业拆放利率（LIBOR）- 短期国债（treasurary bill）的收益
+    <ul>
+      <li>泰德利差反映的是银行系统（banking system）的风险</li>
+    </ul>
+  </li>
+  <li>伦敦银行同业拆放利率 - 隔夜指数掉期利差（LIBOR - overnight indexed swap (OIS) spread）
+    <ul>
+      <li>隔夜指数掉期合约的浮动利率是由隔夜拆借利率的几何平均值（geometic average of an overnight rate (or overnight index rate)）决定的</li>
+      <li>LIBOR - OIS利差反映了信用风险，体现了银行系统（banking system）整体状态（overall wellbeing）</li>
+    </ul>
+  </li>
+  <li>零波动率利差（zero volatility spread / Z-spread）
+    <ul>
+      <li>风险债券和相应国债利率的利差</li>
+      <li>在即期利率的基础上加上零波动率利差，便是 风险债券 的折现率</li>
+      <li>不适用于含权债权的估值</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="3-利率的期限结构的传统理论traditional-theories-of-the-term-structure-of-interest-rates">3. 利率的期限结构的传统理论（traditional theories of the term structure of interest rates）</h2>
+
+<p><br /><br /></p>
+
+<p>利率的期限结构的传统理论</p>
+
+<ol>
+  <li>无偏预期理论（unbiased expectation theory）</li>
+  <li>区间预期理论（local expectation theory）</li>
+  <li>流动性偏好理论（liquidity preference theory）</li>
+  <li>市场分割理论（segmented market theory）</li>
+  <li>优先聚集地理论（preferred habitat theory）</li>
+</ol>
+
+<p><strong>无偏预期理论（unbiased expectation thoery）</strong></p>
+
+<ul>
+  <li>远期合约是未来的即期利率的无偏预测（unbiased predictor）
+    <ul>
+      <li>无偏预期的假设是投资者是风险中性的（risk neutral），不需要风险溢价（risk premium）</li>
+    </ul>
+  </li>
+  <li>向上倾斜的即期利率曲线意味着未来的短期利率将上升</li>
+</ul>
+
+<p><strong>区间预期理论（local expectation theory）</strong></p>
+
+<ul>
+  <li>在极短期的期限内，投资者不需要风险溢价（risk premium），近似与风险中性</li>
+  <li>较长的投资期限，投资者的对风险的态度可能会改变</li>
+</ul>
+
+<p><strong>流动性偏好理论（liquidity preference theory）</strong></p>
+
+<ul>
+  <li>投资期限越长，投资者索取的流动性溢价（liquidity premium）越高
+    <ul>
+      <li>向上倾斜的即期利率曲线可能只是因为流动性溢价，并不一定是未来的即期利率会上升</li>
+      <li>向下倾斜的即期利率曲线暗示未来即期利率会快速下降</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>市场分割理论（segmented market theory）</strong></p>
+
+<ul>
+  <li>每个投资者有各自的投资偏好（preferred maturity），而且恒定不变</li>
+  <li>所以不同的投资期限都有各自的需求和供给</li>
+</ul>
+
+<p><strong>优先聚集地理论（preferred habitat theory）</strong></p>
+
+<ul>
+  <li>投资者存在各自的投资偏好，但是会根据不同投资收益率水平的差异做出调整</li>
+  <li>所以不同期限的利率水平并不是相互独立的</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="4-现代期限结构模型modern-term-structure-model">4. 现代期限结构模型（modern term structure model）</h2>
+
+<p><br /><br /></p>
+
+<p>现代期限结构模型（modern term structure model）可分为两类：</p>
+
+<ol>
+  <li>均衡期限结构模型（equilibrium term structure models）</li>
+  <li>无套利模型（arbitrage-free model）</li>
+</ol>
+
+<h3 id="均衡期限结构模型equilibrium-term-structure-models">均衡期限结构模型（equilibrium term structure models）</h3>
+
+<ul>
+  <li>通过预测影响期限结构的经济基本面变量（fundamental economic variable）的变化，预测期限结构</li>
+  <li>可细分为两个模型：
+    <ul>
+      <li>考克斯-英格索尔-罗斯模型（cox-ingersoll-ross model）</li>
+      <li>瓦西塞克模型（vasicek model）</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>考克斯-英格索尔-罗斯模型（cox-ingersoll-ross model）</strong></p>
+
+<ul>
+  <li>每个个体都在进行消费或者投资活动，消费决定了资金的需求，投资决定了资金的供给，供需关系决定了短期利率</li>
+  <li>长期利率是短期利率加上期限溢价（term premium）的结果</li>
+  <li>不同时刻的短期利率的变动（dr）可以用公式计算</li>
+  <li>dr = a × ( b - r ) × dt + σ × √r × dz
+    <ul>
+      <li>a × ( b - r ) × dt 为趋势项（drift term），存在均值回归的特点，平均值为b，回归的速度为a</li>
+      <li>σ × √r × dz 为波动项（volatility term），<strong>利率越大，波动率越大</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>瓦西塞克模型（vasicek model）</strong></p>
+
+<ul>
+  <li>dr = a × ( b - r ) × dt + σ × dz
+    <ul>
+      <li>趋势项（drift term）和考克斯-英格索尔-罗斯模型一样</li>
+      <li>σ × dz为波动项（volatility term），<strong>波动性和利率无关</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="无套利模型arbitrage-free-model">无套利模型（arbitrage-free model）</h3>
+
+<p><strong>侯李模型（ho-lee model）</strong></p>
+
+<ul>
+  <li>dr<sub>t</sub> = θ<sub>t</sub> × dt + σ × dz<sub>t</sub></li>
+  <li>使用该模型之前，需先在市场上确定一组基础（reference set）债券
+    <ul>
+      <li>基础债券的定价需正确</li>
+    </ul>
+  </li>
+  <li>可由此推算出它们的折现率，进而确定候李模型的系数，θ<sub>t</sub></li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="5-收益率曲线因子模型yield-curve-factor-models">5. 收益率曲线因子模型（yield curve factor models）</h2>
+
+<p><br /><br /></p>
+
+<p>收益率曲线因子模型（yield curve factor models）：</p>
+
+<ul>
+  <li>用于描述收益率曲线的变动</li>
+</ul>
+
+<p>收益率曲线风险（yield curve risk）</p>
+
+<ul>
+  <li>由于收益率曲线发生变化而导致投资组合的价值变化的风险</li>
+  <li>本质是市场价格风险（market price risk）</li>
+  <li>变形风险（shaping risk）
+    <ul>
+      <li>属于收益率曲线风险的一种类型</li>
+      <li>收益率曲线发生非平行移动（non-parallel shift），比如短期利率上升的速度大于长期利率</li>
+    </ul>
+  </li>
+</ul>
+
+<p>收益率曲线因子模型（yield curve factor models）</p>
+
+<ul>
+  <li>收益率曲线可以分为三类
+    <ul>
+      <li>斜率改变（steepness change），90%的收益率曲线变化来自于斜率改变</li>
+      <li>平行移动（level change）</li>
+      <li>曲度变化（curvature change）</li>
+    </ul>
+  </li>
+  <li>将这些变化进行量化的描述就是收益率曲线因子模型</li>
+</ul>
+
+<p>计量收益率曲线风险（meansure yield curve risk）</p>
+
+<ul>
+  <li>有效久期（effective duration）
+    <ul>
+      <li>整体发生平行移动时，对债券价格的影响</li>
+    </ul>
+  </li>
+  <li>关键利率久期（key rate duration）
+    <ul>
+      <li>某个（局部）期限的即期利率发生变化，对债券价格的影响</li>
+    </ul>
+  </li>
+  <li>对于平行移动，斜率改变，曲度变化的敏感度（sensitivity）
+    <ul>
+      <li>具体的模型依靠观察者的主观定义</li>
+    </ul>
+  </li>
+</ul>
+
+<p>利率波动性的期限结构（term strucuture of interest rate volatilities）</p>
+
+<ul>
+  <li>计量的是收益率曲线风险</li>
+  <li>通常来说短期利率的波动性比长期利率的波动性大
+    <ul>
+      <li>短期利率波动和货币政策有关（monetary policy）</li>
+      <li>长期利率波动和实体经济（real economy）还有通货膨胀（inflation）有关</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="6-小结">6. 小结</h2>
+
+<p>一共提到了五种曲线</p>
+
+<ol>
+  <li>即期利率曲线（spot curve）</li>
+  <li>远期利率曲线（forward curve）</li>
+  <li>平价利率曲线（par curve）</li>
+  <li>收益率曲线（yield curve）</li>
+  <li>掉期曲线（swap curve）</li>
+</ol>
+:ET

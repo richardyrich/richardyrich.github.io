@@ -2,7 +2,7 @@
 layout: post
 title: 伯克希尔哈撒韦股东手册
 date: 2017-12-05
-categories: Translation
+categories: 翻译
 ---
 
 在伯克希尔哈撒韦的官方网站上（www.berkshirehathaway.com），有一份叫做股东手册（Owner Manual）的PDF可供任何人免费下载。说明性文件难免充满繁文缛节。不过巴菲特在其中穿插的一些小幽默使得整篇文件不至于枯燥无味。

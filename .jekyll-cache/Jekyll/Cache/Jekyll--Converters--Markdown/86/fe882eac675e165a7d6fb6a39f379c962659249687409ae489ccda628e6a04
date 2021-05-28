@@ -1,0 +1,277 @@
+I"�)<h2 id="目录">目录</h2>
+
+<ol>
+  <li>经济增长理论（theories of growth）</li>
+  <li>趋向性假说（convergence hypothesis）</li>
+  <li>杂项（miscellaneous）</li>
+  <li>经济管制和管制机构（regulations and regulator）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1-经济增长理论theories-of-growth">1. 经济增长理论（theories of growth）</h2>
+
+<ul>
+  <li>古典经济理论（classical theory）</li>
+  <li>新古典经济理论（neoclassical growth theory）</li>
+  <li>内生增长理论（endogenous growth theory）</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="a古典经济理论classical-theory">a）古典经济理论（classical theory）</h3>
+<p>长期来看，科技的发展促成人口的增长，人口增长的速度非常快所以资源又会变的匮乏，不会促进富裕，所以经济增长速度不是持久的（not permanent）</p>
+
+<p>科技发展 → 人均收入（per capita income）增加 → 高于最低需求收入（subsistence income）→ 人口增长（population growth） → 劳动力的边际效用递减（diminishing marginal return to labor） → 人均收入下降 → 回到最低需求收入水平
+最低需求收入（subsistence income）：生存所需的最低收入</p>
+
+<p><br /><br /></p>
+
+<h3 id="b新古典经济理论neoclassical-growth-theory">b）新古典经济理论（neoclassical growth theory）</h3>
+<p>只要有一次科技进步，经济就会高速增长，随后增速会慢慢下降并稳定（steady state growth rate (sustainable growth rate)）</p>
+<ul>
+  <li>科技进步是偶然现象，不可控力，长期来看，经济增长在没有科技突破的情况下是一个恒定的增长状态</li>
+</ul>
+
+<p><strong>稳态增速（steady state growth rate）出现在输出资本投入比是恒定的（output-to-capital ratio is constant）</strong></p>
+<blockquote>
+  <p>如果资本投入增长带来巨幅经济增长，代表资本未充足，如果只有小幅增长，代表资本过度，两种情况下都不是一个可持续发展的稳定状态。之前在柯布-道格拉斯生产函数中提到资本投入的边际产出也提到这个问题</p>
+
+  <p>仅有在资本投入的增量的经济增长的增量相等时，经济是稳定的，
+△y / y = △k / k
+分子分母互换位置，
+△y / △k = y / k
+因为y / k  = ( y × L ) / ( k × L ) = Y / K（人均比例 = 总体比例），
+证明了结论，输出资本投入比（y / k）是常数时，经济稳定</p>
+</blockquote>
+
+<p><strong>公式：</strong>
+g* = θ / (1 - α)
+G* = θ / (1 - α) + %△L</p>
+
+<blockquote>
+  <p>这两个公式是怎么来的：</p>
+</blockquote>
+
+<blockquote>
+  <p>第一个公式：
+由前面的柯布-道格拉斯生产函数变体可得，
+(1) △y / y = △T / T + α × ( △k / k )
+再使用之间的经济稳定增长的假设，
+(2) △y / y = △k / k
+将(1)(2)联立，
+△y / y = ( △T / T ) / ( 1 - α )
+用g* 表示稳定生产率（△y / y）、θ 表示技术进步率（△T / T），得出第一个公式，
+g* = θ / (1 - α)</p>
+</blockquote>
+
+<blockquote>
+  <p>第二个公式：
+因为Y = y × L，
+△Y / Y = △y / y + △L / L
+结合第一个公式，并用G*代表（△Y / Y）
+△Y / Y = △y / y + %△L</p>
+</blockquote>
+
+<p>结论：</p>
+
+<ul>
+  <li>资本深化对于经济长期发展是没有影响的</li>
+  <li>只在稳态（steady state）下，资本输入的边际产出（marginal product of capital）会恰好处在一个常数的值。但是如果从总体来看，边际生产力（marginal productivity）总是随着资本的增加而递减的
+    <ul>
+      <li>发展中国家受到的资本边际产出率递减较弱（impacted less by diminishing marginal productivity of capital）</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>在前面提到柯布-道格拉斯生产函数变体的变体，劳动生产率，提到了资本边际产出（marginal product of capital）这个概念</p>
+</blockquote>
+
+<ul>
+  <li>储蓄的增加（increase in savings）只会暂时的提高经济增长
+    <ul>
+      <li>另一种形式的资本深化</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="c内生增长理论endogenous-growth-theory">c）内生增长理论（endogenous growth theory）</h3>
+<p>资本投资和人力资本投资可以导致可见的技术进步（technological growth emerges as a result of investment in both physical and human capital）</p>
+<blockquote>
+  <ul>
+    <li>否定新古典理论，认为不存在所谓的稳态增速（steady state growth rate），只要存在投资会永久的提高生产率</li>
+  </ul>
+</blockquote>
+
+<p><br /><br /></p>
+
+<h2 id="2-趋向性假说convergence-hypothesis">2. 趋向性假说（convergence hypothesis）</h2>
+<blockquote>
+  <p>全球各个国家的发展水平最后能不能趋于一致</p>
+</blockquote>
+
+<ul>
+  <li>绝对趋向性假说（absolute convergence hypothesis）
+发达国家最终会和发达国家达到一致的生活水平（achieve equal living standard）</li>
+  <li>有条件趋向性假说（conditional convergence hypothesis）
+存在条件：如果储蓄率（saving rates），人口增长率（population growth rates），生产功能（production functions）都能达到相同</li>
+  <li>非发达国家在赶上发达国家之前，增长率相对更高</li>
+  <li>局部趋同论（club convergence hypothesis）</li>
+  <li>制度相似的国家（institutional）形成了局部组（club），组内的国家会趋同</li>
+  <li>贫穷国家，如果进行恰当的制度改变（appropriate institutional changes）可以加入别的组</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="3-杂项miscellaneous">3. 杂项（miscellaneous）</h2>
+<p>政府为什么应该鼓励私人企业进行研发</p>
+
+<ul>
+  <li>在内生增长理论的角度来看，即使企业的投资的资金量很小，也是能促进经济发展</li>
+  <li>因为研发的消耗大，不确定性高，政府应该给予帮助</li>
+</ul>
+
+<p>移除贸易壁垒的好处</p>
+
+<ul>
+  <li>促进海外投资</li>
+  <li>促进交易的相对优势（comparative advantage）</li>
+  <li>促进出口，产生规模优势（economies of scale）</li>
+  <li>促进科技共享，提高全要素生产力</li>
+  <li>刺激商业竞争，促进资源的高效率分配</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="4-经济管制和管制机构regulations-and-regulator">4. 经济管制和管制机构（regulations and regulator）</h2>
+<p><strong>管制的分类（classification of regulation）：</strong></p>
+
+<ul>
+  <li>立法权（statutes）：法律制定体系</li>
+  <li>行政权（administrative regulations）：由政府机关和政府授权的其他体系制定的规则</li>
+  <li>司法权（judicial law）：法院</li>
+</ul>
+
+<p>管制机构的分类（classification of regulator）：</p>
+
+<ul>
+  <li>政府机关（government agencies）</li>
+  <li>独立监管机构（independent regulators）：有政府授权的自发监管机构</li>
+  <li>外在体制（outside bodies）：并不是监管机构，但制定的规则被监管机构使用（例如FASB，ISAB）</li>
+</ul>
+
+<p>独立监管机构分为两类</p>
+<ul>
+  <li>自律组织（self-regulating organizations(SRO)）</li>
+  <li>非自律组织（non self-regulating organizations(non-SRO)）</li>
+</ul>
+
+<p>自律组织（self-regulating organizations(SRO)）</p>
+
+<ul>
+  <li>非政府行业协会，例如美国金融业监管局（FRNRA）</li>
+  <li>存在潜在的利益冲突，成员都来自本行</li>
+  <li>在大陆法国家（civil-law countries），独立SRO不常见，政府常常承担监管机构的角色</li>
+  <li>在英美法国家（common-law countries），独立SRO历史悠久</li>
+  <li>并不是所有的SRO都是独立的监管机构</li>
+</ul>
+
+<p>非自律组织（non self-regulating organizations(non-SRO)）</p>
+
+<ul>
+  <li>例子：美国公众公司会计监督委员会 （PCAOB）</li>
+</ul>
+
+<p>管制机构介入市场的原因</p>
+
+<ul>
+  <li>信息摩擦（infomation friction）</li>
+  <li>处理信息不对称（information asymmetry）的问题</li>
+  <li>外部性（externalities）</li>
+  <li>公共产品（public goods）的问题</li>
+</ul>
+
+<p><strong>监管机构的独立性（regulatory interdependencies）</strong></p>
+
+<ul>
+  <li>规制俘虏理论（regulatory capture theory）
+    <ul>
+      <li>被监管对象可以对监管机构的影响</li>
+    </ul>
+  </li>
+  <li>监管机构间的竞争（regulatory competition）
+    <ul>
+      <li>优胜劣汰，促成有利于商业的监管环境（business-friendly regulatory environment）</li>
+    </ul>
+  </li>
+  <li>监管机构套利（regulatory arbitrage）
+    <ul>
+      <li>被监管的公司会主动向有利于其发展的监管机构所在的市场靠拢</li>
+      <li>中国教育机构不能在中国上市，所以去美国上市</li>
+    </ul>
+  </li>
+</ul>
+
+<p>监管的方式（tools of regulatory intervention）</p>
+
+<ul>
+  <li>价格管制（price mechanism）</li>
+  <li>活动监管（restricting/requiring certain activities）</li>
+  <li>公共产品（public goods）和私人项目（private projects）的条款（provision）</li>
+</ul>
+
+<p>监管目的和方法</p>
+
+<ul>
+  <li>监管商业活动</li>
+  <li>监管金融市场
+    <ul>
+      <li>证券市场</li>
+      <li>金融机构</li>
+    </ul>
+  </li>
+</ul>
+
+<p>证券市场的监管</p>
+
+<ul>
+  <li>信息披露要求（disclosure requirement）</li>
+  <li>处理代理人问题（mitigating agency problem）
+    <ul>
+      <li>通过公司治理（corporate governance）</li>
+    </ul>
+  </li>
+  <li>保护小额投资者（protecting small (retail) investors）</li>
+</ul>
+
+<p>金融机构的监管</p>
+
+<ul>
+  <li>审慎监管（prudential supervision）
+    <ul>
+      <li>通过降低系统性风险（reduce system-wide risks）来保护投资者</li>
+      <li>例如：国家为防止银行倒闭而产生的危机，做出救市举动</li>
+      <li>但会产生道德风险</li>
+    </ul>
+  </li>
+  <li>隐藏成本（hidden cost）的监管</li>
+</ul>
+
+<p>反垄断（anti-trust）</p>
+
+<p>条款的成本效益分析（cost-benefit analyst）</p>
+
+<ul>
+  <li>监管的成本（regulatory burden）：监管应考虑成本效益分析（cost-benefit analyst），过度的监管会造成不必要的开销</li>
+  <li><strong>日落条款（sunset clause）：终止条款生效的日期。迫使机构重新评估条款的适用性，重新进行成本效益分析（cost-benefit analyst）</strong></li>
+</ul>
+
+<p>监管的影响（effects of specific regulation）</p>
+
+<ul>
+  <li>辅助或者限制行业的发展</li>
+</ul>
+:ET

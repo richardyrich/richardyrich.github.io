@@ -2,7 +2,7 @@
 layout: post
 title: "价格vs价值"
 date: 2017-10-13
-categories: Original
+categories: 投资
 ---
 
 <br>

@@ -2,7 +2,7 @@
 layout: post
 title: 贝佐斯：别追随所谓的当下最热门的事情
 date: 2017-12-05
-categories: Translation
+categories: 翻译
 ---
 
 <p class="small">时间：2001年5月4日</p>

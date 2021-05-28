@@ -1,0 +1,559 @@
+I"M<h2 id="目录">目录</h2>
+<ol>
+  <li>可赎回债券和可卖回债券的分析和估值（续）</li>
+  <li>有利率浮动上、下限的浮动利率债券（capped and floored floating-rate bonds）的估值和分析</li>
+  <li>可转换债券（convertible）的估值和分析</li>
+  <li>度量信用风险（measure of credit risk）</li>
+  <li>传统信用评级（traditional credit rating）</li>
+  <li>使用结构性模型（structural model）估算权益和债券价值</li>
+  <li>信用利差的期限结构（term structure of credit spread）</li>
+  <li>资产担保证券（asset back security）的信用分析</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1-可赎回债券和可卖回债券的分析和估值续">1. 可赎回债券和可卖回债券的分析和估值（续）</h2>
+
+<p><br /><br /></p>
+
+<p>（续上一部分）</p>
+
+<h3 id="e对于含权风险债券risky-bonds的估值">e）对于含权风险债券（risky bonds）的估值</h3>
+
+<p>期权调整价差（option adjusted spread）</p>
+
+<ul>
+  <li>考虑到风险债券存在违约风险，将先前的无风险债券的二差利率树的利率水平进行向上调整</li>
+  <li>零利率波动利差（zero-volatility spread / Z-spread）没有考虑到期权的影响，所以需要进行调整</li>
+  <li>这个调整后的上调的幅度，引入了一个新的名词，期权调整利差（option adjusted spread）</li>
+  <li>期权调整价差考虑到利率波动和内含期权的影响，计算的是实际利差</li>
+</ul>
+
+<p>当利率波动性增加</p>
+
+<ul>
+  <li>可赎回债券的期权调整利差变小</li>
+  <li>可卖回债券的期权调整利差变大</li>
+</ul>
+
+<h3 id="f含权债券的利率风险interest-rate-risk">f）含权债券的利率风险（interest rate risk）</h3>
+
+<p><br /><br /></p>
+
+<p>久期（duration）计量了债券对于利率变化的敏感度（包括应计利息（accrued interest））</p>
+
+<blockquote>
+  <p>久期在上一个部分简单提及了一下</p>
+</blockquote>
+
+<p>久期可以分为两类</p>
+
+<p>a. 收益率久期计量（yield duration measures）</p>
+
+<ul>
+  <li>修正久期（modified duration）
+    <ul>
+      <li>仅用于无权债券，因为假设现金流不会因为利率变化而改变</li>
+    </ul>
+  </li>
+</ul>
+
+<p>b. 曲度久期计量（curve duration measure）</p>
+
+<ul>
+  <li>有效久期 / 期权调整后久期（effective duration / option-adjusted duration）
+    <ul>
+      <li>可以用于直接债券和含权债券</li>
+      <li>假设基准利率曲线仅发生平行移动</li>
+      <li>effective duration = [ ( PV<sub>-</sub> ) - ( PV<sub>+</sub> ) ] / [ 2 × ( △curve ) × ( PV<sub>0</sub> ) ]</li>
+    </ul>
+  </li>
+</ul>
+
+<p>可赎回债券的久期特点</p>
+
+<ul>
+  <li>总的来说
+    <ul>
+      <li>内含期权会导致债券的有效久期减少</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>可赎回债券</strong></p>
+
+<ul>
+  <li>当基准利率高时
+    <ul>
+      <li>可赎回债券和非可赎回债券的有效久期很相似</li>
+    </ul>
+  </li>
+  <li>当基准利率低时
+    <ul>
+      <li>可赎回债券的有效久期比非可赎回债券的有效久期短</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>可卖回债券</strong></p>
+
+<p>刚好相反</p>
+
+<p>单边久期（one-sided duration）</p>
+<ul>
+  <li>含权债券价格对于利率的增减的敏感度是不对称的（asymmetircal）</li>
+  <li>单边久期是含权债券在利率只增加，或者只下降的情况下计算出的有效久期</li>
+  <li>单边久期更好的度量了含权债券对于利率变化的敏感度，尤其是该债券趋于平值状态（near the money）</li>
+</ul>
+
+<p>关键利率久期（key rate duration）</p>
+
+<ul>
+  <li>债券对于某个特定期限的敏感度</li>
+  <li>对于平价流通的（trading at par）<strong><u>不含权债券</u></strong>，仅有和其期限相等的（maturity-matching）关键利率久期不为0</li>
+</ul>
+
+<p>可赎回债券</p>
+
+<ul>
+  <li>息票越高，赎回的可能性越大，导致有效久期越小</li>
+  <li>息票越低，赎回的可能性越低，导致该债券的表现和不含权债券类似，和其期限相等的关键久期最大</li>
+</ul>
+
+<p>可卖回债券</p>
+
+<ul>
+  <li>息票越高，赎回的可能性越低，导致该债券的表现和不含权债券类似，和其期限相等的关键久期最大</li>
+  <li>息票越低，卖回的可能性越大，导致有效久期越小</li>
+</ul>
+
+<p>有效凸性（effective convexity）</p>
+
+<p>a. 直接债券</p>
+
+<ul>
+  <li>较低的正凸性
+    <ul>
+      <li>幅度相同的情况下，利率下降比上升带来的价格影响更大</li>
+    </ul>
+  </li>
+</ul>
+
+<p>b. 可赎回债券</p>
+
+<ul>
+  <li>当基准利率较高时，出现正凸性</li>
+  <li>当基准利率较低时，出现负凸性</li>
+</ul>
+
+<p>c. 可卖回债券</p>
+
+<ul>
+  <li>正凸度
+    <ul>
+      <li>相比直接债券，可卖回债券更大</li>
+    </ul>
+
+    <p><br /><br /></p>
+  </li>
+</ul>
+
+<h2 id="2-有利率浮动上下限的浮动利率债券capped-and-floored-floating-rate-bonds的估值和分析">2. 有利率浮动上、下限的浮动利率债券（capped and floored floating-rate bonds）的估值和分析</h2>
+
+<p><br /><br /></p>
+
+<p>存在利率上限的（capped floater）浮动债券有利于发行人</p>
+
+<ul>
+  <li>利率上限的浮动债券的价值
+    <ul>
+      <li>直接债券的价值 - 浮动上限的价值</li>
+    </ul>
+  </li>
+</ul>
+
+<p>存在利率下限的（floored floater）浮动债券有利于持有人</p>
+
+<ul>
+  <li>利率下限的浮动债券的价值
+    <ul>
+      <li>直接债券的价值 - 浮动下限的价值</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="3-可转换债券convertible的估值和分析">3. 可转换债券（convertible）的估值和分析</h2>
+
+<p><br /><br /></p>
+
+<p>可转换债券（convertible）相关概念</p>
+
+<ul>
+  <li>转换价格（conversion price）
+    <ul>
+      <li>可转换债券（convertible）行权时购买股票的价格</li>
+    </ul>
+  </li>
+  <li>转换价值（conversion value）
+    <ul>
+      <li>= 标的股票价格（underlying share price）× 转换率（conversion ratio）</li>
+    </ul>
+  </li>
+  <li>转换价值下限（minimum / floor value of a convertible bond）
+    <ul>
+      <li>= 转换价值，或者至少不小于相似直接债券的价值</li>
+    </ul>
+  </li>
+  <li>市场转换价格（market conversion price）
+    <ul>
+      <li><strong><u>注意和转换价格（conversion price）区分</u></strong></li>
+      <li>= 转换债券价格（convertible bond price） / 转换率（conversion ratio）</li>
+      <li>实际的转换价格（放弃的债券带来的机会成本 / 股份数）</li>
+    </ul>
+  </li>
+  <li>每股市场转换溢价（market conversion premium per price）
+    <ul>
+      <li>= 市场转换价格（market conversion price） - 标的股票价格（underlying share price）</li>
+      <li><strong>和常见的溢价相反：成本 - 收益</strong></li>
+    </ul>
+  </li>
+  <li>市场转换溢价比率（market conversion premium ratio）
+    <ul>
+      <li>= 每股市场转换溢价 / 标的股票价格（underlying share price）</li>
+      <li><strong>和常见的收益率相反：成本 / 收益 - 1</strong></li>
+    </ul>
+  </li>
+  <li>溢价比率（premium over straight value）
+    <ul>
+      <li>= 转换债券价格（convertible bond price） / 相似直接债券价值 - 1</li>
+      <li>可转换债券的价值相当于直接债券和股票看涨期权之和，溢价比率计算的是看涨期权的价值占比</li>
+    </ul>
+  </li>
+</ul>
+
+<p>可转换债券（convertible）的估值</p>
+
+<ul>
+  <li>当转换价格（conversion price）明显高于股价时
+    <ul>
+      <li>被称为直接债券等价物（bond equivalent），或垃圾可转债（“busted convertible”）</li>
+      <li>此时转换债券几乎不存在转换价值</li>
+      <li>那些常规上能影响直接债券的收益率因素，如信用风险，利率风险等，也以相似的方式影响垃圾可转债</li>
+      <li>股票价格几乎不影响垃圾可转债的价值</li>
+    </ul>
+  </li>
+  <li>当转换价格明显低于股价时
+    <ul>
+      <li>被称为股票等价物（stock equivalent）</li>
+      <li>此时转换债券的价值几乎等于转换价值（follow the conversion value closely）</li>
+      <li>转换债券的价值与股票价格关系密切（exhibit mostly risk-return characteristics）</li>
+      <li>那些常规上能影响直接债券的收益率因素对此时的可转换债券价值影响不大</li>
+    </ul>
+  </li>
+  <li>当转换价格高于股价，但股价在逐步接近转换价格（上升）时
+    <ul>
+      <li>转换债券的价值动态与股票价格动态比较接近，但比股票的价格上升幅度小</li>
+    </ul>
+  </li>
+  <li>当转换价格低于股价，但股价在逐步接近转换价格（下跌）时
+    <ul>
+      <li>转换债券的价值动态与股票价格动态比较接近，但比股票的价格下降幅度小</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="4-度量信用风险measure-of-credit-risk">4. 度量信用风险（measure of credit risk）</h2>
+
+<p><br /><br /></p>
+
+<p>相关概念</p>
+
+<ul>
+  <li>违约概率（probability of default）</li>
+  <li>违约损失率（loss given default）
+    <ul>
+      <li>违约后损失的百分比</li>
+      <li>恢复率（recovery rate）= 1 - 违约损失率</li>
+    </ul>
+  </li>
+  <li>期望损失（expected loss）
+    <ul>
+      <li>违约概率 × 违约损失率</li>
+    </ul>
+  </li>
+  <li>期望损失的现值
+    <ul>
+      <li>使用风险中性概率（risk-neutral probability）</li>
+      <li>考虑 到货币的时间价值（time value of money）</li>
+      <li><strong>期望损失的现值 = 无风险债券价值 - 风险债券的价值</strong></li>
+      <li>风险中性期望损失的现值和期望损失之间的大小不确定</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p>风险中性期望损失的证明过程：</p>
+
+<blockquote>
+  <ul>
+    <li>必要收益率 = 无风险利率 + 风险溢价</li>
+    <li>那么，如果假设风险中性 - &gt; 风险溢价 = 0</li>
+  </ul>
+</blockquote>
+
+<h4 id="1证明期望收益--1---期望损失">1）证明：期望收益 = 1 - 期望损失</h4>
+
+<p>假设1年期无息债，剩余价值为 $100</p>
+
+<ul>
+  <li>违约（概率 = 违约概率）
+    <ul>
+      <li>收益 = 违约概率 × $100 ×（1 - 违约损失率）</li>
+    </ul>
+  </li>
+  <li>无违约（概率 = 1 - 违约概率）
+    <ul>
+      <li>收益 =（1 - 违约概率）× $100</li>
+    </ul>
+  </li>
+</ul>
+
+<p>所以，期望收益</p>
+
+<ul>
+  <li>= 违约概率 × $100 ×（1 - 违约损失率）+（1 - 违约概率）× $100</li>
+  <li>化简 = $100 - 违约概率 × 违约损失率 = <strong><u>$100 ×（1 - 期望损失）</u></strong></li>
+</ul>
+
+<h4 id="2证明期望损失--持有期收益率---无风险利率">2）证明：期望损失 ≈ 持有期收益率 - 无风险利率</h4>
+
+<p>假设投资者风险中性，那么对于此风险债券的必要收益率 = 无风险利率，也就意味着：</p>
+
+<ul>
+  <li>$100 ×（1 - 期望损失）/ 现值 = 1 + 无风险利率</li>
+</ul>
+
+<p>也就是说：现值 = $100 ×（1 - 期望损失）/（1 + 无风险利率）</p>
+
+<p>同时，依照定义：现值 = $100 × 1 /（1 + 持有期收益率）</p>
+
+<p>所以，（1 - 期望损失）/（1 + 无风险利率）= 1 /（1 + 持有期收益率）- &gt; 期望损失 ≈ <strong><u>持有期收益率 - 无风险利率</u></strong></p>
+
+<h4 id="3证明风险中性期望损失--期望损失">3）证明：风险中性期望损失 &gt; 期望损失</h4>
+
+<p>持有期收益率 - 无风险利率 = 信用利差 + 流动性利差</p>
+
+<p>因为风险中性期望损失还包含了流动性风险，而一般意义上的期望损失只包含信用风险，所以</p>
+
+<ul>
+  <li>所以<strong><u>风险中性期望损失 &gt; 期望损失</u></strong></li>
+</ul>
+
+<hr />
+
+<p><br /><br /></p>
+
+<h2 id="5-传统信用评级traditional-credit-rating">5. 传统信用评级（traditional credit rating）</h2>
+
+<ul>
+  <li>信用评分（credit scoring）
+    <ul>
+      <li>用于小企业及个人</li>
+    </ul>
+  </li>
+  <li>信用评级（credit ratings）
+    <ul>
+      <li>用于公司，政体，资产担保证券（asset back security）</li>
+      <li>评价机构由被评估对象支付运营费用，所以存在一定的利益冲突</li>
+      <li>评价机构可能倾向于保持原有评级，避免造成波动</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="6-使用结构性模型structural-model和简约型模型reduced-form-model估算权益和债券价值">6. 使用结构性模型（structural model）和简约型模型（reduced form model）估算权益和债券价值</h2>
+
+<p><br /><br /></p>
+
+<h3 id="结构性模型structural-model">结构性模型（structural model）</h3>
+
+<ul>
+  <li>依靠公司的负债经济情况（economics of a company’s liabilities）和期权定价理论（option pricing theory）</li>
+  <li>结构性模型注重于公司的资产负债表，而得其名</li>
+</ul>
+
+<p>公司的股东的责任有限</p>
+
+<ul>
+  <li>持有公司的权益相当于持有公司资产的看涨欧式期权</li>
+  <li>当公司资产的价值 &gt; 负债的价值，存在违约风险，股东价值为0</li>
+  <li>当公司资产的价值 &lt; 负债的价值，股东的价值等于总资产减去总负债的剩余</li>
+</ul>
+
+<p>公司债权人的有优先权偿付权</p>
+
+<ul>
+  <li>成为公司的债权人相当于持有公司资产的看跌欧式期权</li>
+  <li>执行价格为债券期限，执行价格为债券面值</li>
+</ul>
+
+<p>结构性模型的假设（本质是布莱克-休斯-墨顿模型）</p>
+
+<ul>
+  <li>公司的资产在无摩擦，无套利机会的市场（frictionless markets that are arbitrage free）中交易</li>
+  <li>无风险利率水平恒定</li>
+  <li>公司资产的时间价值（time value）表现出对数正态分布（lognormal distribution），平均值为μT，方差为σ<sup>2</sup>T</li>
+</ul>
+
+<p>结构性模型的公式（如果满足以上假设）</p>
+
+<ul>
+  <li>股东的权益价值
+    <ul>
+      <li>S<sub>t</sub> = A<sub>t</sub> N (d<sub>1</sub>) - K e <sup>-r ( T - t )</sup> N (d<sub>2</sub>)</li>
+    </ul>
+  </li>
+  <li>债权人的债权价值
+    <ul>
+      <li>D<sub>( t, T )</sub> = A<sub>t</sub> N (- d<sub>1</sub>) + K e <sup>-r ( T - t )</sup> N (d<sub>2</sub>)</li>
+    </ul>
+  </li>
+  <li>其中
+    <ul>
+      <li>d<sub>1</sub> = [ ln( A<sub>t</sub> / K ) + r ( T - t ) + 1/2 × σ<sup>2</sup>( T - t ) ] / [ σ × ( T - t )<sup>0.5</sup> ]</li>
+      <li>d<sub>2</sub> = d<sub>1</sub> - σ × ( T - t )<sup>0.5</sup></li>
+    </ul>
+  </li>
+</ul>
+
+<p>此时违约概率（probability of default）= N(d<sub>1</sub>)</p>
+
+<p>将结构性模型公式进行改进</p>
+
+<ul>
+  <li>将该公式中进行修改就可以计算实际的违约损失（考虑到投资者不是风险中性而是风险厌恶的），将公式中的无风险利率改成实际利率即可：r - &gt; μ
+    <ul>
+      <li>其中 e<sub>1</sub> = [ ln( A<sub>t</sub> / K ) + μ ( T - t ) + 1/2 × σ<sup>2</sup>( T - t ) ] / [ σ × ( T - t )<sup>0.5</sup> ]</li>
+      <li>其中 e<sub>2</sub> = e<sub>1</sub> - σ × ( T - t )<sup>0.5</sup></li>
+    </ul>
+  </li>
+</ul>
+
+<p>所以，实际期望损失 = K N( -e<sub>2</sub> ) - A<sub>t</sub> e<sup>μ( T - t )</sup> N ( - e<sub>1</sub> )</p>
+
+<p>期望损失的现值 = 无风险债券价值 - 风险债券的价值 = K P(t, T) - D(t, T) = K e <sup>-r ( T - t )</sup> N ( - d<sub>2</sub> ) - A<sub>t</sub> N ( - d<sub>1</sub> )</p>
+
+<p>结构性模型的优劣</p>
+
+<p>优点</p>
+
+<ul>
+  <li>利用了期权模型模拟了公司的违约概率</li>
+  <li>仅需使用当前市场数据</li>
+</ul>
+
+<p>缺点</p>
+
+<ul>
+  <li>仅使用资产负债表数据，并不考虑宏观的经济周期（business cycle）</li>
+  <li>仅能使用隐含估计确定参数数值，因为公司实际的资产价值不易知晓，而布莱克-休斯-墨顿模型存在缺陷</li>
+  <li>布莱克-休斯-墨顿模型的三个前提假设并不符合实际</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="简约型模型reduced-form-model">简约型模型（reduced form model）</h3>
+
+<ul>
+  <li>假设公司的零息票债券在无摩擦，无套利机会的市场中交易</li>
+  <li>无风险利率，r <sub>t</sub>，是随机的（stochastic）</li>
+  <li>经济情况的变化可以使用不同的随机（stochastic）变量 X<sub>i</sub> 表示</li>
+  <li>在不同的经济情况，违约概率用 λ(X<sub>i</sub>) 表示</li>
+  <li>在违约情况下，违约损失率为 t(X<sub>i</sub>) 表示</li>
+</ul>
+
+<p>简约型模型的优劣</p>
+
+<p>优点</p>
+
+<ul>
+  <li>公式的自变量都是可以在市场中观察可得，所以可以使用历史数据</li>
+  <li>相对于结构性模型
+    <ul>
+      <li>考虑到了经济周期的变化（business cycle）</li>
+      <li>不需要考虑公司的资产债务结构</li>
+    </ul>
+  </li>
+</ul>
+
+<p>缺点</p>
+
+<ul>
+  <li>风险率估计（hazard rate estimation）使用的是历史数据，所以模型应该合理（properly formulated）并且通过事后检验（back test）</li>
+</ul>
+
+<h3 id="两种确定期权定价模型中参数的数值estimate-the-parameters的方法">两种确定期权定价模型中参数的数值（estimate the parameters）的方法</h3>
+
+<ul>
+  <li>【仅简约型模型可以使用】历史估计（historical estimation），又名，风险率估计（hazard rate estimation）
+    <ul>
+      <li>因为现实生活中不存在无摩擦市场，所以历史数据并不隐含数据有效</li>
+    </ul>
+  </li>
+  <li>【结构型模型和简约型模型都可以使用】隐含估计（implicit estimation），又名，调整（calibration）
+    <ul>
+      <li>根据期权本身的价格推算出来</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="7-信用利差的期限结构term-structure-of-credit-spread">7. 信用利差的期限结构（term structure of credit spread）</h2>
+
+<p><br /><br /></p>
+
+<p>信用利差的期限结构表示的是零息票无风险收益率和零息票风险债券收益率之间的利差</p>
+
+<p>步骤</p>
+
+<ol>
+  <li>估算含息票风险债券的价值</li>
+  <li>通过含息票无风险债券的收益率，推算出折现因子（discount factor）
+    <ul>
+      <li>因为期限超过一年的国债不发息票的较少</li>
+    </ul>
+  </li>
+  <li>计算零息票风险债券的收益率
+    <ul>
+      <li>使用的是连续利率水平，D (t, T) = e <sup>-y<sub>D</sub> (t, T) (T - t)</sup></li>
+    </ul>
+  </li>
+  <li>计算零息票无风险债券的收益率
+    <ul>
+      <li>使用的是连续利率水平，P (t, T) = e <sup>-y<sub>P</sub> (t, T) (T - t)</sup></li>
+    </ul>
+  </li>
+  <li>相减算出信用利差</li>
+</ol>
+
+<p>期望损失的现值</p>
+
+<h2 id="8-资产担保证券asset-back-security的信用分析">8. 资产担保证券（asset back security）的信用分析</h2>
+
+<ul>
+  <li>资产担保证券（asset back security）的信用分析涉及到抵押资产池（collateral pool）和收益的分配顺序（distribution waterfall）</li>
+  <li>可以使用结构性模型或者简约型模型（reduced form model）</li>
+  <li>信用风险指标（credit risk measures）
+    <ul>
+      <li>损失概率（probability of loss）</li>
+      <li>期望损失（expected loss）</li>
+      <li>期望损失的现值（present value of expected loss）</li>
+    </ul>
+  </li>
+</ul>
+:ET

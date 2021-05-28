@@ -2,7 +2,7 @@
 layout: post
 title: "为什么我需要学会理财？"
 date: 2017-10-07
-categories: Original
+categories: 投资
 ---
 
 ### 1. 货币总是处在不断贬值的状态

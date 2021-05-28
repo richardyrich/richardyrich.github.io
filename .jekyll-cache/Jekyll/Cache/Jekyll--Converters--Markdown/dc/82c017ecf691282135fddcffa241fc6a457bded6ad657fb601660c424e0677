@@ -1,0 +1,420 @@
+I"�9<h2 id="目录">目录</h2>
+
+<ol>
+  <li>远期合约（forward contract）</li>
+  <li>期货（future）</li>
+  <li>期权（option）</li>
+  <li>离散时间期权定价：二差树模型（discrete-time pricing: the binomial model）</li>
+  <li>连续时间期权定价：布莱克-休斯-墨顿模型（continuous-time pricing: Black–Scholes–Merton model）</li>
+  <li>掉期合约（swap）</li>
+  <li>货币掉期合约（currency swap）</li>
+  <li>权益掉期合约（equity swap）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1-远期合约forward-contract">1. 远期合约（forward contract）</h2>
+
+<p><br /><br /></p>
+
+<p>远期合约的支付价格（forward price）</p>
+<ul>
+  <li>在交割期（settlement date）执行交易的价格</li>
+  <li>合理的远期合约的支付价格应该使得合约设定之初的价值（value）为零</li>
+</ul>
+
+<p>远期合约的支付价格的无套利原则（non-arbitrage principle）</p>
+
+<ul>
+  <li>拥有相同现金流的两个产品应该有相同的定价</li>
+</ul>
+
+<p>远期合约支付价格的定价</p>
+
+<ul>
+  <li>标的资产物（underlying asset）的现货价格（cash price） + 持有成本（carrying costs） + 持有收益（carrying benefits）</li>
+  <li>S<sub>0</sub> × ( 1 + R<sub>f</sub> )<sup>T</sup></li>
+  <li>持有收益可以便利收益率（convenience yield），或者股利，息票，利率等等</li>
+  <li>持有成本可以是标的资产物的储存和保险费用（一般指实物资产）</li>
+</ul>
+
+<p>远期合约的价值（valuation）</p>
+
+<p>V<sub>long</sub> = S<sub>t</sub> - forward price / ( 1 + R<sub>f</sub> )<sup>( T - t )</sup></p>
+
+<hr />
+
+<h3 id="特殊情况">特殊情况</h3>
+
+<p>权益远期合约（equity forward contract）</p>
+
+<ul>
+  <li>考虑到股利（dividend）的影响</li>
+  <li>权益远期合约的价格
+    <ul>
+      <li>= ( S<sub>0</sub> - <u>**PVD<sub>0</sub>**</u> ) × ( 1 + R<sub>f</sub> )<sup>T</sup></li>
+    </ul>
+  </li>
+  <li>权益远期合约的价值
+    <ul>
+      <li>= S<sub>t</sub> - <u>**PVD<sub>t</sub>**</u> - forward price / ( 1 + R<sub>f</sub> )<sup>( T - t )</sup></li>
+    </ul>
+  </li>
+</ul>
+
+<p>债券远期合约（coupon bond forward contract）</p>
+
+<ul>
+  <li>息票（coupon）相当于股利，和权益远期合约的计算方法相同</li>
+</ul>
+
+<p>指数远期合约（equity index forward contract）</p>
+
+<ul>
+  <li>假设：以无风险利率连续复利（continuously compounded risk-free rate）
+    <ul>
+      <li>R<sup>c</sup><sub>f</sub> = ln( 1 + R<sub>f</sub> )</li>
+    </ul>
+  </li>
+  <li>指数远期合约的价格
+    <ul>
+      <li>= S<sub>0</sub> × e<sup>( R<sup>c</sup><sub>f</sub> - δ<sup>c</sup> ) × T</sup></li>
+    </ul>
+  </li>
+  <li>权益远期合约的价值
+    <ul>
+      <li>= ( S<sub>t</sub> / e<sup>δ<sup>c</sup> × ( T - t )</sup> ) - ( forward price / e <sup>R<sup>c</sup><sub>f</sub> × ( T - t)</sup>)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p>远期利率协议（forward rate agreement (FRA)）</p>
+
+<ul>
+  <li>利率远期合约</li>
+  <li>交易量最大的远期合约</li>
+  <li>远期利率协议的“价格”就是远期利率</li>
+</ul>
+
+<p>汇率远期合约（currency forward contract）</p>
+
+<ul>
+  <li>利率抛补平价（covered interest rate parity）</li>
+</ul>
+
+<p>信用风险（credit risk）</p>
+
+<ul>
+  <li>交易对手风险（counterparty risk）
+    <ul>
+      <li>远期合约价值为负的一方存在违约的可能性</li>
+      <li>所以，远期合约价值为正的一方存在违约风险</li>
+    </ul>
+  </li>
+</ul>
+
+<p>盯市（marked to market）可以有效降低违约风险</p>
+
+<p><br /><br /></p>
+
+<h2 id="2-期货future">2. 期货（future）</h2>
+
+<p><br /><br /></p>
+
+<p>远期合约vs期货</p>
+
+<ul>
+  <li>期货的本质就是远期合约</li>
+  <li>交易地点不同
+    <ul>
+      <li>远期合约在场外交易（over-the-counter）</li>
+      <li>期货在交易所交易，所有投资者的对家是清算所（clearing house）</li>
+    </ul>
+  </li>
+  <li>期货存在盯市（mark to market）</li>
+</ul>
+
+<p>远期合约的价格vs期货的价格</p>
+
+<ul>
+  <li>理论上两者应该相等</li>
+  <li>由于盯市的存在，实际上可能会发生偏离
+    <ul>
+      <li>因为期货存在盯市，所以盈利可以立即取出，用于再投资</li>
+      <li>当利率水平和标的资产物的价格存在正相关，期货的价格会比远期合约高</li>
+      <li>如果负相关，期货的价格会比远期合约低</li>
+    </ul>
+  </li>
+</ul>
+
+<p>正向套利（cash and carry arbitrage）和反向套利（reverse cash and carry arbitrage）</p>
+
+<ul>
+  <li>利用标的资产物和期货之间存在的定价错误，做多一方的同时做多另一方，获得收益</li>
+</ul>
+
+<p>正向市场（contango） vs 反向市场（backwardation）</p>
+
+<ul>
+  <li>正向市场：期货价格 &gt; 现货价格</li>
+  <li>反向市场：期货价格 &lt; 现货价格</li>
+  <li>期货溢价（normal contango）：期货价格 &gt; 到期日（settlement date）现货的期望价格（expected cash price）</li>
+  <li>现货溢价（normal backwardation）：期货价格 &lt; 到期日现货的期望价格</li>
+</ul>
+
+<p>期货每天的盯市相当于重置期货的价值，重新回到0</p>
+
+<p>期货的种类</p>
+
+<ul>
+  <li>短期国债期货（T-bill future）</li>
+  <li>欧洲美元定期存款单期货（eurodollar future）
+    <ul>
+      <li>欧洲美元 = 离岸美元（offshore dollar）</li>
+      <li>使用的贷款利率是LIBOR</li>
+    </ul>
+  </li>
+  <li>长期国债期货（T-bond future）
+    <ul>
+      <li>标的资产物为多个期限不小于期货制定的期限的长期国债</li>
+      <li>因此做空方存在交割选择权（delivery option），每个作为标的资产物的债券都有一个相对应的转化因子（conversion factor (CF)）</li>
+      <li>目的是为了防止逼仓（corner the market）：操作期货价格</li>
+    </ul>
+  </li>
+  <li>货币期货（currency future）</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="3-期权option">3. 期权（option）</h2>
+
+<p><br /><br /></p>
+
+<p>和期货的区别是，期权是一个权利（right）而不是义务（obligation）</p>
+
+<ul>
+  <li>期权卖方（option writer）vs 期权买方（option holder）</li>
+  <li>看涨期权（call option）vs 看跌期权（put option）</li>
+  <li>期权价值等于期权价格（option price / option premium）</li>
+</ul>
+
+<p>买卖权平价关系（put-call parity）</p>
+
+<ul>
+  <li>c + X / ( 1 + R<sub>f</sub> )<sup>T</sup> = p + S<sub>0</sub></li>
+  <li>看涨期权 + 无风险贴现债券（risk-free discount bond）= 看跌期权 + 现货价格（S<sub>0</sub>）</li>
+  <li>信托性买权（fiduciary call） = 抛补卖权（protective put）</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="4-离散时间定价二差树模型discrete-time-pricing-the-binomial-model">4. 离散时间定价：二差树模型（discrete-time pricing: the binomial model）</h2>
+
+<ol>
+  <li>股票二差树</li>
+  <li>利率二差树</li>
+</ol>
+
+<p><strong>注意：这里的例子使用的都是欧式期权，美式期权和百慕大期权要考虑提前行权的情况</strong></p>
+
+<p><br /><br /></p>
+
+<h3 id="a-股票二差树">a. 股票二差树</h3>
+
+<p>（假设利率不变）</p>
+
+<p>看涨期权价值 = [ 风险中性上行概率 π × 股票上行时看涨期权价值 c<sup>+</sup> + ( 1 - 风险中性上行概率 π ) × 股票下行时看涨期权价值c<sup>-</sup> ] / ( 1 + R<sub>f</sub> )</p>
+
+<ul>
+  <li>风险中性上行概率 π = ( 1 + 无风险利率 R<sub>f</sub> - 下行幅度 d ) / ( 上行幅度 u - 下行幅度 d )</li>
+  <li>因为d &lt; 1 + R<sub>f</sub> &lt; u, 所以 0 &lt; π &lt; 1</li>
+</ul>
+
+<p>看跌期权的逻辑相同</p>
+
+<h3 id="b-利率二差树">b. 利率二差树</h3>
+
+<p>如果标的资产物（如，债券）和利率直接相关，则使用利率二差树</p>
+<ul>
+  <li>利率的变化将会是题目已知条件，不需要计算</li>
+  <li>上涨概率和下跌概率都是0.5</li>
+</ul>
+
+<p>使用利率期权进行利率封顶（caplet）vs 利率封底（floorlet）vs 利率两头封（interest collar）</p>
+
+<ul>
+  <li>主要适用于浮动利率支付方（float rate payer）</li>
+  <li>利率封顶（caplet）：使用一系列的看涨期权，用于预防利率过高的情况</li>
+  <li>利率封底（floorlet）：相反，同理</li>
+  <li>利率两头封（interest collar）用在抵消使用期权的成本，既限制了潜在的风险，也牺牲了潜在的收益，目的是为了降低购买期权的花费</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="5-连续时间期权定价布莱克-休斯-墨顿模型continuous-time-pricing-blackscholesmerton-model">5. 连续时间期权定价：布莱克-休斯-墨顿模型（continuous-time pricing: Black–Scholes–Merton model）</h2>
+
+<p><br /><br /></p>
+
+<p>布莱克-休斯-墨顿模型假设：</p>
+
+<ul>
+  <li>价格变化符合对数正态分布（lognormal probability distribution）</li>
+  <li>无风险利率已知并且保持不变</li>
+  <li>标的资产物（underlying asset）的波动性已知</li>
+  <li>不存在税收和交易成本</li>
+  <li>标的资产物不存在现金流</li>
+  <li>使用的是欧式期权（european option）</li>
+</ul>
+
+<p>布莱克-休斯-墨顿模型的自变量变化和期权价值的关系</p>
+
+<ul>
+  <li>标的资产物的价格变化（delta）
+    <ul>
+      <li>当标的资产物价格上涨时，看涨期权价值上升，看跌期权价值下降</li>
+    </ul>
+  </li>
+  <li>波动率的变化（vega）
+    <ul>
+      <li>当波动性变大时，期权价值上升</li>
+    </ul>
+  </li>
+  <li>无风险利率的变化（rho）
+    <ul>
+      <li>当利率上升时，看涨期权价值上升，看跌期权价值下降</li>
+    </ul>
+  </li>
+  <li>期权有效期的变化（theta）
+    <ul>
+      <li>随着期权逼近期限，期权的价值下降</li>
+      <li>例外：欧式看跌极实值期权（deep-in-the-money）</li>
+    </ul>
+  </li>
+  <li>执行价格（exercise price）
+    <ul>
+      <li>执行价格越高，看涨期权价值越低，看跌期权价值越高</li>
+    </ul>
+  </li>
+</ul>
+
+<p>delta动态对冲（delta dynamic hedging）</p>
+
+<ul>
+  <li>当投资者预测未来确定期限内会出现重大股价变动，但是不确定变动的方向，可以使用delta动态对冲锁定投资组合的价格防止损失</li>
+</ul>
+
+<p>看涨期权和看跌期权的delta</p>
+
+<ul>
+  <li>在数值上：看涨期权的delta总比看跌期权的delta + 1</li>
+  <li>看涨期权的delta变化：随着股价从 0 到 + ∞，delta从 0 到 1</li>
+  <li>看跌期权的delta变化：随着股价从 0 到 + ∞，delta从 -1 到 1</li>
+  <li>此外，其他条件保持不变，随着期权逼近期限（theta变化），delta也会发生变化</li>
+</ul>
+
+<p>delta动态对冲（delta dynamic hedging）的特点</p>
+
+<ul>
+  <li>delta中性投资组合（delta-neutral portfolio）：做多价值为n股票，则做空价值为n / delta 的看涨期权，或者做多价值为n / delta 的看跌期权</li>
+  <li>delta中性对冲是一个动态的过程，因为delta不停的在变化</li>
+</ul>
+
+<p>gamma动态对冲（gamma）</p>
+
+<ul>
+  <li>gamma测量的是delta的敏感度
+    <ul>
+      <li>delta可以理解为标的资产物的价格的一阶求导，gamma是二阶求导</li>
+    </ul>
+  </li>
+  <li>有相同的执行价格和期限的看涨期权和看跌期权有相同的gamma</li>
+  <li>做多看涨期权和看跌期权时，gamma都为正数</li>
+  <li>平价期权（at-the-money）的gamma最大，极实值期权（deep-in-the-money）和极虚值期权（deep-out-of-the-money）的gamma最小，趋近于0</li>
+</ul>
+
+<p>波动性（volatility）</p>
+
+<ul>
+  <li>历史波动率（historical volitility）：使用布莱克-休斯-墨顿模型进行定价时的使用的波动率</li>
+  <li>隐含波动率（implied volatility）：由现有期权价格逆推出的隐含波动率</li>
+</ul>
+
+<p>布莱克模型（Black model）</p>
+
+<ul>
+  <li>原理和布莱克-休斯-墨顿模型一样，只是标的资产物是远期合约或者期货</li>
+  <li>由该模型可得出，标的资产是期货时，美式期权比欧式期权价值高
+    <ul>
+      <li>因为期货存在盯市，盈利可以即时变现</li>
+    </ul>
+  </li>
+  <li>标的资产是远期合约时，美式期权和欧式期权价值一样</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="6-掉期合约swap">6. 掉期合约（swap）</h2>
+
+<p><br /><br /></p>
+
+<p>掉期合约（swap）</p>
+
+<ul>
+  <li>间隔相等，交换一系列的现金流</li>
+  <li>互换时点（settlement date），互换区间（settlement perid）</li>
+  <li>名义本金（notional value）是用于计算的，实际上本金没有发生交换</li>
+  <li>固定现金流（fixed leg）</li>
+  <li>浮动利率现金流（floating leg）</li>
+  <li>固定利率现金流（fixed leg）</li>
+</ul>
+
+<p>单纯利率交换（plain vanilla interest rate swap）</p>
+
+<ul>
+  <li>浮动利率支付方（floating-rate / variable-rate payer）</li>
+  <li>固定利率支付方（fixed-rate payer）</li>
+  <li>每一次进行交换，现金支付是以钆差交收（netting）的形式进行交易，也就是说只支付差额</li>
+  <li>掉期合约的价格是固定利率支付方支付的利率</li>
+</ul>
+
+<p>掉期合约的原理</p>
+
+<ul>
+  <li>可以理解为一系列的远期利率合约（forward rate agreement (FRA)），虽然这四个FRA的价格不一定为零，所以他们属于是场外（off the market）远期利率合约，但是加起来价格为0</li>
+  <li>可以理解为一系列的看涨期权和看跌期权
+    <ul>
+      <li>因为看涨期权和看跌期权合起来就相当于期货</li>
+    </ul>
+  </li>
+</ul>
+
+<p>掉期合约的价格计算</p>
+
+<ul>
+  <li>一般题目给出每一次息票的折现因子（discount factor）
+    <ul>
+      <li>折现因子 × 息票剩余价值 = 息票现值</li>
+    </ul>
+  </li>
+  <li>由以下公式能够得出掉期合约的价格（也就是固定利率）</li>
+  <li>C = ( 1 - Z<sub>n</sub> ) / ( Z<sub>1</sub> + Z<sub>2</sub> + … + Z<sub>n</sub>)</li>
+  <li>将C<strong><u>年化后</u></strong>可获得掉期合约年利率</li>
+</ul>
+
+<h2 id="7-货币掉期合约currency-swap">7. 货币掉期合约（currency swap）</h2>
+
+<ul>
+  <li>名义本金（notional principals）发生了交换</li>
+  <li>现金流可以是固定利率，可以是浮动利率，也可以混合</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="8-权益掉期合约equity-swap">8. 权益掉期合约（equity swap）</h2>
+
+<ul>
+  <li>CFA一般考察固定利率和权益收益之间的掉期</li>
+</ul>
+:ET
