@@ -1,5 +1,5 @@
 @import 'variables';
-@import 'wechatpost';
+@import 'post';
 
 /*
 =========================
@@ -129,7 +129,7 @@ Footnotes
 .footnotes {
     letter-spacing: $letter-spacing*0.3;
     word-spacing: $word-spacing*0.1;
-    color: lighten($font-color, 20%);
+    color: lighten($font-color, 70%);
 }
 
 /*
