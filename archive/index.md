@@ -14,7 +14,7 @@ title_en: Archive
 {% for category in site.categories %}
 <div>
 {% capture category_name %}{{ category | first }}{% endcapture %}
-### {{ category_name }}
+## {{ category_name }}
             
 {% for post in site.categories[category_name] %}
 * <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
