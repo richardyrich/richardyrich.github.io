@@ -1,0 +1,345 @@
+I"$+<h2 id="目录">目录</h2>
+
+<ol>
+  <li>总结</li>
+  <li>基本概念</li>
+  <li>一元回归模型</li>
+  <li>多元回归模型</li>
+  <li>判别回归模型的解释能力 1：方差分析（ANOVA）- 量化指标</li>
+  <li>判别回归模型的解释能力 2：t 检验（t test）- 定性指标</li>
+  <li>判别回归模型的解释能力 3：F 检验（F test）- 定性指标</li>
+  <li>虚拟变量（dummy variable）</li>
+  <li>第一种违反：异方差（homoscedasticity）</li>
+  <li>第二种违反：序列相关/自相关（Serial correlation/autocorrelation）</li>
+  <li>第三种违反：多重共线性(Multicollinearity）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1总结">1）总结</h2>
+<p><br /><br />
+<strong>1. 判别回归模型的解释能力</strong></p>
+
+<ul>
+  <li>定量：方差分析（ANOVA）</li>
+  <li>定性：t检验（t test），F检验（F test）</li>
+</ul>
+
+<p><strong>2. 虚拟变量（dummy variable）</strong></p>
+
+<ul>
+  <li>斜率系数，截距系数</li>
+  <li>t 检验</li>
+</ul>
+
+<p><strong>3. 前提假设的三种违反</strong></p>
+
+<ul>
+  <li>异方差（homoscedasticity）</li>
+  <li>自相关（Serial correlation/autocorrelation）</li>
+  <li>多重共线性（Multicollinearity）</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="2基本概念">2）基本概念</h2>
+<p><br /><br />
+<strong>协方差(covariance)</strong></p>
+
+<ul>
+  <li>变量和自身的协方差就是方差</li>
+  <li>协方差的取值范围：负无穷到正无穷</li>
+</ul>
+
+<p><strong>相关系数（Correlation）</strong></p>
+
+<ul>
+  <li>相关系数没有单位</li>
+  <li>由协方差计算而得：<strong>-1 ≤ ρ <sub>xy</sub> = Cov(x, y)/(s<sub>x</sub> s<sub>y</sub>) ≤ 1</strong></li>
+  <li>度量的是两个变量之间的线性关系</li>
+  <li>相关系数和斜率是两个概念：相关系数 = 1 不代表斜率 = 1</li>
+</ul>
+
+<p><strong>回归分析的局限</strong></p>
+
+<ul>
+  <li>异常值（outliner）</li>
+  <li>伪相关（Spurious correlation）</li>
+  <li>非线性关系（Nonliner relationships)</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="3一元回归模型">3）一元回归模型</h2>
+<blockquote>
+  <p>一元回归方程公式：<strong>y<sub>i</sub> = b<sub>0</sub> + b<sub>1</sub> x<sub>i</sub> + ε<sub>i</sub></strong></p>
+</blockquote>
+
+<p><br /><br />
+<strong>回归方程的显著性检验：</strong></p>
+
+<p>相关系数的假设检验：<br />
+t 检验（t-test）</p>
+
+<p>t = r√（n - 2）/√（1 - r<sup>2</sup>）</p>
+
+<ul>
+  <li>df = n - k - 1</li>
+  <li>r = 相关系数（correlation）</li>
+  <li>k = 自变量的个数，在一元回归方程里 k = 1</li>
+</ul>
+
+<blockquote>
+  <p>CFA 1级涉及4种假设检验：</p>
+
+  <ul>
+    <li>z检验</li>
+    <li>t检验</li>
+    <li>F检验</li>
+    <li>X<sup>2</sup>检验</li>
+  </ul>
+</blockquote>
+
+<p><strong>一元回归的6个前提假设：</strong></p>
+
+<ol>
+  <li>x和y之间存在线性关系</li>
+  <li>x和残差不相关</li>
+  <li>残差的期望值为0</li>
+  <li>残差的方差恒定（homoscedasticity）</li>
+  <li>残差之间不存在相关性</li>
+  <li>残差服从正态分布</li>
+</ol>
+
+<p><strong>自变量系数的计算：</strong><br />
+b<sub>1</sub> = Cov（x, y）/Var（x）<br />
+b<sub>0</sub> = y（平均值）- b<sub>1</sub> x（平均值）</p>
+
+<p><br /><br /></p>
+
+<h2 id="4多元回归模型">4）多元回归模型</h2>
+<p><br /><br />
+<strong>多元回归的6个前提假设：</strong></p>
+
+<ol>
+  <li>自变量和y之间存在线性关系</li>
+  <li>自变量之间不存在相关关系</li>
+  <li>残差的期望值为0</li>
+  <li>残差的方差恒定（homoscedasticity）</li>
+  <li>残差之间不存在相关性</li>
+  <li>残差服从正态分布</li>
+</ol>
+
+<blockquote>
+  <p>对比一元回归的6个前提假设，会发现仅有2. 稍有不同</p>
+</blockquote>
+
+<p><br /><br /></p>
+
+<h2 id="5判别回归模型的解释能力-1方差分析anova--量化指标">5）判别回归模型的解释能力 1：方差分析（ANOVA）- 量化指标</h2>
+<p><br /><br />
+<strong>方差分析（ANOVA）：</strong></p>
+
+<p>总平方和 = 回归平方和 + 残差平方和<br />
+（Total sum of square = regression sum of square + error sum of square）</p>
+
+<p><strong>估计标准误差（Standard error of estimate）：</strong></p>
+
+<p>估计标准误差 = √残差平方和</p>
+<blockquote>
+  <p>平均残差平方和 = 残差平方和/（n - k - 1）</p>
+</blockquote>
+
+<p><strong>决定系数 R<sup>2</sup>（Coefficient of determination）：</strong></p>
+
+<p>R<sup>2</sup> &gt; 0.7 意味着回归关系显著 <br />
+（aka. 70%的y的变化能被x的变化解释）</p>
+
+<p>a. 一元回归中：R<sup>2</sup> = r<sup>2</sup></p>
+<blockquote>
+  <p>也就是说，在一元回归里，决定系数 R<sup>2</sup> 等于x和用之间的相关系数的平方</p>
+</blockquote>
+
+<p>b. 多元回归中，在考虑是否要加入新的自变量时，需要对R<sup>2</sup>进行调整： adjusted R<sup>2</sup></p>
+
+<ul>
+  <li>如果R<sup>2</sup>不进行调整，其他条件不变时，自变量越多，R<sup>2</sup>越大</li>
+</ul>
+
+<p>c.如果只是单纯计算多元回归的解释能力，不需使用adjusted R<sup>2</sup>，只用R<sup>2</sup>即可</p>
+
+<p><br /><br /></p>
+
+<p>##6）判别回归模型的解释能力 2：t 检验（t test）- 定性指标
+<br /><br />
+<strong>回归系数的t 检验：</strong></p>
+
+<p><strong>t = b<sub>1</sub></strong>（样本估计值）<strong>/s<sub>b<sub>1</sub></sub></strong>（目标总体标准差，即样本标准差除以根号下样本量）<br />
+<strong>df = n - k - 1</strong></p>
+
+<p><strong>置信区间（confidence interval）：</strong><br />
+<strong>b<sub>1</sub></strong> （样本估计值）<strong>± t<sub>c</sub> b<sub>1</sub></strong></p>
+
+<p><br /><br /></p>
+
+<h2 id="7判别回归模型的解释能力-3f-检验f-test--定性指标">7）判别回归模型的解释能力 3：F 检验（F test）- 定性指标</h2>
+<blockquote>
+  <p>whole model significance test</p>
+
+  <p>仅用于多元回归</p>
+</blockquote>
+
+<p>原假设，所有的自变量系数都 = 0，方程不具有解释力</p>
+
+<p>F = 平均回归平方和/平均残差平方和<br />
+（mean square of regression/mean square of error）<br />
+（ =（sum square of regression/k）/（sum square of error/（n - k - 1））</p>
+
+<p>df1 = k<br />
+df2 = n - k - 1</p>
+
+<p><br /><br /></p>
+
+<p>##8）虚拟变量（dummy variable）</p>
+<blockquote>
+  <p>定性的自变量</p>
+</blockquote>
+
+<blockquote>
+  <p>例如：男/女，有/无，初中/高中/大学</p>
+</blockquote>
+
+<p>虚拟变量的 t 检验：<br />
+其他条件相同，存在和不存在该虚拟变量是否存在明显差异</p>
+
+<p><br /><br /></p>
+
+<h2 id="9多元回归的第一种违反异方差homoscedasticity">9）多元回归的第一种违反：异方差（homoscedasticity）</h2>
+<blockquote>
+  <p>异方差：残差的方差不恒定</p>
+</blockquote>
+
+<p><br /><br />
+<strong>定义：</strong></p>
+
+<ul>
+  <li>无条件异方差（残差方差不恒定，但和x的值无关）</li>
+  <li>有条件异方差（残差方差不恒定，但和x的值有关）</li>
+</ul>
+
+<p><strong>影响：</strong></p>
+
+<ul>
+  <li>CFA中默认忽略无条件异方差的影响</li>
+  <li>有条件异方差对回归的结果没有影响，对于斜率和截距的估计值是对的，但是t检验的结果不对</li>
+</ul>
+
+<blockquote>
+  <ul>
+    <li>
+      <p>在有条件异方差的影响下，人们会可能误把原本拟合不佳的回归模型误以为拟合合理（误以为有统计学显著性，但实际上不具有）</p>
+    </li>
+    <li>
+      <p>因为在 t = b<sub>j</sub>（样本估计值）/s<sub>b<sub>j</sub></sub>（目标总体标准差，即样本标准差除以根号下样本量）中 <br />
+有条件异方差导致s<sub>b<sub>j</sub></sub>比实际要小，所以算出来的t比实际要大</p>
+    </li>
+    <li>
+      <p>增加了第一类错误的概率（Type I error），拒绝了原本不应该拒绝的原假设</p>
+    </li>
+  </ul>
+</blockquote>
+
+<p><strong>检测：</strong></p>
+
+<p>1. 残差散点图<br />
+2. 布鲁奇-培根检验(Breusch-Pagan test)<br />
+如果BP检测不拒绝原假设，则不存在异方差（CFA里面的假设检验一般都是想要拒绝原假设，但是BP检验除外）</p>
+
+<blockquote>
+  <ul>
+    <li>公式BP = nR<sup>2</sup><sub>res</sub> （自变量和残差之间的回归方程的决定系数）</li>
+    <li>df = k</li>
+    <li>这是一个X<sup>2</sup>卡方检验</li>
+  </ul>
+</blockquote>
+
+<p><strong>修正：</strong></p>
+
+<ol>
+  <li>稳健的标准物（robust standard errors）（CFA指定的方法）</li>
+  <li>广义最小二乘法（CFA没有提到）</li>
+</ol>
+
+<blockquote>
+  <p>回顾之前提到的：有条件异方差导致sbj比实际要小
+使用了稳健的标准物，用一个更合理的标准值，但是这样依然并不能改变残差的异方差问题，所以实际上治标不治本</p>
+</blockquote>
+
+<p><br /><br /></p>
+<h2 id="10多元回归的第二种违反序列相关自相关serial-correlationautocorrelation">10）多元回归的第二种违反：序列相关/自相关（Serial correlation/autocorrelation）</h2>
+<blockquote>
+  <p>序列相关：前期的自变量的数值会影响后期的自变量数值</p>
+</blockquote>
+
+<p><br /><br />
+<strong>定义：</strong></p>
+
+<ul>
+  <li>正序列相关（Positive serial correlation）</li>
+  <li>负序列相关（Negative serial correlation）</li>
+</ul>
+
+<p><strong>影响：</strong></p>
+
+<ul>
+  <li>对回归系数没有影响</li>
+  <li>对斜率的t检验有影响</li>
+</ul>
+
+<p><strong>检测：</strong></p>
+
+<ul>
+  <li>画出残差散点图</li>
+  <li>使用杜宾沃森检验（Durbin-Watson Test）</li>
+</ul>
+
+<p><strong>杜宾沃森检验（Durbin-Watson Test）：</strong> <br />
+<strong>0 ≤ DW ≈ 2(1-r) ≤ 4</strong><br />
+（r &lt;- 自相关系数）</p>
+
+<p>通过查阅DW table可以获得两个数值，d<sub>L</sub> 和 d<sub>U</sub></p>
+
+<p><strong>修正：</strong></p>
+
+<p><strong>Hanson method:</strong> 调整系数标准差</p>
+
+<p><br /><br /></p>
+
+<h2 id="11多元回归的第三种违反多重共线性multicollinearity">11）多元回归的第三种违反：多重共线性（Multicollinearity）</h2>
+<blockquote>
+  <p>多重共线性：变量之间存在明显的相关关系</p>
+</blockquote>
+
+<p><br /><br />
+<strong>定义：</strong>相关系数的绝对值大于0.7</p>
+
+<p><strong>检测：</strong></p>
+
+<p>a）检测方法1：</p>
+
+<ol>
+  <li>所有的t检验都不拒绝原假设（= 模型拟合不足）</li>
+  <li>F拒绝原假设（= 模型拟合良好，与第一个检验矛盾）</li>
+  <li>R<sup>2</sup> &gt; 0.7 （= 模型拟合良好，与第一个检验矛盾）</li>
+</ol>
+
+<p>b）检测方法2：<br />
+（CFA提到的方法）</p>
+
+<p>自变量之间的相关系数的绝对值 &gt; 0.7</p>
+
+<p><strong>修正：</strong>
+移除一个或多个存在相关关系的系数</p>
+
+<p><br /><br /></p>
+:ET

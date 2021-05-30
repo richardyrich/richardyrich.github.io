@@ -1,0 +1,141 @@
+I",<h2 id="目录">目录</h2>
+<ol>
+  <li>情景分析，决策树，模拟的区别</li>
+  <li>模拟的步骤</li>
+  <li>模拟的优势</li>
+  <li>模拟的应用</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1情景分析决策树模拟的区别">1）情景分析，决策树，模拟的区别</h2>
+<p><br /><br />
+离散的</p>
+
+<ul>
+  <li>情景分析</li>
+  <li>决策树</li>
+</ul>
+
+<p>连续的</p>
+
+<ul>
+  <li>情景分析</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Risk Approach</th>
+      <th>Discrete/ Continuous</th>
+      <th>Correlated/ Concurrent</th>
+      <th>Sequential/ Concurrent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scenario analysis</td>
+      <td>Discrete</td>
+      <td>Correlated</td>
+      <td>Concurrent</td>
+    </tr>
+    <tr>
+      <td>Decision tree</td>
+      <td>Discrete</td>
+      <td>Independent</td>
+      <td>Sequential</td>
+    </tr>
+    <tr>
+      <td>Simulations</td>
+      <td>Continuous</td>
+      <td>Either</td>
+      <td>Either</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /><br /></p>
+
+<h2 id="2模拟的步骤">2）模拟的步骤</h2>
+<blockquote>
+  <p>其实就是传说中的 monte carlo simulation</p>
+</blockquote>
+
+<p><br /><br /></p>
+
+<ol>
+  <li>指定应该使用的变量（variables）</li>
+  <li>定义变量的概率分布（probabilistic distribution）
+    <ul>
+      <li>历史数据（historical data）</li>
+      <li>同类型数据比较（Cross section data）</li>
+      <li>自行指定可能存在的概率分布模式（Statistical distribution and parameters）</li>
+    </ul>
+  </li>
+  <li>指定相关系数（correlation）
+    <ul>
+      <li>两种处理存在着相关性的随机自变量的方法：</li>
+    </ul>
+    <ul>
+      <li>选择对因变量影响最大的其中一个随机自变量</li>
+      <li>将随机自变量的相关性的影响也建入模型内</li>
+    </ul>
+  </li>
+  <li>将模拟运行足够次数
+    <ul>
+      <li>随机自变量的个数越多，应该运行的次数越多
+<br /><br />
+<br /><br /></li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="3模拟的优势">3）模拟的优势</h2>
+
+<ul>
+  <li>对输入参数（随机自变量）的模拟更加合理</li>
+  <li>输出结果不再是一个单点的估计，而是一个概率分部</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="4模拟的应用">4）模拟的应用</h2>
+<ul>
+  <li>账面价值（book value）
+    <ul>
+      <li>测试公司的资本是否满足法律要求</li>
+      <li>例如：金融机构的资本是否满足资本充足率</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>巴塞尔协议，全名是资本充足协定（Capital Accord），是巴塞尔银行监理委员会成员，为了维持资本市场稳定、减少国际银行间的不公平竞争、降低银行系统信用风险和市场风险，推出的资本充足比率要求。在1988年首次订立，并于2003年作出了第二次的修订。</p>
+
+  <p>https://zh.wikipedia.org/zh-cn/巴塞尔协议</p>
+</blockquote>
+
+<ul>
+  <li>利润和现金流
+    <ul>
+      <li>公司预测未来利润和现金流动向</li>
+      <li>测试公司的利润和现金流是否满足贷款的要求</li>
+    </ul>
+  </li>
+  <li>公司市值
+    <ul>
+      <li>满足再融资要求</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="5模拟的注意事项">5）模拟的注意事项</h2>
+<ul>
+  <li>输入参数需合理（garbage in garbage out）</li>
+  <li>现实数据不一定完全符合模拟的假设的模型</li>
+  <li>未来的数据的概率分布模式可能会与历史数据不同</li>
+  <li>随机自变量的相关系数可能会发生变化</li>
+</ul>
+:ET

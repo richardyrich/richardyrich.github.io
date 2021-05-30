@@ -1,0 +1,407 @@
+I"�7<h2 id="目录">目录</h2>
+
+<ol>
+  <li>存货（inventory）</li>
+  <li>长期资产（long-live assets）</li>
+  <li>租赁（lease）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1-存货inventory">1. 存货（inventory）</h2>
+
+<blockquote>
+  <h3 id="会计通用的原则">会计通用的原则：</h3>
+</blockquote>
+
+<blockquote>
+  <p><strong>1. 财务报表总是满足会计的BASE法则</strong></p>
+  <ul>
+    <li>beginning + addition - subtraction = ending</li>
+  </ul>
+
+  <p><strong>2. 存量和流量之间的计算</strong></p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>存量和流量之间的关系的计算，存量需要取平均值，比如说：</li>
+    <li>资产周转率，资产取平均数</li>
+    <li>唯一例外：现金流量对负债总额比率（cash flow-to-debt ratio），负债总额不需要使用平均值</li>
+  </ul>
+</blockquote>
+
+<p><br /><br /></p>
+
+<h3 id="a-存货计价的方式">a. 存货计价的方式</h3>
+
+<ul>
+  <li>后进先出法（LIFO）
+    <ul>
+      <li>国际财务报告准则（international financial reporting standards (IFRS)）：不允许</li>
+      <li>美国公认会计原则（US generally accepted accounting principles (US GAAP)）：如果税法上使用，则财务报表也应该使用，而且必须披露后进先出法储备（LIFO reserve）</li>
+    </ul>
+  </li>
+  <li>加权平均法（weighted average）
+    <ul>
+      <li>总是介于后进先出法和先进先出法之间</li>
+    </ul>
+  </li>
+  <li>先进先出法（FIFO）</li>
+  <li>个别计价法（specific identification）</li>
+</ul>
+
+<p>后进先出法和先进先出法之间的重要调整</p>
+
+<ul>
+  <li>存货（inventory）的调整
+    <ul>
+      <li>后进先出法的存货 + 后进先出法储备（LIFO reserve） = 先进先出法的存货</li>
+    </ul>
+  </li>
+  <li>主营业务成本（COGS）的调整
+    <ul>
+      <li>先进先出法主营业务成本 = 后进先出法主营业务成本 - 后进先出法储备变化量（△LIFO reserve）</li>
+    </ul>
+  </li>
+  <li>净收入（net income）的调整
+    <ul>
+      <li>先进先出法净收入 = 后进先出法净收入 + 后进先出法储备变化量 × （1 - 税率）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>计价的周期</p>
+
+<ul>
+  <li>永续盘存制（perpetual inventory system）</li>
+  <li>定期盘存制（periodic inventory system）</li>
+</ul>
+
+<p>后进先出法清算（LIFO liquidation）</p>
+
+<ul>
+  <li>存货数量（不是金额）出现下降，则需要使用后进先出法清算</li>
+  <li>但是实际上存货数量不会披露，所以当存货金额出现下降时，加上分析师一般假设物价在上升，所以分析师可以怀疑（但不能确定）出现了后进先出法清算</li>
+  <li>主营业务成本调增：出现后进先出法清算</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="2-库存调整---减记inventory-adjustment---write-down">2. 库存调整 - 减记（inventory adjustment - write-down）</h3>
+
+<ul>
+  <li>IFRS
+    <ul>
+      <li>成本（cost）或可变现净值（net realized value），取更低的一者</li>
+      <li>可变现净值 = 售价（sales price） - 销售成本（selling cost）</li>
+      <li>损失的库存可以转回（write up），但是转回的额度不能大于曾经发生的损失</li>
+    </ul>
+  </li>
+  <li>US GAAP
+    <ul>
+      <li>成本（cost）或市价（market），取更低的一者</li>
+      <li>市价（market）= 重置成本（replacement cost）</li>
+      <li>可变现净值 - 正常利润边际（normal profit margin） &lt; 市价 &lt; 可变现净值</li>
+      <li>损失的库存不可以转回</li>
+    </ul>
+  </li>
+  <li>例外，IFRS和US GAAP都适用：农业产品，林业产品和矿业产品的库存可以用可变现净值
+    <ul>
+      <li>此类商品的交易频繁，易于定价</li>
+    </ul>
+  </li>
+</ul>
+
+<p>减记的影响</p>
+
+<ul>
+  <li>降低：
+    <ul>
+      <li>获利能力比率（profitability ratio）</li>
+      <li>流动比率（liquidity ratio）</li>
+      <li>偿债能力比率（solvency ratio）</li>
+    </ul>
+  </li>
+  <li>因为减记同时降低收益和库存的账面价值（carrying amount of inventory）</li>
+  <li>提高：
+    <ul>
+      <li>经营活动比率（activity ratio）：存货周转率（inventory turnover）</li>
+    </ul>
+  </li>
+  <li>因为资产减少了</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="2-长期资产long-live-assets">2. 长期资产（long-live assets）</h2>
+
+<p><br /><br /></p>
+
+<p>资本化（capitalize）vs 费用化（expense）</p>
+
+<ul>
+  <li>公司的支出（expenditure）可以被归为资产或者费用</li>
+  <li>资本化的支出影响的是投资性现金流（cash flow from investment）</li>
+  <li>费用化的支出影响的是经营现金流（cash flow from operating）</li>
+</ul>
+
+<blockquote>
+  <p>实际上，投资性现金流和营业性现金流的主要区别在于期限</p>
+</blockquote>
+
+<p><br /><br /></p>
+
+<h3 id="1-利息资本化capitalizing-interest">1. 利息资本化（capitalizing interest）</h3>
+
+<ul>
+  <li>使用场合例子：处于建造过程中的房产，其产生的利息支出</li>
+  <li>在未来，这些资产化的利息将以折旧（depreciation）的形式平摊</li>
+  <li>利息覆盖率（interest coverage ratio）（息税前利润（earning before interest taxes (EBIT)）/ 利息支出）
+    <ul>
+      <li>因为EBIT不会被利率影响，而利息支出变小，所以资本化后，如果只用资产债务表中的数据，利息覆盖率增大</li>
+      <li>但是现金流量表的利息不会因为资本化而改变，所以实际应该使用现金流量表中的数据计算利息覆盖率</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="2-研究与开发支出research-and-development-cost">2. 研究与开发支出（research and development cost）</h3>
+
+<ul>
+  <li>美国公认会计原则
+    <ul>
+      <li>研究（research）和开发（development）都费用化</li>
+      <li>例外：软件开发费用可以资本化</li>
+    </ul>
+  </li>
+  <li>国际财务报告准则
+    <ul>
+      <li>研究费用化，开发资本化</li>
+    </ul>
+  </li>
+</ul>
+
+<p>由于研究与开发是持续不断的过程，资本化对于成本计算的影响是长期的（甚至是永久的，如果研发一直继续）</p>
+
+<p>折旧方法（depreciation methods）</p>
+
+<ul>
+  <li>直线折旧法（straight line depreciation）</li>
+  <li>加速折旧法（accelerated depreciation method）
+    <ul>
+      <li>加速折旧法中，CFA只考：双倍余额递减法（double-declining balance）</li>
+    </ul>
+  </li>
+  <li>工作量折旧法units of production</li>
+</ul>
+
+<p>残值（salvage value）的改变或者使用年限（asset lives）的改变，不需要进行追溯调整（retrospective adjustment），只需要进行未来调整（prospective adjustment）</p>
+<ul>
+  <li>会计原则（principles），会计政策（policies），会计标准（standards）</li>
+</ul>
+
+<p>折旧分析（depreciation analysis）</p>
+
+<ol>
+  <li>平均已使用年限（average age） = 累计折旧（accumulated depreciation）/ 每年折旧费用（annual depreciation expense）</li>
+  <li>平均剩余可用年限（average remaining useful life）= 年终财产、厂房和设备净值（ending net property, plants, and equipments）/ 每年折旧费用（annual depreciation expense）</li>
+  <li>平均总使用年限（average depreciable life）= 年终财产、厂房和设备总值（ending net property, plants, and equipments）/ 每年折旧费用（annual depreciation expense）
+    <ul>
+      <li>1 和 2 加起来等于 3</li>
+    </ul>
+  </li>
+</ol>
+
+<p><br /><br /></p>
+
+<h3 id="3-长期资产的减值impairment-of-long-lived-asset">3. 长期资产的减值（impairment of long-lived asset）</h3>
+
+<p>国际财务报告准则</p>
+
+<ul>
+  <li>三种计算方式：成本模型（cost model），再评估模型（revaluation model），公允价值模型（fair value model）</li>
+</ul>
+
+<p>成本模式（cost model）</p>
+
+<ul>
+  <li>触发条件：当账面价值（carrying value）&gt; 可收回金额（recoverable amount）</li>
+  <li>计算：可收回金额（recoverable amount） = 使用价值（value in use）和公允价值减去销售成本（fair value less selling cost）之间较大的一者</li>
+  <li>减值额：账面价值和可收回金额之间钆差（netting）</li>
+  <li>可以转回（reverse）
+    <ul>
+      <li>例外：农业产品，林业产品和矿业产品可以升值（upward）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>再评估模型（revaluation model）和公允价值模型（fair value model）</p>
+
+<ul>
+  <li>同类资产只能有一种方法，一旦决定不能随意改变，但是同一个财务报表可以同时存在两种方法</li>
+  <li>再评估模型：资产的损失计为净利润的损失（利润表），收益计为投资性现金流的增加（现金流量表）</li>
+  <li>公允价值模型：如，投资性房地产（investment property），收益和损失都记在净收益的收益或者损失（利润表）</li>
+</ul>
+
+<p>美国公认会计原则</p>
+
+<ul>
+  <li>只有一种计算方式：成本模式（cost model）</li>
+  <li>触发条件：账面价值 &gt; 未来不进行折现的现金流总和（future undiscounted cash flow stream）</li>
+  <li>计算：账面价值 - 公允价值（fair value）或者未来现金流的贴现（discounted value of the future cash flows）如果公允价值不可得的情况下
+    <ul>
+      <li>未来现金流的贴现 = 使用价值</li>
+    </ul>
+  </li>
+  <li>不可转回（reverse）
+    <ul>
+      <li>例外：待售（held for sale）长期资产可以转回，但不能升值</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <ol>
+    <li>
+      <p>公允价值：自愿进行的公平交易（arm’s length transaction）的情况下，交易的价格</p>
+    </li>
+    <li>投资性现金流包含以下四（五）类：
+      <ul>
+        <li>可销售证券的未实现损益（unrealized gains and losses from available-for-sale securities）</li>
+        <li>约定给付退休金（defined benefit pension plan）</li>
+        <li>外币折算损益（foreign currency translation gains and losses）</li>
+        <li>现金流量套期保值的未实现损益（unrealized gains and losses from cash flow hedging derivatives）</li>
+        <li>IFRS特有：当长期资产使用再评估模型时，长期资产的收益（但不包括损失）计为投资性现金流的增加</li>
+      </ul>
+    </li>
+    <li>套期保值有三种方式
+      <ul>
+        <li>现金流套期保值</li>
+        <li>公允价值套期保值</li>
+        <li>外币折算套期保值</li>
+      </ul>
+    </li>
+  </ol>
+</blockquote>
+
+<p><br /><br /></p>
+
+<h2 id="3-租赁lease">3. 租赁（lease）</h2>
+
+<p><br /><br /></p>
+
+<p>参与租赁的双方</p>
+
+<ul>
+  <li>承租人（lessee）</li>
+  <li>出租人（lessor）</li>
+</ul>
+
+<p>租赁的分类</p>
+
+<ul>
+  <li>经营租赁（operating lease）</li>
+  <li>融资租赁 / 资本租赁（financial leasing (IFRS) / capital leasing (US GAAP)）</li>
+</ul>
+
+<h3 id="1-承租人lessee">1. 承租人（lessee）</h3>
+
+<p>美国公认会计原则</p>
+
+<p>对于承租人来说，满足以下任一条件则属于融资租赁，否则属于经营租赁：</p>
+
+<ol>
+  <li>资产的所有权（title）在租约结束时发生了转移</li>
+  <li>承租人拥有以优惠价格购买（bargain purchase）的权利</li>
+  <li>租约的期限不小于资产的经济使用年限（economic life）的75%</li>
+  <li>租赁费用的现值不小于资产的公允价值的90%</li>
+</ol>
+
+<p>资本租赁和经营租赁对于财务报表的影响：</p>
+
+<ul>
+  <li>现金流量表
+    <ul>
+      <li>资本租赁：利息支出属于营业性现金流，本金部分属于融资性现金流</li>
+      <li>经营租赁：所有支出属于营业性现金流</li>
+    </ul>
+  </li>
+  <li>利润表
+    <ul>
+      <li>EBIT：资本租赁的EBIT更高，因为一部分支出属于利息支出，不计入EBIT</li>
+    </ul>
+  </li>
+</ul>
+
+<p>融资租赁 和 经营租赁 对于各项比率的影响</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>-</th>
+      <th>融资租赁</th>
+      <th>经营租赁</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>流动比率</td>
+      <td>低<sup>a</sup></td>
+      <td>相反</td>
+    </tr>
+    <tr>
+      <td>营运资金</td>
+      <td>低<sup>a</sup></td>
+      <td>相反</td>
+    </tr>
+    <tr>
+      <td>资产周转率</td>
+      <td>低</td>
+      <td>相反</td>
+    </tr>
+    <tr>
+      <td>（早期）资产收益率</td>
+      <td>低</td>
+      <td>相反</td>
+    </tr>
+    <tr>
+      <td>（早期）股本收益率</td>
+      <td>低<sup>b</sup></td>
+      <td>相反</td>
+    </tr>
+    <tr>
+      <td>债务资产比</td>
+      <td>高<sup>c</sup></td>
+      <td>相反</td>
+    </tr>
+    <tr>
+      <td>债务股本比</td>
+      <td>高<sup>d</sup></td>
+      <td>相反</td>
+    </tr>
+    <tr>
+      <td>利息覆盖率</td>
+      <td>低<sup>e</sup></td>
+      <td>相反</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>备注</p>
+
+<ul>
+  <li>a：因为融资租赁产生了短期负债</li>
+  <li>b：融资租赁导致前期净利润比经营租赁更小，这个减少的金额也以相同的幅度影响了股东权益（保留盈余（retained earning）），意味着分子和分母同时减去了一个值，对于小于1的分数来说，这个分数会变得更小</li>
+  <li>c：和b相反</li>
+  <li>d：债务显著增加，而相比之下，股东权益受影响的幅度不大</li>
+  <li>e：分子EBIT受影响的幅度不如分母大，考虑到利息覆盖率一般是大于1的数字，所以利息的大幅增加导致利息覆盖率更低
+    <ul>
+      <li>比如拿第一期的租金支付来说，分子部分：融资租赁由于租赁资产出现在了资产债务表里，发生了折旧，EBIT因此减少了792.5，相对于经营租赁减少的1,000来说，多了207.5</li>
+      <li>相比之下，分母部分：融资租赁产生额外利息317</li>
+      <li>分子增加的幅度比分母小</li>
+    </ul>
+  </li>
+</ul>
+
+<p>（下部分续）</p>
+:ET

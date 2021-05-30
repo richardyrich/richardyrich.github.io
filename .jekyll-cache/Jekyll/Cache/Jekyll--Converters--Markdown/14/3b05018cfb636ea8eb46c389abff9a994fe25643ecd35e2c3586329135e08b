@@ -1,0 +1,376 @@
+I"�+<h2 id="目录">目录</h2>
+
+<ol>
+  <li>绝对价值：剩余收益价值（residual income valuation）</li>
+  <li>非上市公司价值（private company valuation）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1-剩余收益价值residual-income-valuation">1. 剩余收益价值（residual income valuation）</h2>
+
+<p><br /><br /></p>
+
+<p>剩余收益（residual income），又称为经济收益（economic profit）</p>
+
+<p>两个关键概念</p>
+
+<ul>
+  <li>剩余收益（residual income）</li>
+  <li>在公司金融中涉及了，所以不赘述了</li>
+  <li>经济增加值（economic value added）</li>
+  <li>相当于公司金融的经济收益（economic profit）</li>
+  <li>市场增加值（market value added）
+    <ul>
+      <li>有两种理解方式</li>
+    </ul>
+  </li>
+</ul>
+
+<p>市场增加值</p>
+
+<ol>
+  <li>用公司金融部分的角度来理解，市场增加值为公司创造的价值
+    <ul>
+      <li>所以这里的收益和资本投入都是相对于股权人 + 债权人而言的</li>
+      <li>= Σ [经济增加值/（1 + WACC）<sup>t</sup>] + 资本（股 + 债）投入</li>
+    </ul>
+  </li>
+  <li>也可以从对于股东的角度来理解，市场增加值为股东创造价值
+    <ul>
+      <li>这里的资本仅仅使用股东资本，依然使用账面价值是因为有类似于持有期回报率的意思</li>
+      <li>= Σ [保留盈余/（1 - 股东要求回报率）<sup>t</sup>] + 股东资本投入</li>
+    </ul>
+  </li>
+</ol>
+
+<blockquote>
+  <h3 id="和公司金融部分的联系">和公司金融部分的联系</h3>
+
+  <p><strong>1. 在公司金融 part 2 中将这两个名词命名了两个不同的估值模型，要注意区别</strong></p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>在公司金融中，剩余收益特指股东的收益，而经济收益泛指公司收益</li>
+    <li>在权益part 3 这里，剩余收益和经济收益都特指股东的收益</li>
+    <li>无论定义如何，基本原理都是：收益 - 机会成本</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p><strong>2. 公司金融中出现的公式</strong></p>
+</blockquote>
+
+<blockquote>
+  <p>a. 剩余收益（residual income）</p>
+  <ul>
+    <li>= 股东净收益（net income<sub>t</sub>） - 股东要求权益收益率（r<sub>e</sub>）× 股东投入初始金额（B<sub>t-1</sub>）</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>b. 经济增加值 / 经济收益（economic value added / economic profit）</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>= 税后营业收益（net operating profit after tax (NOPAT)）-  加权平均资本成本额（dollar WACC）</li>
+    <li>= 息税前利润（EBIT） × （ 1 - 税率） - 加权平均资本成本（WACC） × 资本额（capital）</li>
+    <li>资本额 = 权益投资 + 债务投资</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>c. 市场增加值（market value added）：</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>将每一期的经济增加值 / 经济收益折现并进行加总，相当于计算净现值（NPV），折现率为WACC</li>
+    <li>市场增加值（market value added）= 净现值（NPV）= Σ economic profit<sub>t</sub> / (1 + WACC)<sup>t</sup></li>
+    <li>公司价值（V<sub>firm</sub>） = 市场增加值（market value added） + 投资额（investment）</li>
+  </ul>
+</blockquote>
+
+<p><br /><br /></p>
+
+<h3 id="剩余收益的戈登增长模型以及与市净率的关系">剩余收益的“戈登增长模型”（以及与市净率的关系）</h3>
+
+<p><strong>1. 【单期】两种表示方法（两个公式实际是一样的）</strong></p>
+
+<ul>
+  <li>
+    <p>（增长模型）V<sub>0</sub> = B<sub>0</sub> + B<sub>0</sub> × ( ROE - r<sub>e</sub> ) / ( r<sub>e</sub> - g )</p>
+  </li>
+  <li>
+    <p>（市净率）P<sub>0</sub> / B<sub>0</sub> = 1 + ( ROE - r<sub>e</sub> ) / ( r<sub>e</sub> - g )</p>
+  </li>
+</ul>
+
+<p>分析</p>
+
+<ul>
+  <li>按照公式来理解：如果ROE大于要求回报，获得更多的剩余收益</li>
+  <li>不同于股利增长模型 &amp; 权益自由现金流增长模型，计算方式是将现金流折现，剩余价值的增长模型是一个逐期叠加的模型</li>
+</ul>
+
+<blockquote>
+  <p>推导过程</p>
+</blockquote>
+
+<blockquote>
+  <p>P<sub>0</sub> = V<sub>0</sub></p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>【“戈登增长模型”】V<sub>0</sub> = B<sub>0</sub> + residual income / ( r<sub>e</sub> - g )</li>
+    <li>【稍作变形】V<sub>0</sub> = B<sub>0</sub> + B<sub>0</sub> × ( ROE - r<sub>e</sub> ) / ( r<sub>e</sub> - g )</li>
+    <li>【同时除以B<sub>0</sub>】P<sub>0</sub> / B<sub>0</sub> = 1 + ( ROE - r<sub>e</sub> ) / ( r<sub>e</sub> - g )</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>注意区别真实静态市净率的公式</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>P<sub>0</sub> / B<sub>0</sub> = ( 1 - b ) × ROE × ( 1 + g ) / ( r - g )</li>
+  </ul>
+</blockquote>
+
+<p>隐含增长率</p>
+
+<ul>
+  <li>将上述公式进行变形： g = r - [ B<sub>0</sub> × ( ROE - r ) / ( V<sub>0</sub> - B<sub>0</sub> ) ]</li>
+</ul>
+
+<p><br /><br /></p>
+
+<p><strong>2. 【多期（增长模型）】是三个部分的加总</strong></p>
+
+<ul>
+  <li>是单期模型的简单修改</li>
+  <li>账面价值 + 中期剩余收益的现值 + 长期剩余收益的现值</li>
+</ul>
+
+<p>剩余价值的现值：</p>
+
+<p>residual income<sub>T</sub> / ( 1 + r - ω )</p>
+
+<p>剩余收益的折现并加总</p>
+
+<p>公式：residual income<sub>T</sub> / ( 1 + r - ω )</p>
+
+<ul>
+  <li>ω：持续因子（persistence factor）
+    <ul>
+      <li>取值范围：0 &lt; ω &lt; 1</li>
+      <li>当ω = 1 时，相当于永续，无限期</li>
+      <li>当ω = 0 时，相当于剩余价值只持续了一期</li>
+    </ul>
+  </li>
+</ul>
+
+<p>持续因子的分析</p>
+
+<ul>
+  <li>更高的持续因子
+    <ul>
+      <li>常伴随着更低的股利支付率</li>
+      <li>存在行业特性</li>
+    </ul>
+  </li>
+  <li>更低的持续因子
+    <ul>
+      <li>ROE过高</li>
+      <li>公司的收入依赖于不可持续项目（nonrecurring items）</li>
+      <li>报表存在过多应计项目（accrual）</li>
+    </ul>
+  </li>
+</ul>
+
+<p>多期的剩余收益的变化有四种常用假设</p>
+
+<ol>
+  <li>剩余收入将持续
+    <ul>
+      <li>ω = 1</li>
+    </ul>
+  </li>
+  <li>立即下降为零
+    <ul>
+      <li>ω = 0</li>
+    </ul>
+  </li>
+  <li>等于行业平均值</li>
+  <li>ROE将逐渐等于权益融资成本（=权益要求回报率）
+    <ul>
+      <li>ω 介于0和1之间，每年的剩余收益都是上一年的 （1 - ω）倍</li>
+      <li>相当于一个等比数列的加总</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>剩余收益价值模型的优点&amp;缺点</strong></p>
+
+<ul>
+  <li>【优点】不存在剩余价值（terminal value），所以可以作为现金流折现模型的替代</li>
+  <li>【优点】可用于计算现金流为负，或者不派发股利的公司</li>
+  <li>【缺点】相关的财务数据可以被操纵，所以需要对其进行调整</li>
+</ul>
+
+<p>财务报表的应计原则（accrual）导致公司的资产价值会偏移市场价值，所以需要额外注意至少以下六种情况</p>
+
+<ol>
+  <li>经营租赁</li>
+  <li>特殊目的实体</li>
+  <li>储备项（reserve）和计提拨备项（allowances）</li>
+  <li>LIFO vs FIFO</li>
+  <li>养老金资产或负债</li>
+  <li>递延所得税负债</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="2-非上市公司价值private-company-valuation">2. 非上市公司价值（private company valuation）</h2>
+
+<p><br /><br /></p>
+
+<p>估值的三种方法</p>
+
+<ol>
+  <li>收入类（income-based）</li>
+  <li>市场类（market-based）</li>
+  <li>资产类（asset-based）</li>
+</ol>
+
+<p>私有公司可能存在为了减税而进行的支出</p>
+
+<p>购入私有公司的动机可以分为两类</p>
+
+<ol>
+  <li>战略性购买（strategic purchase）
+    <ul>
+      <li>目的是为了和现有业务形成协同效应（synergy）</li>
+    </ul>
+  </li>
+  <li>金融性购买（financial purchase）
+    <ul>
+      <li>为了获得额外的现金流</li>
+    </ul>
+  </li>
+</ol>
+
+<p>进行自由现金流计算时，更倾向使用公司自由现金流，因为更加稳定</p>
+
+<h3 id="收入类income-based估值">收入类（income-based）估值</h3>
+
+<ol>
+  <li>剩余收益（residual income）</li>
+  <li>超额盈余（excess earning）
+    <ul>
+      <li>在超额盈余的算法中，公司自由现金流替代了标准化收益（normalized earning），自由现金流的增长率替代了剩余收益的增长率</li>
+    </ul>
+  </li>
+</ol>
+
+<p>估算非上市公司的折现率</p>
+
+<ol>
+  <li>规模溢价
+    <ul>
+      <li>规模小所以溢价高</li>
+    </ul>
+  </li>
+  <li>债券融资成本
+    <ul>
+      <li>非上市公司贷款的渠道更少，所以公司的WACC更接近于权益融资成本</li>
+    </ul>
+  </li>
+  <li>收购方的估值
+    <ul>
+      <li>收购方往往使用的是自身的折现率（WACC更高），所以导致高估了被收购公司的价格</li>
+    </ul>
+  </li>
+  <li>预测风险
+    <ul>
+      <li>非上市公司信息更少</li>
+    </ul>
+  </li>
+  <li>生命周期
+    <ul>
+      <li>公司越新越难估值</li>
+    </ul>
+  </li>
+</ol>
+
+<p>折现率的三个模型</p>
+
+<ol>
+  <li>CAPM</li>
+  <li>扩张后（expanded）CAPM
+    <ul>
+      <li>对CAPM进行修改，考虑到非上市公司带来的规模溢价等问题</li>
+    </ul>
+  </li>
+  <li>累加法（build-up method）</li>
+</ol>
+
+<h3 id="市场类market-based估值">市场类（market-based）估值</h3>
+
+<p>使用价格乘数进行估值</p>
+
+<ol>
+  <li>上市公司参照法（guideline public company method）
+    <ul>
+      <li>需要考虑非上市公司的控股溢价（control premium）</li>
+    </ul>
+  </li>
+  <li>交易参照法（guideline transaction method）
+    <ul>
+      <li>假如被参照的公司可比性高，所以调整程度不大</li>
+    </ul>
+  </li>
+  <li>过往交易法（prior transaction method）
+    <ul>
+      <li>使用被收购公司的历史股份交易价格</li>
+      <li>但是历史数据可能不具有代表性，而且可能没有控股溢价</li>
+    </ul>
+  </li>
+</ol>
+
+<p>因为非上市公司存在流动性风险等问题，所以相对于上市公司的估值来说，非上市公司的估值需要额外注意</p>
+
+<p>市场乘数</p>
+
+<ul>
+  <li>大型公司：EBIT/EBITDA 乘数
+    <ul>
+      <li>EBIT除去了财务杠杆的影响，EBITDA排除了重大非现金支出的的影响</li>
+    </ul>
+  </li>
+  <li>小型公司：净收入乘数</li>
+</ul>
+
+<h3 id="资产类asset-based估值">资产类（asset-based）估值</h3>
+
+<p>用于估值特殊行业和濒临破产公司</p>
+
+<p>依然要考虑是否存在控股 &amp; 市场性（marketability）（相当于“流动性”）的溢价</p>
+
+<ul>
+  <li>非控股折价（discount of lack of control）
+    <ul>
+      <li>= 1 - [ 1 /（ 1 + 控股溢价 （control premium））]</li>
+    </ul>
+  </li>
+  <li>市场性折价
+    <ul>
+      <li>= 1 - [ 1 /（ 1 + 市场型溢价 （marketability premium））]</li>
+    </ul>
+  </li>
+</ul>
+:ET

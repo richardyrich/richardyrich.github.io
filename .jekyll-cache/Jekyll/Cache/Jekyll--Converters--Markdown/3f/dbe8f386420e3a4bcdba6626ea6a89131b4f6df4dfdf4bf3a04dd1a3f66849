@@ -1,0 +1,276 @@
+I"
+,<h2 id="目录">目录</h2>
+
+<ol>
+  <li>经典理论模型：资本资产定价模型（Capital Market Pricing Model）</li>
+  <li>经典理论模型第一类修改：套利定价理论（APT Arbitrage Pricing Theory）</li>
+  <li>经典理论模型第二类修改：多因子模型（Multifactor Models）</li>
+  <li>主动投资的风险和收益（Active Risk and Return）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h2 id="1-经典理论模型资本资产定价模型capital-market-pricing-model">1. 经典理论模型：资本资产定价模型（Capital Market Pricing Model）</h2>
+
+<ul>
+  <li><strong>E (R<sub>i</sub>) = R<sub>f</sub> + β (E(R<sub>M</sub>) - R<sub>f</sub>)</strong></li>
+  <li>是单因子模型，只和系统性风险有关</li>
+</ul>
+
+<blockquote>
+  <p>资本资产定价模型假设：</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>所有投资者都是马科维茨（Markowitz）投资者，寻找效用最大化</li>
+    <li>市场是完全有效的，所有投资者都是价格承受者</li>
+    <li>所有投资者投资期限相同而且只投一期</li>
+    <li>资本市场是无摩擦市场，没有交易费用</li>
+    <li>资产无限可分</li>
+    <li>投资者有相同期望</li>
+  </ul>
+</blockquote>
+
+<p><br /><br /></p>
+
+<h2 id="2-经典理论模型第一类修改套利定价理论apt-arbitrage-pricing-theory">2. 经典理论模型第一类修改：套利定价理论（APT Arbitrage Pricing Theory）</h2>
+
+<p><strong>优点</strong>
+相比资本资产定价模型，前提假设少，而且符合实际</p>
+
+<p><strong>缺点</strong>
+不知道具体那些（GDP，失业率等）因子应该被考虑，因子的数量也未知</p>
+
+<p><strong>假设</strong></p>
+
+<ul>
+  <li>资产收益率是受多个因数影响（multiple factor model）</li>
+  <li>资产相关的风险（Asset-specific）可以被分散化</li>
+  <li>不存在套利机会</li>
+</ul>
+
+<p>公式： <strong>E (R<sub>P</sub>) = R<sub>F</sub> + β <sub>P,1</sub> (λ<sub>1</sub>) +  β <sub>P,2</sub> (λ<sub>2</sub>) + … + β <sub>P,k</sub> (λ<sub>k</sub>)</strong></p>
+
+<p>纯因子模型
+只有一个β = 1 ，其他β = 0的投资组合</p>
+
+<p><br /><br /></p>
+
+<h2 id="3-经典理论模型第二类修改多因子模型multifactor-models">3. 经典理论模型第二类修改：多因子模型（Multifactor Models）</h2>
+<ol>
+  <li>宏观经济因子模型（Macroeconomic factor models）</li>
+  <li>基本面因子模型（Fundamental factor models）</li>
+  <li>统计因子模型（Statistical factor model）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h3 id="宏观经济因子模型macroeconomic-factor-models">宏观经济因子模型（Macroeconomic factor models）</h3>
+
+<p><strong>公式：R<sub>i</sub> = E(R<sub>i</sub>) + b<sub>i1</sub>F<sub>1</sub> + b<sub>i2</sub>F<sub>2</sub> + … + b<sub>ik</sub>F<sub>k</sub> + ε</strong></p>
+
+<ul>
+  <li>截距（intercept）：资产i的期望收益率（expected return of asset i）</li>
+  <li>F: 风险定价因子，超出预期的宏观经济变量（Priced risk factors, surprise in the macroeconomic variables）</li>
+  <li>b: 因子敏感度（斜率），类似于资本资产定价模型中的β（Factor sensitivities, similar to betas in the market model）</li>
+  <li>E(R<sub>i</sub>)  可以通过资本资产定价模型或者套利定价理论算出</li>
+</ul>
+
+<p><strong>特点：</strong></p>
+
+<ol>
+  <li>这是一个回归模型</li>
+  <li>套利定价理论计算的是期望收益率，宏观经济因子模型是（预测的）实际收益率</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h3 id="基本面因子模型fundamental-factor-models">基本面因子模型（Fundamental factor models）</h3>
+<p><strong>R<sub>i</sub> = a<sub>i</sub> + b<sub>i1</sub>F<sub>1</sub> + b<sub>i2</sub>F<sub>2</sub> + … + b<sub>ik</sub>F<sub>k</sub> + e<sub>i</sub></strong></p>
+
+<ul>
+  <li>F: 因子收益率，每个因子相关的收益率，由多元回归计算而得（factor returns, rates of return associated with each factor, estimated using multiple regression）</li>
+  <li>b: 标准化敏感度（类似于z统计量），并不是斜率（standardized sensitivities (similar to z-statistics), not regression slope estimates）</li>
+</ul>
+
+<blockquote>
+  <p>和宏观经济因子模型不同之处在于：</p>
+
+  <ul>
+    <li>b不是斜率而是标准化敏感度；不是回归计算而得，而是标准化计算而得</li>
+    <li>F不是变量本身而是因子产生的收益率；不是直接套用数据，而是通过回归计算获得的</li>
+  </ul>
+</blockquote>
+
+<p><strong>套利定价模型和多因子模型的对比</strong></p>
+
+<ul>
+  <li>特点
+    <ul>
+      <li>套利定价模型：横截面型的定价平衡点模型（cross-sectional equilibrium pricing model），用于解释资产期望收益的波动</li>
+      <li>时间序列回归模型（time-series regression），用于解释长期以来某一特定资产的收益的波动</li>
+    </ul>
+  </li>
+  <li>假设
+    <ul>
+      <li>无套利机会</li>
+      <li>依情况而定，观察对象不同，假设也可能会发生变化</li>
+    </ul>
+  </li>
+  <li>纵截距
+    <ul>
+      <li>无风险利率</li>
+      <li>由无套利定价模型算出的预期收益率</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="多因子模型的应用multifactor-model-applications">多因子模型的应用（Multifactor model applications）</h3>
+<ul>
+  <li>收益归因（Return attribution）</li>
+  <li>风险归因（Risk attribution）</li>
+  <li>投资组合的建立，例如因子投资组合（Portfolio construction (e.g. factor portfolio)）</li>
+  <li>策略性投资决策（Strategic portfolio decision (Comparative advantage and disadvantage in bearing risk))</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="4-主动投资的风险和收益active-risk-and-return">4. 主动投资的风险和收益（Active Risk and Return）</h2>
+<ol>
+  <li>增值（Value added）</li>
+  <li>基本法则（fundamental law）</li>
+</ol>
+
+<p><br /><br /></p>
+
+<h3 id="增值value-added">增值（Value added）</h3>
+<blockquote>
+  <p>增值 = 主动收益（Active Return）</p>
+</blockquote>
+
+<p><strong>主动收益（追踪误差）</strong>，投资组合和基准的偏差（Active Return (tracking error)）</p>
+
+<ul>
+  <li>公式 R<sub>A</sub> = R<sub>P</sub> - R<sub>B</sub></li>
+</ul>
+
+<p><strong>主动风险（追踪风险）</strong>，主动收益的标准差（Active risk(tracking risk)）</p>
+
+<ul>
+  <li>公式 s(R<sub>P</sub> - R<sub>B</sub>)= √(Σ(R<sub>Pi</sub> - R<sub>Bi</sub>)<sup>2</sup>/(n-1))</li>
+  <li>风险归因：主动收益的方差 = 因子（宏观）风险 + 证券自身风险（active risk squared = active factor risk + active specific risk）</li>
+</ul>
+
+<p>风险调整后增值（Risk-adjusted calculation of value added），即alpha （α）
+α<sub>A</sub> = R <sub>P</sub> - β<sub>P</sub> R<sub>B</sub></p>
+
+<p>产生正增值：收益率高的资产权重大，收益率低的资产权重小
+R<sub>A</sub> = R<sub>P</sub> - R<sub>B</sub> = ΣW<sub>P,i</sub> R<sub>i</sub> - ΣW<sub>B,i</sub> R<sub>i</sub> = ΣΔW<sub>i</sub> R<sub>Ai</sub></p>
+<ul>
+  <li>ΔW<sub>i</sub> = W<sub>P,i</sub> - W<sub>P,i</sub></li>
+  <li>R<sub>A,i</sub> = R<sub>i</sub> - R<sub>B</sub></li>
+</ul>
+
+<p>增值（value added）= 来自资产分配的增值（value added from asset allocation） + 来自证券选择的增值（value added from security selection）</p>
+<blockquote>
+  <p>业绩归因</p>
+</blockquote>
+
+<p><strong>（事前或事后）夏普比率</strong>（Sharpe ratio:absolute expected (ex ante) or realized (ex post) reward-to-risk measure）
+SP<sub>P</sub> = （R<sub>P</sub> - R<sub>f</sub>）/ σ<sub>P</sub></p>
+<blockquote>
+  <p>承担单位总风险获得的额外的风险溢价</p>
+</blockquote>
+
+<ul>
+  <li>夏普比率不受杠杆率（leverage）影响</li>
+  <li>夏普比率受风险资产的权重（aggresiveness of active weight）的改变影响</li>
+</ul>
+
+<p><strong>事后信息比率（ex-post information ratio）</strong>
+IR = （R<sub>P</sub> - R<sub>B</sub>）/ s(R<sub>P</sub> - R<sub>B</sub>)</p>
+
+<ul>
+  <li>信息比率受杠杆率（leverage）影响</li>
+  <li>夏普比率不受风险资产的权重（aggresiveness of active weight）的改变影响</li>
+  <li>平均主动收益和平均主动风险的比例</li>
+  <li>表示投资经理收集，处理信息的能力高</li>
+</ul>
+
+<p>（无限制的，通过自动投资和被动投资的组合的混合）<strong>调整主动风险</strong>
+SR<sub>P</sub><sup>2</sup> = SR<sub>B</sub><sup>2</sup> + IR<sup>2</sup></p>
+<ul>
+  <li>调整主动风险的最优化（optimal level）： σ<sub>A</sub> = (IR / SR<sub>B</sub>) σ<sub>B</sub></li>
+</ul>
+
+<h3 id="基本法则fundamental-law">基本法则（fundamental law）</h3>
+<p><strong>事前（Ex ante）</strong></p>
+
+<p>期望主动收益（追踪误差）
+= 信息比率 × 期望主动风险（追踪风险）
+= 信息系数 × 转化系数 × 宽度 × 期望主动风险（追踪风险）</p>
+
+<p>（E(R<sub>A</sub>)
+= Information Ratio × σ<sub>A</sub>
+= Information Coefficient × Transfer Coefficient × √Breadth × σ<sub>A</sub>）</p>
+
+<ul>
+  <li>信息系数（Information Coefficient）：预测的主动收益和实际主动收益的相关系数</li>
+  <li>转化系数（Transfer Coefficient）：预测到的主动收益和因此调整的权重的相关系数（预测到了，但是否实际上完全付出了行动？）</li>
+  <li>宽度（Breadth）：一年内做出的独立决策的次数</li>
+</ul>
+
+<blockquote>
+  <p><strong>转化系数不一定为1：</strong>可能因为投资政策的限制，持股比例，限定的债券购买（BBB以下不能购买），所以预测到的主动收益不一定能够付出行动</p>
+
+  <p>信息系数，投资水平
+宽度，努力程度</p>
+</blockquote>
+
+<p><strong>事后（Ex post）</strong></p>
+
+<p>期望主动收益（追踪误差） = 已知信息系数 × 转化系数 × 宽度 × 期望主动风险（追踪风险）</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>（E(R<sub>A</sub></td>
+      <td>IC<sub>R</sub>) = Realized Information Coefficient × Transfer Coefficient × √Breadth × σ<sub>A</sub>）</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>和事前的区别是信息系数（Information Coefficient）是已知的了，所以是已知信息系数（Realized Information Coefficient）</p>
+</blockquote>
+
+<p>实际收益率 = 期望主动收益（追踪误差） + 噪音
+R<sub>A</sub> = E(R<sub>A</sub> | IC<sub>R</sub>) + Noise</p>
+
+<p>（有限制的，通过自动投资和被动投资的组合的混合）<strong>调整主动风险</strong>
+SR<sub>P</sub><sup>2</sup> = SR<sub>B</sub><sup>2</sup> + TC × (IR ‘)<sup>2</sup></p>
+<ul>
+  <li>调整主动风险的最优化（optimal level）： σ<sub>A</sub> = (TC × IR ‘ / SR<sub>B</sub>) σ<sub>B</sub></li>
+</ul>
+
+<blockquote>
+  <p>可以对比之前无限制的区别：多了一个转化系数</p>
+</blockquote>
+
+<p>基本法则的应用</p>
+
+<ul>
+  <li>海外投资配置</li>
+  <li>债券的投资时机</li>
+</ul>
+
+<p>基本法则的局限</p>
+
+<ul>
+  <li>事前的信息系数难估计</li>
+  <li>独立决策的次数的不确定性</li>
+</ul>
+:ET
