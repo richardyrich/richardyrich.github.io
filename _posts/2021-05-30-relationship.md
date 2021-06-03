@@ -28,8 +28,6 @@ categories: 笔记
 
 恋爱这今年以来最有趣的话题了。很长一段时间以来对我都是未解之谜。很长一段时间里，因为我无法进入亲密关系（解读：没有女朋友），让我一度怀疑我是无法和人相处的怪人。以至于我甚至一度因此产生了非常大的自卑情绪。
 
-直到后来遇到一本书叫做Attached，这是我第一次系统的了解到依恋风格这个概念。依恋风格是我在大学时期就在读过KnowYourself的公众号有所耳闻，但是我一直没有真的认真的去了解过它的实际应用。而Attached这本书是第一次让我亲密接触了这个概念，其中有一段简直是刷新了我三观：
+直到后来遇到一本书叫做Attached（作者是Amir Levine，哥伦比亚大学的心理学教授）。这是我第一次系统的了解到依恋风格这个概念。依恋风格是我在大学时期就在读过KnowYourself的公众号有所耳闻，但是我一直没有真的认真的去了解过它的实际应用。而Attached这本书是第一次让我亲密接触了这个概念，其中有一段简直是刷新了我三观：从此以后你可能不需要再是一脸的困惑思考为什么对方会做这件事，对方是否真的爱我。恋爱成为了一个选择.在你开始了解对方的依恋风格后，你的思考方式变成，对方可能存在这样的依恋风格，而这样的依恋风格会呈现什么的恋爱模式？
 
-> 从此以后你可能不需要再是一脸的困惑思考为什么对方会做这件事，对方是否真的爱我。恋爱成为了一个选择：在你开始了解对方的依恋风格后，你的思考方式变成，对方可能存在这样的依恋风格，而这样的依恋风格会呈现什么的恋爱模式？
-> 
 > If you are currently in a relationship, you might already have an idea about your partner’s attachment style from what you’ve read so far, and you can use the tools provided in the following pages to sharpen your skills. Your thinking will shift as well. You’ll no longer ask yourself, “Why is she always pushing me away?” Instead you’ll say, “It really isn’t about me at all—she just doesn’t feel comfortable with too much closeness.” Uncovering your partner’s attachment style will allow you to better understand the particular challenges that you face as a couple—an essential step toward using attachment principles to improve your bond.
