@@ -7,9 +7,11 @@ categories: 笔记
 
 ## 关系科学——恋爱的科学，科学的恋爱
 
-恋爱一直是一个我一直以来并没有太多勇气去谈论的题材。我常自我提问，一个对这个话题本身就存在很多困惑的人能够说出什么特别智慧的话呢？个人而言恋爱对我来说很长很长一段时间是一个谜题，我的理解是恋爱是非常取决于两个人的相处偏好的事。就像是这个世界上没有两个叶子是一样的，试图去学习什么通用性的恋爱策略然后用于未来的恋爱似乎并不是一个很好的方法。也许是因为我觉得对于恋爱的迷思处于一个类似于放弃治疗的状态，因此我也不知道怎么去真的过。
+个人而言恋爱对我来说很长很长一段时间是一个谜题，我的理解是恋爱是非常取决于两个人的相处偏好的事。就像是这个世界上没有两个叶子是一样的，试图去学习什么通用性的恋爱策略然后用于未来的恋爱似乎并不是一个很好的方法。也许是因为我觉得对于恋爱的迷思处于一个类似于放弃治疗的状态，因此我也不知道怎么去真的去了解过。
 
-直到我前段时间单纯处于好奇接触到了关系科学这么一门心理学学科，这种科学探索的客观冷静和恋爱关系这种完全感性无序的两个事物进行的联姻，这样的强烈反差对我产生浓厚的兴趣，因此我开始饶有兴致的开始阅读相关书籍。
+![](https://pic2.zhimg.com/v2-faeb3958d83b4246f21cc95468bdf92f_720w.jpg?source=172ae18b)
+
+直到我前段时间单纯处于好奇接触到了关系科学这么一门心理学学科，这种科学探索的客观冷静和恋爱关系这种完全感性无序的两个事物进行的联姻，这样的强烈反差让我本能产生了怀疑，但是在另一方面也让我产生剧烈的好奇心。在害死猫的剧烈情感下，我开始了阅读关系心理学书籍，并在最开始就发现他们是如此让我着迷。
 
 ## 三年级病
 
@@ -25,3 +27,9 @@ categories: 笔记
 ## 依恋风格
 
 恋爱这今年以来最有趣的话题了。很长一段时间以来对我都是未解之谜。很长一段时间里，因为我无法进入亲密关系（解读：没有女朋友），让我一度怀疑我是无法和人相处的怪人。以至于我甚至一度因此产生了非常大的自卑情绪。
+
+直到后来遇到一本书叫做Attached，这是我第一次系统的了解到依恋风格这个概念。依恋风格是我在大学时期就在读过KnowYourself的公众号有所耳闻，但是我一直没有真的认真的去了解过它的实际应用。而Attached这本书是第一次让我亲密接触了这个概念，其中有一段简直是刷新了我三观：
+
+> 从此以后你可能不需要再是一脸的困惑思考为什么对方会做这件事，对方是否真的爱我。恋爱成为了一个选择：在你开始了解对方的依恋风格后，你的思考方式变成，对方可能存在这样的依恋风格，而这样的依恋风格会呈现什么的恋爱模式？
+> 
+> If you are currently in a relationship, you might already have an idea about your partner’s attachment style from what you’ve read so far, and you can use the tools provided in the following pages to sharpen your skills. Your thinking will shift as well. You’ll no longer ask yourself, “Why is she always pushing me away?” Instead you’ll say, “It really isn’t about me at all—she just doesn’t feel comfortable with too much closeness.” Uncovering your partner’s attachment style will allow you to better understand the particular challenges that you face as a couple—an essential step toward using attachment principles to improve your bond.
