@@ -71,6 +71,6 @@ LMI咨询顾问，项目管理专业人士资格认证
 
 
 ## 联系方式
-微信：
+微信：lichadelichade
 ![](http://imglf4.nosdn0.126.net/img/MExvNTBSZTIrbWg2NklXYjBsdzlGUFNPV3d6akd5MG9rUkpHTTJyTVJNWUI3eFFXRkhNM2d3PT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)   
 知乎：雅各布
