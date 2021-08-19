@@ -67,7 +67,13 @@ LMI咨询顾问，项目管理专业人士资格认证
 戴纳·桑德斯女士有着14年的管理咨询经验，服务的客户包括私营企业以及政府机构。她的专长包括股东关系，客户关系，公司经营，策略规划，风险管理以及项目管理。她对我们带来经营上的建议以及策划。
 
 ## 课程目录
-![](http://imglf3.nosdn0.126.net/img/MExvNTBSZTIrbWpVMUFnZzAwTXFLdE9IN3c4c1IzT0FGZy81aE1EVWlOTDJVdENDanFWSVpnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
+
+* Volume 1: Ethical and Professional Standards + Quantitative Methods.
+* Volume 2: Economics.
+* Volume 3: Financial Reporting and Analysis.
+* Volume 4: Corporate Finance + Equity.
+* Volume 5: Fixed Income + Derivatives.
+* Volume 6: Alternative Investments + Portfolio Management.
 
 
 ## 联系方式
