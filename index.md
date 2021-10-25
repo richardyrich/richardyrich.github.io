@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 雅各布
-title_en: Jacob
+title: 露娜阿尔法
+title_en: Lunalpha
 ---
 
 
