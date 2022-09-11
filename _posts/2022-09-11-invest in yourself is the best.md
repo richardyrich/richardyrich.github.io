@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 巴菲特：投资者的第一步
+title: 巴菲特：给自己进行的投资是最好的事情
 date: 2022-09-11
 categories: 翻译
 ---
