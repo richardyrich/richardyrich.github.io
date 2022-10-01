@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 保罗·格雷厄姆：为什么要在经济不景气的情况下创业
+title: Y Combinator的前总裁保罗·格雷厄姆：为什么要在经济不景气的情况下创业
 date: 2022-09-30
 categories: 翻译
 ---

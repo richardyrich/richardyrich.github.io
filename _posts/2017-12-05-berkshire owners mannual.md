@@ -5,9 +5,8 @@ date: 2017-12-05
 categories: 翻译
 ---
 
-在伯克希尔哈撒韦的官方网站上（www.berkshirehathaway.com），有一份叫做股东手册（Owner Manual）的PDF可供任何人免费下载。说明性文件难免充满繁文缛节。不过巴菲特在其中穿插的一些小幽默使得整篇文件不至于枯燥无味。
+*译者注：在伯克希尔哈撒韦的官方网站上（www.berkshirehathaway.com），有一份叫做股东手册（Owner Manual）的PDF可供任何人免费下载。说明性文件难免充满繁文缛节。不过巴菲特在其中穿插的一些小幽默使得整篇文件不至于枯燥无味。*
 
-<br>
 <br>
 
 1996年6月，伯克希尔的主席，沃伦·爱德华·巴菲特面向A级股和B级股股东发布了名为“股东手册”的小手册。手册的目的是解释伯克希尔的基本经营投资原则。以下是一份修正并补充后的新版本。
@@ -17,7 +16,7 @@ In June 1996, Berkshire’s Chairman, Warren E. Buffett, issued a booklet entitl
 
 <br>
 
-### 股东相关的商业原则OWNER-RELATED BUSINESS PRINCIPLES
+## 股东相关的商业原则OWNER-RELATED BUSINESS PRINCIPLES
 
 在1983年当我们收购蓝筹印花时，我写下了13条股东相关的商业原则，目的是为了让新股东了解我们的管理方法。正如名字所提到的“原则”，这13条在如今依然有效，并且将在这里以斜体字标明。
 
@@ -57,7 +56,7 @@ In effect, our shareholders behave in respect to their Berkshire stock much as B
 
 查理家庭的大部分净值属于伯克希尔的股票；我自己则是98%。额外的，我的许多亲戚，我妹妹们和堂表兄弟姐妹，大部分的净值属于伯克希尔股票。
 
-Charlie’s family has the majority of its net worth in Berkshire shares; I have more than 98%. In addition, many of my relatives – my sisters and cousins, for example – keep a huge portion of their net worth in Berkshire stock. 
+Charlie’s family has the majority of its net worth in Berkshire shares; I have more than 98%. In addition, many of my relatives – my sisters and cousins, for example – keep a huge portion of their net worth in Berkshire stock.
 
 <br>
 
@@ -135,7 +134,7 @@ We have found over time that the undistributed earnings of our investees, in agg
 
 7\. 我们不常举债，但当我们确实需要贷款时，我们尝试着使用长期，固定息票利率的债券。我们宁愿错失机会也不想过度使用杠杆。这种保守的投资方式对我们的收益产生了一定影响，但是这是我们唯一能够接受的方式。这是考虑到了我们对于保险客户，债权人，以及投入大量资本的股东的代理人义务（一位印第安纳波利斯500英里比赛的冠军车手曾说过：“想要第一个到达终点，第一你必须得到达终点”）
 
-7\. We use debt sparingly and, when we do borrow, we attempt to structure our loans on a long-term fixed-rate basis. We will reject interesting opportunities rather than over-leverage our balance sheet. This conservatism has penalized our results but it is the only behavior that leaves us comfortable, considering our fiduciary obligations to policyholders, lenders and the many equity holders who have committed unusually large portions of their net worth to our care. (As one of the Indianapolis “500” winners said: “To finish first, you must first finish.”) 
+7\. We use debt sparingly and, when we do borrow, we attempt to structure our loans on a long-term fixed-rate basis. We will reject interesting opportunities rather than over-leverage our balance sheet. This conservatism has penalized our results but it is the only behavior that leaves us comfortable, considering our fiduciary obligations to policyholders, lenders and the many equity holders who have committed unusually large portions of their net worth to our care. (As one of the Indianapolis “500” winners said: “To finish first, you must first finish.”)
 
 <br>
 
@@ -159,7 +158,7 @@ Better yet, this funding to date has often been cost-free. Deferred tax liabilit
 
 当然了，这并不意味着我们也能在未来以零成本的方式使用我们的保险浮存金。但是我们认为我们能够使用浮存金的机会和其他保险公司一样多。我们不仅在过去达到了这样的目标（尽管你们的董事长犯下了多次重要的错误），由于我们在1996年对于政府雇员保险公司的收购，我们在未来能够达到这个目标的可能性也很大。
 
-Of course, there is no guarantee that we can obtain our float in the future at no cost. But we feel our chances of attaining that goal are as good as those of anyone in the insurance business. Not only have we reached the goal in the past (despite a number of important mistakes by your Chairman), our 1996 acquisition of GEICO, materially improved our prospects for getting there in the future. 
+Of course, there is no guarantee that we can obtain our float in the future at no cost. But we feel our chances of attaining that goal are as good as those of anyone in the insurance business. Not only have we reached the goal in the past (despite a number of important mistakes by your Chairman), our 1996 acquisition of GEICO, materially improved our prospects for getting there in the future.
 
 <br>
 
@@ -243,7 +242,7 @@ At Berkshire you will find no “big bath” accounting maneuvers or restructuri
 
 我们会以多种方式与你们沟通。通过年度报告，我会努力以合理的篇幅尽可能地详细提供所有公司的价值信息。我们同时也会尽量提供一些已经在网上公布过的简短但重要的季度报表的信息，虽然那些并不是我写的（演唱会一年举办一次足够了）。另一个重要的沟通渠道就是我们的年度股东大会，在那时候查理和我非常乐意用五个小时以上的时间回答关于伯克希尔的问题。但是有一个沟通方式我们办不到：一对一的方式。考虑到伯克希尔上千的股东数量，这种方式不可行。
 
-We will be communicating with you in several ways. Through the annual report, I try to give all shareholders as much value-defining information as can be conveyed in a document kept to reasonable length. We also try to convey a liberal quantity of condensed but important information in the quarterly reports we post on the internet, though I don’t write those (one recital a year is enough). Still another important occasion for communication is our Annual Meeting, at which Charlie and I are delighted to spend five hours or more answering questions about Berkshire. But there is one way we can’t communicate: on a one-on-one basis. That isn’t feasible given Berkshire’s many thousands of owners. 
+We will be communicating with you in several ways. Through the annual report, I try to give all shareholders as much value-defining information as can be conveyed in a document kept to reasonable length. We also try to convey a liberal quantity of condensed but important information in the quarterly reports we post on the internet, though I don’t write those (one recital a year is enough). Still another important occasion for communication is our Annual Meeting, at which Charlie and I are delighted to spend five hours or more answering questions about Berkshire. But there is one way we can’t communicate: on a one-on-one basis. That isn’t feasible given Berkshire’s many thousands of owners.
 
 <br>
 
@@ -265,7 +264,7 @@ Though we continue to be unwilling to talk about specific stocks, we freely disc
 
 <br>
 
-### 两个新加入的原则TWO ADDED PRINCIPLES
+## 两个新加入的原则TWO ADDED PRINCIPLES
 
 14\. 尽可能地，我们希望伯克希尔的股东在股票价值的损益变化是和股东所有权的内在价值的损益变化是一致的。为了能达到这一点，内在价值和市场价值的关系需要保持一致，而我们偏好的关系是1比1。这也就隐含了，我们宁愿看到伯克希尔的股价是处于公允价值而非高价。很明显，查理和我无法控制伯克希尔的股价。但是通过我们的政策和沟通，我们能够鼓励知情达理的股东们共同促成一个理性的价格。我们既不愿意高估和低估股价的方式可能会让某些股东失望。但是我们相信，这能够吸引想要从伯克希尔的商业发展中获利而不是从其他投资者的错误中获利的长期投资者。
 
@@ -279,7 +278,7 @@ Though we continue to be unwilling to talk about specific stocks, we freely disc
 
 <br>
 
-### 内在价值INTRINSIC VALUE
+## 内在价值INTRINSIC VALUE
 
 现在让我们注意力放在之前提到的一个概念，这是你们将在未来的年度报告中持续将会看到的概念。
 
@@ -335,7 +334,7 @@ Some graduates will find that the book value of their education exceeds its intr
 
 <br>
 
-### 伯克希尔的管理THE MANAGING OF BERKSHIRE
+## 伯克希尔的管理THE MANAGING OF BERKSHIRE
 
 我认为我应该在最后谈一下伯克希尔当前以及未来的管理层结构。就像我们的第一条股东原则说的那样，查理和我是伯克希尔的一般合伙人。但是我们将复杂的管理职责放权给了我们子公司的经理。实际上我们几乎相当于完全弃权了：虽然伯克希尔有36.7万员工，总部只有25位。
 
