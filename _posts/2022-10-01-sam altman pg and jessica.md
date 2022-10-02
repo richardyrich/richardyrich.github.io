@@ -4,6 +4,7 @@ title: Y Combinator的前总裁山姆·阿尔特曼：PG和杰西卡
 date: 2022-10-01
 categories: 翻译
 ---
+
 很多人想在其他行业或其他地方或以其他策略复制 YC。 总的来说，人们似乎认为：1）尽管YC的发展的存在某种程度的神秘或运气，但它不会那么难，2）如果你能把它弄好，网络效应是自我持续的。
 
 A lot of people want to replicate YC in some other industry or some other place or with some other strategy. In general, people seem to assume that: 1) although there was some degree of mystery or luck about how YC got going, it can’t be that hard, and 2) if you can get it off the ground, the network effects are self-sustaining.
