@@ -5,19 +5,19 @@ date: 2022-10-02
 categories: 翻译
 ---
 
-我观察了数以千计的创始人，并思考了很多关于如何赚取巨额财富或创造一些重要的东西的方法。 通常，人们开始想要前者，最终想要后者。
+我观察了数以千计的创始人，并思考了很多关于如何赚取巨额财富或创造一些重要的东西的方法。 通常，人们刚开始的时候想要前者，然后后来开始追求后者。
 
 I’ve observed thousands of founders and thought a lot about what it takes to make a huge amount of money or to create something important. Usually, people start off wanting the former and end up wanting the latter.
 
 <br>
 
-这里有 13 个关于如何获得如此量级的成功的想法。 假如你已经有一定的基本成功条件（通过某种出身或努力）并愿意为进一步的成功而投入努力的时候，一切都会变得更容易。 [1] 但这里的大部分适用于任何人。
+这里有 13 个关于如何获得如此量级的成功的建议。 假如你已经有一定的基本成功条件（通过某种出身或努力）并愿意为进一步的成功而投入努力的时候，一切都会变得更容易。 [1] 但这里的大部分应该依然适用于任何人。
 
 Here are 13 thoughts about how to achieve such outlier success. Everything here is easier to do once you’ve already reached a baseline degree of success (through privilege or effort) and want to put in the work to turn that into outlier success. [1] But much of it applies to anyone.
 
 ## 1. 对自己的持续复利 Compound yourself
 
-持续复利是一种魔术。你应该想办法寻找这样的机会。 指数曲线是财富产生的关键。
+持续复利是一种魔法。你应该想办法寻找这样的机会。 指数曲线是财富产生的关键。
 Compounding is magic. Look for it everywhere. Exponential curves are the key to wealth generation.
 
 <br>
@@ -28,19 +28,19 @@ A medium-sized business that grows 50% in value every year becomes huge in a ver
 
 <br>
 
-你也想自己成为一条指数曲线——你应该让你的生活遵循一条不断增长的向上和正确的轨迹。 选择具有复合效应的职业很重要——大多数职业的发展相当线性。
+你也会想把自己成为一条指数曲线——你应该让你的生活遵循一条不断增长的向上和正确的轨迹。 选择具有复合效应的职业很重要——大多数职业的发展相当线性。
 
 You also want to be an exponential curve yourself—you should aim for your life to follow an ever-increasing up-and-to-the-right trajectory. It’s important to move towards a career that has a compounding effect—most careers progress fairly linearly.
 
 <br>
 
-你不希望从事的职业是两年工作经验的人可以和二十年工作经验的人在效率没有差别——你的学习增长率应该一直很高。 随着你的职业发展，你所做的每份付出都应该产生越来越多的结果。 获得这种杠杆的方式有很多，比如资金、技术、品牌、网络效应、管理一个团队等。
+你不希望从事的职业是两年工作经验的人可以和二十年工作经验的人在效率没有差别——你的学习增长率应该一直很高。 随着你的职业发展，你所做的每份付出都应该产生越来越多的结果。 获得这种杠杆的方式有很多，比如资金、科技、品牌、网络效应、管理团队等。
 
 You don't want to be in a career where people who have been doing it for two years can be as effective as people who have been doing it for twenty—your rate of learning should always be high. As your career progresses, each unit of work you do should generate more and more results. There are many ways to get this leverage, such as capital, technology, brand, network effects, and managing people.
 
 <br>
 
-专注于如何将你认为是成功的东西增长10倍是很有用的——金钱、地位、对世界的影响等等。 我愿意在找到我的下一件机会之前花尽可能多的时间做准备。 但我一直希望这样的机会是那一类巨大机会，如果成功，它将使我的职业生涯的其余部分看起来像一个脚注。
+专注于如何将你认为是成功的东西增长10倍是很有用的——金钱、地位、对世界的影响等等。 我愿意在找到我的下一件机会之前花尽可能多的时间做准备。 但我一直希望这样的机会是那一类巨大的机会，如果成功，它将使我的职业生涯的其余部分看起来像一个脚注。
 
 It’s useful to focus on adding another zero to whatever you define as your success metric—money, status, impact on the world, or whatever. I am willing to take as much time as needed between projects to find my next thing. But I always want it to be a project that, if successful, will make the rest of my career look like a footnote.
 
@@ -58,19 +58,19 @@ I think the biggest competitive advantage in business—either for a company or 
 
 <br>
 
-相信指数，要有耐心，并做好被惊讶的准备。
+相信指数增长，要有耐心，并做好被惊讶的准备。
 
 Trust the exponential, be patient, and be pleasantly surprised.
 
 ## 2. 几乎过于自信 Have almost too much self-belief
 
-自信是非常强大的。 我认识的最成功的人几乎相信自己到了妄想的程度 。
+自信是非常强大的。 我认识的最成功的人几乎都相信自己到了一种妄想的地步 。
 
 Self-belief is immensely powerful. The most successful people I know believe in themselves almost to the point of delusion.
 
 <br>
 
-早点培养这一点。 当你有足够数据来支持你的判断是正确的并且你可以做到始终如一地执行时，请更加相信自己。
+尽早培养这一点。 当你有足够数据来支持你的判断是正确的并且你可以做到始终如一地执行时，请更加相信自己。
 
 Cultivate this early. As you get more data points that your judgment is good and you can consistently deliver results, trust yourself more.
 
@@ -82,7 +82,7 @@ If you don’t believe in yourself, it’s hard to let yourself have contrarian 
 
 <br>
 
-我记得很多年前埃隆马斯克带我参观了 SpaceX 工厂。 他详细谈到了制造火箭的每个部分，但记忆中最深刻的是当他谈到向火星发射大型火箭时，他脸上绝对确定的表情。 我离开时想“嗯，这就是有信念的人应该看起来的感觉。”
+我记得很多年前埃隆马斯克带我参观了 SpaceX 工厂。 他详细谈到了制造火箭的每个部分，但记忆中最深刻的是当他谈到向火星发射大型火箭时，他脸上绝对笃定的表情。 我离开时想“嗯，这就是有信念的人应该看起来的感觉。”
 
 I remember when Elon Musk took me on a tour of the SpaceX factory many years ago. He talked in detail about manufacturing every part of the rocket, but the thing that sticks in memory was the look of absolute certainty on his face when he talked about sending large rockets to Mars. I left thinking “huh, so that’s the benchmark for what conviction looks like.”
 
@@ -100,7 +100,7 @@ Most highly successful people have been really right about the future at least o
 
 <br>
 
-自信必须与自我意识相平衡。 我曾经讨厌任何形式的批评，并积极回避它。 现在我试着总是在假设它是真的的情况下听它，然后决定我是否要采取行动。 寻求真理是困难的，而且往往是痛苦的，但它是区分自信满满和自欺欺人的关键。
+自信必须与自我意识相平衡。 我曾经讨厌任何形式的批评，并积极回避它。 现在我试着总是在假设它是真的的情况下听它们，然后决定我是否要采取行动。 寻求真理是困难的，而且往往是痛苦的，但它是区分自信满满和自欺欺人的关键。
 
 Self-belief must be balanced with self-awareness. I used to hate criticism of any sort and actively avoided it. Now I try to always listen to it with the assumption that it’s true, and then decide if I want to act on it or not. Truth-seeking is hard and often painful, but it is what separates self-belief from self-delusion.
 
@@ -130,7 +130,7 @@ Thinking from first principles and trying to generate new ideas is fun, and find
 
 <br>
 
-你要学习的最有力的教训之一是，你可以弄清楚在似乎没有解决方案的情况下该怎么做。 你这样做的次数越多，你就越相信它。 勇气来自于学习你可以在被击倒后重新站起来。
+你要学习的最有力的教训之一是，你可以弄清楚在似乎没有解决方案的情况下该怎么做。 你这样做的次数越多，你就越相信它。 勇气来自于意识的你可以在被击倒后重新站起来。
 
 One of the most powerful lessons to learn is that you can figure out what to do in situations that seem to have no solution. The more times you do this, the more you will believe it. Grit comes from learning you can get back up after you get knocked down.
 
@@ -172,7 +172,7 @@ My other big sales tip is to show up in person whenever it’s important. When I
 
 ## 5. 让冒险变得容易 Make it easy to take risks
 
-大多数人高估风险而低估回报。 冒险很重要，因为不可能一直都是对的——你必须尝试很多事情，并随着你了解更多而迅速适应。
+大多数人高估风险而低估回报。 冒险很重要，因为不可能一直都是对的——你必须尝试很多事情，并随着你了解更多而迅速调整。
 
 Most people overestimate risk and underestimate reward. Taking risks is important because it’s impossible to be right all the time—you have to try many things and adapt quickly as you learn more.
 
@@ -184,19 +184,19 @@ It’s often easier to take risks early in your career; you don’t have much to
 
 <br>
 
-不过，不要花太多时间去存钱。 在 YC，我们经常注意到在谷歌或 Facebook 工作了很多时间的创始人的问题。 当人们习惯了舒适的生活、可预测的工作以及无论做什么都能取得成功的声誉时，就很难将其抛在脑后（人们有一种不可思议的能力，可以始终将自己的生活开销与明年的薪水相匹配）。 即使他们真的离开了，回来的诱惑也很大。 将短期收益和便利置于长期实现之上是很容易和服从人性的。
+不过，不要花太多时间去存钱。 在 YC，我们经常注意到在谷歌或 Facebook 工作了很多时间的创始人的问题。 当人们习惯了舒适的生活、可预测的工作以及无论做什么都能取得成功的声誉时，就很难将其抛在脑后（人们有一种不可思议的能力，可以始终将自己的生活开销与明年的薪水相匹配）。 即使他们真的离开了，回来的诱惑也很大。 将短期收益和便利置于长期实现之上是很容易和不自禁的。
 
 Don’t save up for too long, though. At YC, we’ve often noticed a problem with founders that have spent a lot of time working at Google or Facebook. When people get used to a comfortable life, a predictable job, and a reputation of succeeding at whatever they do, it gets very hard to leave that behind (and people have an incredible ability to always match their lifestyle to next year’s salary). Even if they do leave, the temptation to return is great. It’s easy—and human nature—to prioritize short-term gain and convenience over long-term fulfillment.  
 
 <br>
 
-但是，当你不需要反复月光的时候，你可以按照自己的直觉，花时间在可能会变得非常有趣的事情上。 尽可能长时间地保持低开销和灵活的生活是一种有效的方法，但显然需要权衡取舍。
+但是，当你不会反复当月光族的时候，你可以按照自己的直觉，花时间在可能会变得非常有趣的事情上。 尽可能长时间地保持低开销和灵活的生活方式是一种有效的方法，但这样做显然需要一定的权衡取舍。
 
 But when you aren’t on the treadmill, you can follow your hunches and spend time on things that might turn out to be really interesting. Keeping your life cheap and flexible for as long as you can is a powerful way to do this, but obviously comes with tradeoffs.
 
 ## 6. 聚焦 Focus
 
-专注是工作的力量乘数（译者注：力量乘数(Force multiplication) 是军事战术名词，用以评估一个军事单位加上非人力因素后能获得或减少的战斗力）。
+专注是工作的力量乘数（译者注：力量乘数（Force multiplication）是军事战术名词，用以评估一个军事单位加上非人力因素后能获得或减少的战斗力）。
 
 Focus is a force multiplier on work.
 
@@ -208,19 +208,19 @@ Almost everyone I’ve ever met would be well-served by spending more time think
 
 ## 7. 努力工作 Work hard
 
-通过聪明或努力工作，你可以达到你所在领域的前10%左右，这已经是一项了不起的成就。 但要达到前1%，你需要两者的组合——你将与其他非常有才华的人竞争，他们会有很好的想法并愿意做很多工作。
+通过聪明或努力工作，你可以达到你所在领域的前10%左右，这已经是一项了不起的成就。 但要达到前1%，你需要两者的组合——你将与其他非常有才华的人竞争，他们会有很好的想法并愿意为此付出很多努力。
 
 You can get to about the 90th percentile in your field by working either smart or hard, which is still a great accomplishment. But getting to the 99th percentile requires both—you will be competing with other very talented people who will have great ideas and be willing to work a lot.
 
 <br>
 
-极端的人得到极端的结果。 大量工作伴随着巨大的生活牺牲，决定不这样做是完全合理的。但这样的做法有很多优点。 在大多数情况下，前进的能量不断累计，一个成功会带来下一个成功。
+极端的人会得到极端的结果。 大量工作伴随着巨大的生活牺牲，决定不这样做是完全合理的。但这样的做法有很多优点。 在大多数情况下，前进的能量会不断累计，一个成功会带来下一个成功。
 
 Extreme people get extreme results. Working a lot comes with huge life trade-offs, and it’s perfectly rational to decide not to do it. But it has a lot of advantages. As in most cases, momentum compounds, and success begets success.
 
 <br>
 
-而且这通常很有趣。 生活中最大的乐趣之一就是找到你的目标，在目标上表现出色，并发现你在影响除了你自己以外的事物。 一位 YC 创始人最近表示，他在离开一家大公司并努力实现最大可能的影响后变得更加快乐和充实，这让他感到非常惊讶。 我们应该庆祝为此付出的努力。
+而且这通常很有趣。 生活中最大的乐趣之一就是找到你的目标，并在该目标上表现出色，然后发现你在影响除了你自己以外的事物。 一位 YC 创始人最近表示，他在离开一家大公司并努力实现最大可能的影响后变得更加快乐和充实，这让他感到非常惊讶。 我们应该庆祝为此付出的努力。
 
 And it’s often really fun. One of the great joys in life is finding your purpose, excelling at it, and discovering that your impact matters to something larger than yourself. A YC founder recently expressed great surprise about how much happier and more fulfilled he was after leaving his job at a big company and working towards his maximum possible impact. Working hard at that should be celebrated.  
 
@@ -232,19 +232,19 @@ It’s not entirely clear to me why working hard has become a Bad Thing in certa
 
 <br>
 
-你必须弄清楚如何努力工作而不会筋疲力尽。 人们为此找到了自己的策略，但几乎总是有效的策略是找到你喜欢的工作和你喜欢花很多时间在一起的人一起努力。
+你必须弄清楚如何努力工作而不会筋疲力尽。 人们为此找到了自己的策略，但几乎总是有效的策略是找到你喜欢的工作，以及和你喜欢花很多时间在一起的人一起努力。
 
 You have to figure out how to work hard without burning out. People find their own strategies for this, but one that almost always works is to find work you like doing with people you enjoy spending a lot of time with.
 
 <br>
 
-我认为那些假装你可以在大部分时间（在你生命中的某些时期）不工作的情况下获得超级成功的人是在做坏事。 事实上，持续工作似乎是长期成功的最大预测因素之一。
+我认为那些假装你可以在大部分时间（在你生命中的某些时期）不工作的情况下获得超级成功的人是在做误导大家。 事实上，持续工作似乎是长期成功的最大预测因素之一。
 
 I think people who pretend you can be super successful professionally without working most of the time (for some period of your life) are doing a disservice. In fact, work stamina seems to be one of the biggest predictors of long-term success.
 
 <br>
 
-还有一个关于努力工作的想法：在你职业生涯的开始就去大胆动手。 努力工作会像利息一样复合，你越早做，你就有更多的时间来获得回报。 当你没有太多别的顾虑时，也更容易努力工作，这种情况经常发生在你年轻的时候，虽然并非总是如此。
+还有一个关于努力工作的建议：在你职业生涯的开始就去大胆动手。 努力工作会像利息一样复合，你越早做，你就有更多的时间来获得回报。 当你没有太多别的顾虑时，也更容易努力工作，这种情况经常发生在你年轻的时候，虽然并非总是如此。
 
 One more thought about working hard: do it at the beginning of your career. Hard work compounds like interest, and the earlier you do it, the more time you have for the benefits to pay off. It’s also easier to work hard when you have fewer other responsibilities, which is frequently but not always the case when you’re young.
 
@@ -274,13 +274,14 @@ Follow your curiosity. Things that seem exciting to you will often seem exciting
 
 ## 9. 任性 Be willful
 
-一个情况是，世界是相当程度的可以被改变的——大多数人甚至不尝试，只是接受事情就是这样。
+一个情况是，世界是相当程度的可以被改变的——大多数人甚至不尝试，只是接受事实就是这样。
 
 A big secret is that you can bend the world to your will a surprising percentage of the time—most people don’t even try, and just accept that things are the way that they are.
 
 <br>
 
-人们拥有使事情发生的巨大能力。自我怀疑、过早放弃以及没有足够努力地推动这些因素使大多数人无法达到他们的潜力。
+人们拥有使事情发生的巨大能力。自我怀疑、过早放弃以及没有足够努力地推动自己等等这些因素的组合使大多数人无法达到他们的潜力。
+
 People have an enormous capacity to make things happen. A combination of self-doubt, giving up too early, and not pushing hard enough prevents most people from ever reaching anywhere near their potential.
 
 <br>
@@ -333,7 +334,7 @@ Most people do whatever most people they hang out with do. This mimetic behavior
 
 ## 11. 建立人脉 Build a network
 
-伟大的工作需要团队。 建立一个有才华的人的人脉网络——有时密切，有时松散——是伟大职业生涯的重要组成部分。 你所认识的真正有才华的人的网络规模大小通常会决定你可以完成的工作大小。
+伟大的工作需要团队。 建立一个有才华的人的人脉网络——有时密切，有时松散——是成功职业生涯的重要组成部分。 你所认识的真正有才华的人的网络规模大小通常会决定你可以完成的工作大小。
 
 Great work requires teams. Developing a network of talented people to work with—sometimes closely, sometimes loosely—is an essential part of a great career. The size of the network of really talented people you know often becomes the limiter for what you can accomplish.
 
@@ -430,7 +431,7 @@ Smart people seem to be especially at risk of such externally-driven behavior. B
 
 <br>
 
-我认识的最成功的人主要是内部驱动的。 他们做他们所做的事情是为了给自己留下深刻印象，因为他们觉得有必要让世界上发生一些事情。 在你赚到足够的钱来购买你想要的任何东西并获得足够的社会地位之后，获得更多就不再有趣了，这是我所知道的唯一一种力量，它将继续推动你达到更高的水平。
+我认识的最成功的人主要是内部驱动的。 他们做他们所做的事情是为了给自己留下深刻印象，因为他们觉得有必要让世界上发生一些事情。 在你赚到足够的钱来购买你想要的任何东西并获得足够的社会地位之后，获得更多就不再有趣了，这是我所知道的唯一一种力量能够继续推动你达到更高的水平。
 
 <br>
 
@@ -438,7 +439,7 @@ The most successful people I know are primarily internally driven; they do what 
 
 <br>
 
-这就是为什么一个人的动机问题是如此重要的原因。 这是我试图了解某人的第一件事。 识别正确的动机很难定义一套规则，但时当你看到它时你就知道如何辨别。
+这就是为什么一个人的动机问题是如此重要的原因。 这是我试图了解某人的第一件事。 识别正确的动机很难定义一套规则，但是当你看到它时你就知道如何辨别。
 
 This is why the question of a person’s motivation is so important. It’s the first thing I try to understand about someone. The right motivations are hard to define a set of rules for, but you know it when you see it.
 
@@ -454,8 +455,10 @@ Jessica Livingston and Paul Graham are my benchmarks for this. YC was widely moc
 
 Eventually, you will define your success by performing excellent work in areas that are important to you. The sooner you can start off in that direction, the further you will be able to go. It is hard to be wildly successful at anything you aren’t obsessed with.
 
+---
 
 --
+
 ---
 
 [1] 我在 HN 上写的评论回复：
@@ -486,7 +489,10 @@ It is obviously an incredible shame and waste that opportunity is so unevenly di
 
 I am deeply aware of the fact that I personally would not be where I am if I weren't born incredibly lucky.
 
+---
+
 --
+
 ---
 
 感谢 Brian Armstrong、Greg Brockman、Dalton Caldwell、Diane von Furstenberg、Maddie Hall、Drew Houston、Vinod Khosla、Jessica Livingston、Jon Levy、Luke Miles（我写了6 份草稿！）、Michael Moritz、Ali Rowghani、Michael Seibel、Peter Thiel、 Tracy Young 和 Shivon Zilis 审阅了本文的草稿，特别感谢 Lachy Groom 帮助我编写。
