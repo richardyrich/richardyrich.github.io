@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Y Combinator的前总裁保罗·格雷厄姆：如果我是19岁，我应该如何计划未来？
+title: Y Combinator的前总裁山姆·阿尔特曼：如果我是19岁，我应该如何计划未来？
 date: 2022-10-05
 categories: 翻译
 ---
@@ -118,3 +118,25 @@ No matter what you choose, keep your personal burn rate low and minimize your co
 你应该以正确的方式考虑风险。 德鲁·休斯顿（译者注：Dropbox创始人，Y Combinator 2007年冬季投资孵化批次的公司）在毕业典礼上发表了一个很不错的演讲，他说到你只需要正确一次。 事实确实如此。 风险只是发生你本应该在走上正确的道路的时候选择了没有坚持。
 
 Think about risk the right way.  Drew Houston gave a great commencement speech where he said you only have to be right once.  That’s true.  The risk is not getting on the path where you get to be right that one critical time.  
+
+---
+
+--
+
+---
+
+感谢 Lachy Groom 和 Nick Sivo 阅读本文的草稿。
+
+Thanks to Lachy Groom and Nick Sivo for reading drafts of this.
+
+ <br>
+
+[1] 有时，第 4 种选择是加入风投领域。 这通常是一个错误——进入风投领域的最佳方式不是从初级实习生那里一点点爬上去。 即使你想成做风投，你最好还是在 28 岁时开始或加入一家初创公司，并获得合作伙伴的邀请。此外，优秀的创始人希望与具有运营经验的投资者合作。
+
+[1] Sometimes, a 4th option is being a VC.  This is usually a mistake—the best way to become a VC is not to grind your way up the ladder from junior associate intern.  Even if you want to be a VC, you’re much better off starting or joining a startup, and getting partner offers when you’re 28.  Plus, good founders want to work with an investor that has operational experience.
+
+ <br>
+
+[2] 有趣的是，从来没有人考虑进入学术界。
+
+[2] Interestingly, no one is ever considering going into academia.
