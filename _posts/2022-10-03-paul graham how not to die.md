@@ -5,6 +5,16 @@ date: 2022-10-03
 categories: 翻译
 ---
 
+<br>
+
+<p class="small">原文标题：How Not to Die
+
+<br>
+
+原文链接：hhttp://www.paulgraham.com/die.html</p>
+
+<br>
+
 （这是我在夏天最后一次 Y Combinator 晚宴上发表的演讲。通常我们在最后一次晚宴上没有演讲者；这更像是一个聚会。这样的内容听起来很扫兴，但是如果我能帮助一些创业公司从避免一些可预防的死亡也是值得了。所以在最后一刻我准备了这个相当冷酷的谈话。我当时没有想把这写成一篇文章；我把它写下来是因为我在晚餐前只有两个小时，而且在写作时思考得最快。）
 
 (This is a talk I gave at the last Y Combinator dinner of the summer. Usually we don't have a speaker at the last dinner; it's more of a party. But it seemed worth spoiling the atmosphere if I could save some of the startups from preventable deaths. So at the last minute I cooked up this rather grim talk. I didn't mean this as an essay; I wrote it down because I only had two hours before dinner and think fastest while writing.)

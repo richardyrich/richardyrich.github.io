@@ -4,6 +4,19 @@ title: Y Combinator的前总裁山姆·阿尔特曼：PG和杰西卡
 date: 2022-10-01
 categories: 翻译
 ---
+<br>
+
+<p class="small">
+
+原文标题：PG and Jessica
+
+<br>
+
+原文链接：https://blog.samaltman.com/pg-and-jessica
+
+</p>
+
+<br>
 
 很多人想在其他行业或其他地方或以其他策略复制 YC。 总的来说，人们似乎认为：1）尽管YC的发展的存在某种程度的神秘或运气，但它不会那么难，2）如果你能把它弄好，网络效应是自我持续的。
 

@@ -5,6 +5,16 @@ date: 2022-10-02
 categories: 翻译
 ---
 
+<br>
+
+<p class="small"> 原文标题：How To Be Successful
+
+<br>
+
+原文链接：https://blog.samaltman.com/how-to-be-successful</p>
+
+<br>
+
 我观察了数以千计的创始人，并思考了很多关于如何赚取巨额财富或创造一些重要的东西的方法。 通常，人们刚开始的时候想要前者，然后后来开始追求后者。
 
 I’ve observed thousands of founders and thought a lot about what it takes to make a huge amount of money or to create something important. Usually, people start off wanting the former and end up wanting the latter.

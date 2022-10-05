@@ -5,6 +5,20 @@ date: 2022-09-30
 categories: 翻译
 ---
 
+<br>
+
+<p class="small">
+
+原文标题：Why to Start a Startup in a Bad Economy
+
+<br>
+
+原文链接：http://www.paulgraham.com/badeconomy.html
+
+</p>
+
+<br>
+
 经济形势显然如此严峻，以至于一些专家担心我们可能会陷入与七十年代中期一样糟糕的时期。
 
 The economic situation is apparently so grim that some experts fear we may be in for a stretch as bad as the mid seventies.
