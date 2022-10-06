@@ -1,0 +1,34 @@
+---
+layout: post
+title: Y Combinator的前总裁山姆·阿尔特曼：我们坚持而我们战胜
+date: 2022-10-06
+categories: 翻译
+---
+
+<br>
+
+<p class="small">原文标题：By endurance we conquer
+
+<br>
+
+原文链接：https://blog.samaltman.com/by-endurance-we-conquer
+
+</p>
+
+---
+
+我最近正在阅读 《The Endurance》，其中有一句话“我们坚持而我们战胜”（欧内斯特·沙克尔顿的家族座右铭）让我印象深刻，这是一个伟大的创业智慧。
+
+I'm reading The Endurance and "by endurance we conquer" (Ernest Shackleton's family motto) struck me as a great piece of startup wisdom.
+
+<br>
+
+每个人都知道你需要一个伟大的团队、伟大的执行力和一个伟大的想法。 不太明显的是，你必须有很强的耐力。 当每个人都告诉你你的想法很糟糕并且它永远不会奏效时（尤其是当事情显然不奏效时），你很难坚持下去。 当一切都出错时，很难继续前进，但是这种情况几乎肯定会发生。 当你真的很疲惫，很难继续工作的时候，通常在关键点额外的 5% 就是你如何在关键交易中击败竞争对手，将他们甩在后视镜中。
+
+Everyone knows that you need a great team, great execution, and a great idea.  Less obvious is that you have to have great endurance.  It's very tough to keep going when everyone tells you your idea sucks and it will never work (especially when things are plainly not working).  It's tough to keep going when everything goes wrong, which it almost certainly will. And it's tough to keep working when you're really tired, but very often that extra 5% at a critical point is how you beat out a competitor for a critical deal and then they disappear in the rearview mirror.
+
+<br>
+
+大多数初创公司不会死于竞争对手之手。 更常见的情况是内部崩塌，创始人放弃，或者没有做出人们想要的东西（并且未能纠正这种情况）。 你需要靠耐力取胜。
+
+Most startups don't die at the hands of a competitor.  It's more often something like an internal implosion, the founders giving up, or not building something people want (and failing to remedy that situation). You can win by endurance.
