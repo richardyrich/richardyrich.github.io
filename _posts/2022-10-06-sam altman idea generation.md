@@ -41,13 +41,13 @@ How do you do that?
 
 <br>
 
-在合适的环境中，在合适的人身边是很重要的。 你想和那些对未来有良好愿景的人在一起，他们会接受看似不可能的计划，足够乐观，有着创造性的聪明，并且有很高的想法流动性。 这类人的思维方式往往不受大多数人的限制，没有太多的之我设限，也不太在乎别人的想法。
+在合适的环境中，在合适的人身边是很重要的。 你想和那些对未来有良好愿景的人在一起，他们会接受看似不可能的计划，足够乐观，有着创造性的聪明，并且有很高的想法流动性。 这类人的思维方式往往不受大多数人的限制，没有太多的自我设限，也不太在乎别人的想法。
 
 It’s important to be in the right kind of environment, and around the right kind of people. You want to be around people who have a good feel for the future, will entertain improbable plans, are optimistic, are smart in a creative way, and have a very high idea flux. These sorts of people tend to think without the constraints most people have, not have a lot of filters, and not care too much what other people think.
 
 <br>
 
-最好的想法是脆弱的； 大多数人甚至根本都不会去考虑谈论它们的可能性，因为它们听起来很傻。 也许最重要的是，你想和那些不会因为你提到一个坏主意而让你感到自己很愚蠢的人在一起，而且他们自己也绝对不会因为这样做而感到愚蠢。
+最好的想法是脆弱的； 大多数人甚至根本都不会去考虑谈论它们的可能性，因为它们听起来很傻。 也许最重要的是，你想和那些不会因为你提到一个坏主意而让你感到自己很愚蠢的人在一起，而且他们自己也绝对不会因为他们会这样做而感到自己愚蠢。
 
 The best ideas are fragile; most people don’t even start talking about them at all because they sound silly. Perhaps most of all, you want to be around people who don’t make you feel stupid for mentioning a bad idea, and who certainly never feel stupid for doing so themselves.
 
@@ -77,7 +77,7 @@ In such a tectonic shift, the world changes so fast that the big incumbents usua
 
 <br>
 
-任何时候你能想到今年可能而去年不可能的事情，你都应该注意。 你可能有一个伟大的创业想法的种子。 如果你感觉明年再做为时已晚，那么这个想法可能就是你需要的。
+任何时候你能感觉今年可能可行而去年不可行的事情，你都应该注意。 你可能有一个伟大的创业想法的种子。 如果你感觉明年再做为时已晚，那么这个想法可能就是你需要的。
 
 Any time you can think of something that is possible this year and wasn’t possible last year, you should pay attention. You may have the seed of a great startup idea. This is especially true if next year will be too late.
 
