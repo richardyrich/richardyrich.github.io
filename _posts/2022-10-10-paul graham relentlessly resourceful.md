@@ -109,8 +109,7 @@ You can even use it tactically. If I were running a startup, this would be the p
 
 <br>
 
-**备注**
-**Notes**
+### 备注 Notes
 
 [1] 我认为字典对这个词的解释错误的原因是「hapless」这个单词的含义逐渐发生了变化。 如果今天有人重新编写字典，他们不会说「hapless」意味着不幸。 但几百年前他们可能是同义词。 在过去，人们更容易受环境的摆布，因此，我们用来形容好坏结果的很多词都起源于关于运气的词。
 
